@@ -1,0 +1,34 @@
+.fixedScrollWrapper {
+  top: 30vh;
+  left: 8%;
+  width: 20%;
+  height: 40%;
+  position: fixed;
+}
+
+.scrollWrapper {
+  position: relative;
+}
+.backCircle {
+  width: 100%;
+}
+.blueCircle1 {
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  width: 20%;
+}
+
+.blueCircle2 {
+  position: absolute;
+  left: 30%;
+  top: -2.5%;
+  width: 15%;
+}
+
+.blueCircle3 {
+  position: absolute;
+  left: 30%;
+  top: 95%;
+  width: 15%;
+}

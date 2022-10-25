@@ -1,0 +1,120 @@
+.body{
+    font-family: 'Helvetica';
+    font-style: normal;
+    }
+.events {
+    width: 193px;
+    height: 54px;
+    margin-left: 42vw;
+    margin-top: 2vh;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    color: aliceblue;
+    }
+.event-down{
+        margin-top: 2vh;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        }
+        .event-namecontainer{
+            font-family: 'Helvetica';
+            font-style: normal;
+            display: flex;
+            margin-top: 5vh;
+        }
+        .event-name {
+          padding-left: 7vw;
+        }
+        .whole-eventscontainer {
+            display: flex;
+            flex-direction: row;
+            width:58vw;
+            height: 70vh;
+            margin-left: 36vw;
+            margin-top: 28vh;
+            background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%) ; 
+            border-radius: 25px 0px;
+            color: aliceblue;
+        }
+        .heading {
+            padding: 1.4vw;
+            padding-top: 5vh;
+            padding-left: 2vw;
+        width: 29vw;
+        }
+        .heading h4{
+        font-weight: 650;
+        font-size: 1.4vw;
+        width: 5.5vw;
+        height: 1.7vh;    
+    }
+        .vertical-line {
+          border: 1px;
+          margin-left: 1vw;
+     
+         width: 0.6px;
+          margin-top: 8vh;
+    height: 50vh;
+        }
+        .img h1{
+        color:#278AC1;
+        margin: 3vw;
+        margin-left: 6vw;    
+    }
+    
+    .img img{
+            margin-left: 4vw;
+        }
+        .icons {
+          background-color: aqua;
+          height: 1vh;
+    width: 2vw;
+        }
+        .GuestLlecture-img h1{
+            color:#278AC1;
+            margin: 3vw;
+            margin-left: 4vw;
+        }
+        .GuestLlecture-img img{
+            margin-top: -6vh;
+        }
+        .Resarch-img{
+            width: 25vw;
+        }
+        .Resarch-img h1{
+            color:#278AC1;
+         margin-left: 4vw;
+            margin-top: 8vh;
+        }
+.Resarch-img img{
+    margin-top: 3vh;
+  margin-left: 3.2vw;
+}
+.Resarch-heading {
+    padding: 1.4vw;
+    padding-top: 5vh;
+width: 28vw;
+font-size: 15px;
+}
+.Resarch-heading h4{
+    font-weight: 650;
+    font-size: 1.4vw;
+    width: 5.5vw;
+    height: 1.7;
+}
+.Design-img h1{
+    color:#278AC1;
+         margin-left: 2vw;
+            margin-top: 8vh;
+}
+.Design-img img{
+  margin-left: 2vw;
+}

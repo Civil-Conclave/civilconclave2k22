@@ -1,0 +1,135 @@
+.eventContainer {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: #1e1e1e;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.ellipse {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.ellipseImg {
+  width: 100%;
+}
+.headerInfo {
+  top: 20%;
+  width: 100%;
+  position: absolute;
+  z-index: 7;
+  margin: auto;
+}
+.headerEventHeading {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem;
+  /* line-height: 7.64vh; */
+}
+.eventDes {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  /* line-height: 4.15vh; */
+}
+
+.leftStripes {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 30%;
+}
+
+.rightStripes {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  width: 30%;
+}
+
+.space {
+  height: 2.77vh;
+}
+
+.stripes1 {
+  width: 100%;
+  height: 3.04vh;
+  background: linear-gradient(
+    90deg,
+    #1f789f 25.19%,
+    rgba(31, 120, 159, 0.73) 67.54%,
+    rgba(31, 120, 159, 0) 97.41%
+  );
+  border-radius: 0px;
+}
+.stripes2 {
+  width: 100%;
+  /* right: 0; */
+  height: 3.04vh;
+  background: linear-gradient(
+    90deg,
+    #1f789f 25.19%,
+    rgba(31, 120, 159, 0.73) 67.54%,
+    rgba(31, 120, 159, 0) 97.41%
+  );
+
+  border-radius: 0px;
+  transform: rotate(-180deg);
+}
+.footInfo {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 0 2.47vw; */
+  top: 87%;
+  /* margin-top: 70vh; */
+}
+.footText {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.footLine {
+  position: absolute;
+  top: 99%;
+  width: 90%;
+  align-items: center;
+  left: 5%;
+}
+.line {
+  height: 0.0096vh;
+  width: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(245, 245, 245, 0) -2.39%,
+    rgba(245, 245, 245, 0.507292) 54.71%,
+    rgba(245, 245, 245, 0) 111.82%
+  );
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(245, 245, 245, 0) -2.39%,
+    rgba(245, 245, 245, 0.507292) 54.71%,
+    rgba(245, 245, 245, 0) 111.82%
+  );
+}
+
+@media (max-width: 760px) {
+  .ellipseImg {
+    width: 300%;
+  }
+  .footInfo {
+    display: none;
+  }
+}

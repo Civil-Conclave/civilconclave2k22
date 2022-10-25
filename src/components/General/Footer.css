@@ -1,0 +1,80 @@
+.Container{
+    width: 100%;
+        background-color: #292F3F;
+    }
+    .MainFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .FHeading{
+        font-weight: 600;
+        line-height:  1.134rem; ;
+        font-size: 0.938rem;
+        color: #278AC1;
+        margin-bottom: 1.66vh;
+        /* margin-top: 0; */
+    
+    }
+    .Ftext{
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 0.908rem;
+        color: white;
+        margin-bottom: 1vh;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .smalldiv{
+    padding: 0 6vw;
+    margin:5.47vh 0  ;
+         
+    }
+    .bluecolor{
+        background-color: #278AC1;
+        height: 2.49vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .image{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -1vw;
+        
+    }
+    .imgBox{
+        margin-right: 1vw;
+    }
+    .fu{
+        text-align: center;
+        margin-left: -2.3vw;
+        margin-bottom: 2.8vh;
+        margin-top: 0.5vh;
+    }
+    .visit{
+        margin-top: 12vh;
+    }
+    .mail{
+        margin-top: 2vh;
+    }
+    
+    @media(max-width:1020px){
+        .MainFooter{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .smalldiv{
+            margin-top: 1.47vh;
+    
+        }
+        .Ftext{
+            margin-bottom: 0.9vh;
+        }
+    }

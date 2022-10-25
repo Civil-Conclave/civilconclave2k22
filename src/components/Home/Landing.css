@@ -1,0 +1,101 @@
+.WrapperLanding{
+    width:100%;
+    background-color: black;
+    background-image: url("../../assets/BgHome1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height:100vh; */
+}
+
+.landingBg{
+  /* height:100vh; */
+  overflow-y: hidden;
+}
+
+.landingImg{
+    width:100%;
+} 
+
+.landingInfo{
+    background-color: none;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    z-index: 5;
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 0.5rem;
+    top:20%;
+  }
+  .teamInfo{
+    display:flex;
+    flex-direction: column;
+  }
+  .teamName{
+    font-size: 2rem;
+  }
+  .teamPresents
+{
+  font-size: 1rem;
+  margin:auto;
+} 
+.teamYear{
+  color: #006793;
+} 
+.ThemeHeading{
+  padding: 0.5rem;
+}
+.ThemeName{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-size: 6rem;
+    width:100%;
+    /* animation : transitionIn 4s; */
+  }
+
+  .colorblue{
+   color: #006793;
+   font-size: 9rem;
+   letter-spacing: 20%;
+  }
+  
+  .ThemeInfo{
+    position:relative;
+    padding:0.5rem;
+  }
+
+  .btnRegister{
+    background-color: #005A80;
+    font-size: 1.5rem;
+    color: white;
+    padding : .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+    /* border-color: white; */
+  }
+
+  @media (max-width: 760px) {
+    .landingBg{
+      height:50vh;
+      overflow-y: hidden;
+    }
+    .landingInfo{
+      top:5%;
+    }
+    .teamName{
+      font-size: 1rem;
+    }
+  .ThemeName{
+    font-size: 2rem;
+  }
+  .colorblue{
+    font-size:3rem;
+  }
+  }
+
+
