@@ -1,7 +1,7 @@
 .bigcontainer {
   /* width:100%; */
   position: relative;
-  height: 100vh;
+  height: 80vh;
   overflow-x: hidden;
   display: flex;
   /* background-color: black; */
@@ -17,32 +17,25 @@
 
 .eventHomeContainer {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   justify-content: space-between;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .eventImages {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
-  /* opacity: 0.8; */
-  /* margin-right: ; */
-}
-
-.eventImages:hover {
   opacity: 1;
+  /* margin-right: ; */
 }
 
 .sec1 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 0vw;
-  width: 100vw;
-  /* width:20vw; */
-  /* background-color: #f75990; */
+  width: 30vw;
   transition: width 1s;
-  /* z-index:2; */
 }
 .sec1:hover {
   /* right:40vw; */
@@ -59,86 +52,81 @@
 }
 .sec2 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 25vw;
-  width: 100vw;
+  width: 30vw;
   transition-duration: 1s;
 }
 .sec2:hover {
-  left: 20vw;
+  left: 22.5vw;
 }
 .sec2:hover ~ .event1 {
   left: 14%;
 }
 .sec2:hover ~ .sec3 {
-  left: 55vw;
+  left: 52.5vw;
 }
 .sec2:hover ~ .sec4 {
   left: 80vw;
 }
 .sec3 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 50vw;
-  width: 100vw;
-  /* background-color: cyan; */
+  width: 30vw;
   transition-duration: 1s;
 }
 .sec3:hover {
-  left: 45vw;
+  left: 47.5vw;
 }
 .sec3:hover ~ .sec2 {
   left: 20vw;
 }
 .sec3:hover ~ .sec4 {
-  left: 80vw;
+  left: 77.5vw;
 }
 .sec4 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 75vw;
-  width: 100vw;
+  width: 30vw;
   /* background-color: #e5eaf5; */
   transition-duration: 1s;
 }
 .sec4:hover {
-  left: 70vw;
+  left: 72.5vw;
 }
-.sec4:hover ~ .sec3 {
-  left: 45vw;
-}
-.sec4:hover ~ .sec2 {
-  left: 20vw;
+.sec4:hover ~ .sec5 {
+  left: 102.5vw;
 }
 .sec5 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 100vw;
-  width: 100vw;
-  background-color: #d0bdf4;
-  transition: width 1s;
+  width: 30vw;
+  transition-duration: 1s;
 }
 .sec5:hover {
-  /* width:42vw; */
+  left: 97.5vw;
+}
+.sec5:hover ~ .sec6 {
+  left: 127.5vw;
 }
 .sec6 {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   left: 125vw;
-  width: 100vw;
-  background-color: #8458b3;
-  transition: 1s;
+  width: 30vw;
+  transition-duration: 1s;
 }
 .sec6:hover {
-  /* left:160vw;
-    right:200vw;
-    width:42vw; */
+  left: 120vw;
 }
 
 .prevButton {
   position: absolute;
   z-index: 5;
-  top: 50vh;
+  top: 50%;
   width: 5%;
   height: 10%;
   background-color: transparent;
@@ -153,54 +141,25 @@
 .nextButton {
   position: absolute;
   z-index: 5;
-  top: 50vh;
+  top: 50%;
   width: 5%;
   height: 10%;
   background-color: transparent;
-  /* font-size: 3rem; */
   border-style: none;
   background: url(../../assets/nextbtn.png);
-  /* background-position: 50px 8px; */
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .eventName {
-  width: 10%;
+  width: 80%;
   height: 10%;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: Inter;
+  color: white;
   position: absolute;
-  /* z-index: 10; */
-  /* background-color: cyan; */
-  color: black;
   top: 80%;
-  transform: rotate(270deg);
+  /* transform: rotate(270deg); */
   transition-duration: 1s;
-}
-.event1 {
-  left: 17%;
-}
-.event2 {
-  left: 17%;
-}
-.event3 {
-  left: 17%;
-}
-.event4 {
-  left: 17%;
-}
-.sec1:hover .event1 {
-  left: 21%;
-}
-
-.sec2:hover .event2 {
-  left: 24%;
-}
-
-.sec3:hover .event3 {
-  left: 27%;
-}
-
-.sec4:hover .event4 {
-  left: 20%;
+  left: 0%;
 }
