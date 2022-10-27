@@ -6,25 +6,22 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: end;
   overflow: hidden;
 }
 
 .bgBuildings {
+  width: 100%;
   display: flex;
-  align-self: flex-end;
 }
 .imgBgBuildings {
   width: 100%;
 }
 
 .aboutMaterial {
-  /* position:absolute; */
-  /* position: absolute;
-  top: 10%; */
+  position: absolute;
   display: flex;
-  padding: 2rem 1rem;
-  /* height:100%; */
-  /* top:40%; */
+  top: 20%;
   z-index: 5;
 }
 .aboutLogo {
@@ -50,13 +47,10 @@
 }
 
 @media (max-width: 760px) {
-  .aboutMaterial {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  .aboutWrapper {
+    height: 80vh;
   }
-  .aboutInfo {
-    width: 95%;
+  .aboutMaterial {
+    top: 5%;
   }
 }

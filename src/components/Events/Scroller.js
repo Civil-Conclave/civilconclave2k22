@@ -12,9 +12,8 @@ import {
   useWindowHeight,
 } from "@react-hook/window-size";
 
-function Scroller() {
+function Scroller(props) {
   const [scroll, setScroll] = React.useState("");
-  const ref = useRef(null);
 
   function getScrollPercent() {
     var h = document.documentElement,
@@ -41,24 +40,24 @@ function Scroller() {
   // console.log(scrollX, scrollY);
   // const [width, height] = useWindowSize();
 
-  console.log(scroll, "scrollPercent");
+  // console.log(scroll, "scrollPercent");
   return (
-    <div className="fixedScrollWrapper" ref={ref}>
+    <div className="fixedScrollWrapper">
       <div className="scrollWrapper">
         <img src={BackCircle} className="backCircle" alt="/" />
-        <img
+        <div className="eventType">{props.currevent}</div>
+        {/* <img
           src={BlueCircle}
           className="blueCircle1"
           id="bc1"
           alt="/"
           style={{
-            left: -3.42105263158 * scroll + 136.052631579,
-            top: -2.76315789474 * scroll + 83.1578947368,
+            left: props.scrollval,
             width: "20%",
           }}
-        />
-        <img src={BlueCircle} className="blueCircle2" alt="/" />
-        <img src={BlueCircle} className="blueCircle3" alt="/" />
+        /> */}
+        {/* <img src={BlueCircle} className="blueCircle2" alt="/" /> */}
+        {/* <img src={BlueCircle} className="blueCircle3" alt="/" /> */}
       </div>
     </div>
   );

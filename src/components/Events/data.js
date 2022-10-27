@@ -45,20 +45,6 @@ const data = [
     imgtitle: "RESARCH WORK PRESENTATION",
   },
   {
-    url: img1,
-    title:
-      "  LEARN AND INTERACT WITH THE EXPERTS OF INDUSTRIES AND THOUGHT LEADERS",
-    body1:
-      "A panel discussion is an innovative approach to engage with and hear from eminent minds from throughout the country",
-    body2:
-      "Paneilsts from across varied backgrounds would be invited to speak and offer their perspectives with the audience on a given subject.",
-    body3:
-      "Additionally, the students will learn about these experienced and intellectual individuals",
-    body4:
-      "  Through the Q&A session, the audience would also have the opportunity to interact with the distinguished panellists.",
-    imgtitle: "PANEL DISCUSSION",
-  },
-  {
     url: img5,
     title: "CREATE CONNECTIONS,PURSUE CLUES, HUNT DREAMS",
     body1:

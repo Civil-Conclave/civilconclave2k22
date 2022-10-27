@@ -24,10 +24,8 @@
 }
 
 .eventImages {
-  /* height: 100%; */
   width: 100%;
   opacity: 1;
-  /* margin-right: ; */
 }
 
 .sec1 {
@@ -36,10 +34,6 @@
   left: 0vw;
   width: 30vw;
   transition: width 1s;
-}
-.sec1:hover {
-  /* right:40vw; */
-  /* width:42vw; */
 }
 .sec1:hover ~ .sec2 {
   left: 30vw;

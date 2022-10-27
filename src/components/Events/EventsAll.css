@@ -1,0 +1,183 @@
+.EventsAllWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.Scroller {
+  width: 30%;
+}
+
+.allEvents {
+  width: 60%;
+  margin: auto;
+}
+
+.event-name {
+  padding-left: 7vw;
+}
+.whole-eventscontainer {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+
+  background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%);
+  border-radius: 25px 0px;
+  color: aliceblue;
+}
+.eventHeadingNew {
+  padding: 1.4vw;
+  padding-top: 5vh;
+  padding-left: 2vw;
+  width: 29vw;
+}
+.eventHeadingNew h4 {
+  font-weight: 650;
+  font-size: 1.4vw;
+  width: 5.5vw;
+  height: 1.7vh;
+}
+.vertical-line {
+  border: 1px;
+  margin-left: 1vw;
+
+  width: 0.6px;
+  margin-top: 8vh;
+  height: 50vh;
+}
+.img h1 {
+  color: #278ac1;
+  margin: 3vw;
+  margin-left: 6vw;
+}
+.img img {
+  margin-left: 4vw;
+}
+.icons {
+  background-color: aqua;
+  height: 1vh;
+  width: 2vw;
+}
+.GuestLlecture-img h1 {
+  color: #278ac1;
+  margin: 3vw;
+  margin-left: 4vw;
+}
+.GuestLlecture-img img {
+  margin-top: -6vh;
+}
+.Resarch-img {
+  width: 25vw;
+}
+.Resarch-img h1 {
+  color: #278ac1;
+  margin-left: 4vw;
+  margin-top: 8vh;
+}
+.Resarch-img img {
+  margin-top: 3vh;
+  margin-left: 3.2vw;
+}
+.Resarch-heading {
+  padding: 1.4vw;
+  padding-top: 5vh;
+  width: 28vw;
+  font-size: 15px;
+}
+.Resarch-heading h4 {
+  font-weight: 650;
+  font-size: 1.4vw;
+  width: 5.5vw;
+  height: 1.7;
+}
+.Design-img h1 {
+  color: #278ac1;
+  margin-left: 2vw;
+  margin-top: 8vh;
+}
+.Design-img img {
+  margin-left: 2vw;
+}
+.vertical-line {
+  display: none;
+}
+@media (max-width: 900px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .heading {
+    padding-top: 0;
+    width: 86vw;
+  }
+  .whole-eventscontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5vw;
+    width: 88vw;
+    height: 100%;
+  }
+  .Resarch-img {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .Resarch-img h1 {
+    margin: 0;
+    margin-top: 3vh;
+    text-align: center;
+  }
+  .img {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .img img {
+    margin: 0;
+    margin-top: 2vh;
+  }
+  .img h1 {
+    margin: 0;
+    margin-top: 3vh;
+  }
+  .GuestLlecture-img {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .GuestLlecture-img h1 {
+    margin: 0;
+    margin-top: 3vh;
+  }
+  .GuestLlecture-img img {
+    margin: 0;
+  }
+  .img h1 {
+    text-align: center;
+  }
+  .Resarch-heading {
+    width: 86vw;
+    padding: 3vw;
+  }
+  .Resarch-heading h4 {
+    font-size: 4vw;
+  }
+  .event-namecontainer {
+    display: none;
+  }
+  .heading h4 {
+    font-size: 4vw;
+  }
+  .Design-img {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .Design-img h1 {
+    margin: 0;
+    margin-top: 3vh;
+  }
+}

@@ -1,9 +1,10 @@
 .fixedScrollWrapper {
   top: 30vh;
-  left: 8%;
+  left: 0;
   width: 20%;
   height: 40%;
   position: fixed;
+  /* background-color: white; */
 }
 
 .scrollWrapper {
@@ -11,6 +12,14 @@
 }
 .backCircle {
   width: 100%;
+}
+
+.eventType {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  color: white;
+  transition-duration: 0s;
 }
 .blueCircle1 {
   position: absolute;
