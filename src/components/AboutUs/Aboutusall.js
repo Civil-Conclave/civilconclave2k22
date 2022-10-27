@@ -3,29 +3,10 @@ import "./Aboutus.css";
 import data from "./data";
 import { motion, useScroll, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import HeaderAbout from "./HeaderAbout.jsx";
 
 export default function Aboutusall() {
-  const control = useAnimation();
   const { scrollYProgress } = useScroll();
-  const [lastRef, inView] = useInView();
-  const boxVariant = {
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.5 },
-      scaleX: scrollYProgress,
-    },
-    hidden: { opacity: 0, scale: 0 },
-  };
-  useEffect(() => {
-    if (inView) {
-      console.log("View mein hai");
-      control.start("visible");
-    } else {
-      console.log("View mein nhi hai");
-      control.start("hidden");
-    }
-  }, [control, inView]);
   return (
     <>
       <div className="about-wrapper">
@@ -59,7 +40,7 @@ export default function Aboutusall() {
             <img src={data[1].image} className="about-png"></img>
           </div>
         </div>
-        <div className="about-main-container leftSide" ref={lastRef}>
+        <div className="about-main-container leftSide">
           <motion.div
             className="aboutBackground fillLeft"
             style={{ scaleX: scrollYProgress }}

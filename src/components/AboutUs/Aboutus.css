@@ -7,15 +7,16 @@
   margin-top: 2%;
   /* margin: auto; */
   overflow: hidden;
+  /* padding: 2rem; */
 }
 
 .about-main-container {
-  width: 100%;
+  width: 90%;
   position: relative;
   display: flex;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  margin: 2rem;
+  margin-bottom: 4rem;
   justify-content: space-between;
   padding: 2rem;
   /* overflow: hidden; */

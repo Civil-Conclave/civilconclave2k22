@@ -5,10 +5,13 @@
 
 .Scroller {
   width: 30%;
+  transition-duration: 1s;
+  overflow: hidden;
 }
 
 .allEvents {
   width: 60%;
+  align-self: flex-end;
   margin: auto;
 }
 

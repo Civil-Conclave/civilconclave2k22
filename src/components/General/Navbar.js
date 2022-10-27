@@ -3,13 +3,19 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import img from "../../assets/g12.png";
 import { VscMenu } from "react-icons/vsc";
+import { ImCross } from "react-icons/im";
 import logo2 from "../../assets/logo2.png";
 import logo1 from "../../assets/logo1.png";
 
 function Navbarnew() {
+  const changeStyle = () => {
+    console.log("you just clicked");
+  };
+  const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
   const showham = () => {
     setHam(!ham);
+    setBurgerState(!burgerstate);
   };
   return (
     <>
@@ -25,7 +31,7 @@ function Navbarnew() {
         <div className="nav-links">
           <ul className="pageNames">
             <li>
-              <Link to="/" className="links">
+              <Link to="/" className="links" onClick={changeStyle}>
                 HOME
               </Link>
             </li>
@@ -46,7 +52,16 @@ function Navbarnew() {
             </li>
           </ul>
           <div className="mobile">
-            <VscMenu className="mob-icon" onClick={showham} />
+            <VscMenu
+              className="mob-icon"
+              style={{ display: burgerstate ? "block" : "none" }}
+              onClick={showham}
+            />
+            <ImCross
+              className="mob-icon"
+              style={{ display: burgerstate ? "none" : "block" }}
+              onClick={showham}
+            />
           </div>
         </div>
       </div>

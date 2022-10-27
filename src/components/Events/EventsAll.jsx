@@ -3,19 +3,38 @@ import "./EventsAll.css";
 import data from "./data";
 import { motion, useScroll } from "framer-motion";
 import Scroller from "./Scroller.js";
+import HeaderEvents from "./HeaderEvents.js";
+import { useInView } from "react-intersection-observer";
 const Events = () => {
   const options = {
     root: null,
     rootMargin: "0px",
     threshold: 1,
   };
+  const headerProps = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.4,
+  };
 
   const callbackFunction = (entries) => {
     const [entry] = entries;
-    console.log("myRef kth is ", entry);
+    // console.log("myRef kth is ", entry);
     if (entry.isIntersecting) {
       setCurrevent(entry.target.textContent);
       // yeh textContent vaali cheez console se nikal li maine
+    }
+  };
+
+  const callbackFunctionHeader = (entries) => {
+    const [entry] = entries;
+    if (entry.isIntersecting) {
+      console.log(headerView);
+      setHeaderView(true);
+      // yeh textContent vaali cheez console se nikal li maine
+    } else {
+      console.log(headerView);
+      setHeaderView(false);
     }
   };
 
@@ -25,7 +44,9 @@ const Events = () => {
   const myRef4 = useRef(null);
   const myRef5 = useRef(null);
   const myRef6 = useRef(null);
+  const headerRef = useRef(null);
   const [currevent, setCurrevent] = useState("");
+  const [headerView, setHeaderView] = useState(true);
 
   useEffect(() => {
     const observer1 = new IntersectionObserver(callbackFunction, options);
@@ -69,125 +90,144 @@ const Events = () => {
       if (myRef5.current) observer5.unobserve(myRef5.current);
     };
   }, [myRef5, options]);
+  useEffect(() => {
+    const observerHeader = new IntersectionObserver(
+      callbackFunctionHeader,
+      headerProps
+    );
+    if (headerRef.current) observerHeader.observe(headerRef.current);
+
+    return () => {
+      if (headerRef.current) observerHeader.unobserve(headerRef.current);
+    };
+  }, [headerRef, headerProps]);
 
   return (
-    <div className="EventsAllWrapper">
-      <div className="Scroller">
-        <Scroller currevent={currevent}></Scroller>
+    <div className="wholeEventsContainer">
+      <div className="headerContainer" ref={headerRef}>
+        <HeaderEvents></HeaderEvents>
       </div>
-      <div className="allEvents" id="allEvents">
-        <div className="whole-eventscontainer">
-          <div className="eventHeadingNew">
-            <h3>{data[0].title}</h3>
-            <p>
-              {data[0].body1}
-              <br />
-              <br />
-              {data[0].body2}
-              <br />
-              <br />
-              {data[0].body3}
-              <br />
-              <br />
-              {data[0].body4}
-            </p>
-            <h4>Register</h4>
-          </div>
-          <div className="vertical-line"></div>
-          <div className="img">
-            <h1 ref={myRef1}>{data[0].imgtitle}</h1>
-            <img src={data[0].url} alt="" />
-          </div>
+      <div className="EventsAllWrapper">
+        <div
+          className="Scroller"
+          style={{ display: headerView ? "none" : "block" }}
+        >
+          <Scroller currevent={currevent}></Scroller>
         </div>
-        <div className="whole-eventscontainer">
-          <div className="eventHeadingNew">
-            <h3>{data[1].title}</h3>
-            <p>
-              {data[1].body1}
-              <br />
-              <br />
-              {data[1].body2}
-              <br />
-              <br />
-              {data[1].body3}
-              <br />
-              <br />
-              {data[1].body4}
-            </p>
-            <h4>Register</h4>
+        <div className="allEvents" id="allEvents">
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[0].title}</h3>
+              <p>
+                {data[0].body1}
+                <br />
+                <br />
+                {data[0].body2}
+                <br />
+                <br />
+                {data[0].body3}
+                <br />
+                <br />
+                {data[0].body4}
+              </p>
+              <h4>Register</h4>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="img">
+              <h1 ref={myRef1}>{data[0].imgtitle}</h1>
+              <img src={data[0].url} alt="" />
+            </div>
           </div>
-          <div className="vertical-line"></div>
-          <div className="GuestLlecture-img">
-            <h1 ref={myRef2}>{data[1].imgtitle}</h1>
-            <img src={data[1].url} alt="" />
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[1].title}</h3>
+              <p>
+                {data[1].body1}
+                <br />
+                <br />
+                {data[1].body2}
+                <br />
+                <br />
+                {data[1].body3}
+                <br />
+                <br />
+                {data[1].body4}
+              </p>
+              <h4>Register</h4>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="GuestLlecture-img">
+              <h1 ref={myRef2}>{data[1].imgtitle}</h1>
+              <img src={data[1].url} alt="" />
+            </div>
           </div>
-        </div>
-        <div className="whole-eventscontainer">
-          <div className="Resarch-heading">
-            <h3>{data[2].title}</h3>
-            <p>
-              {data[2].body1}
-              <br />
-              <br />
-              {data[2].body2}
-              <br />
-              <br />
-              {data[2].body3}
-              <br />
-              <br />
-              {data[2].body4}
-            </p>
-            <h4>Register</h4>
+          <div className="whole-eventscontainer">
+            <div className="Resarch-heading">
+              <h3>{data[2].title}</h3>
+              <p>
+                {data[2].body1}
+                <br />
+                <br />
+                {data[2].body2}
+                <br />
+                <br />
+                {data[2].body3}
+                <br />
+                <br />
+                {data[2].body4}
+              </p>
+              <h4>Register</h4>
+            </div>
+            <div className="Resarch-img">
+              <h1 ref={myRef3}>{data[2].imgtitle}</h1>
+              <img src={data[2].url} alt="" />
+            </div>
           </div>
-          <div className="Resarch-img">
-            <h1 ref={myRef3}>{data[2].imgtitle}</h1>
-            <img src={data[2].url} alt="" />
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[3].title}</h3>
+              <p>
+                {data[3].body1}
+                <br />
+                <br />
+                {data[3].body2}
+                <br />
+                <br />
+                {data[3].body3}
+                <br />
+                <br />
+                {data[3].body4}
+              </p>
+              <h4>Register</h4>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="img">
+              <h1 ref={myRef4}>{data[3].imgtitle}</h1>
+              <img src={data[3].url} alt="" />
+            </div>
           </div>
-        </div>
-        <div className="whole-eventscontainer">
-          <div className="eventHeadingNew">
-            <h3>{data[3].title}</h3>
-            <p>
-              {data[3].body1}
-              <br />
-              <br />
-              {data[3].body2}
-              <br />
-              <br />
-              {data[3].body3}
-              <br />
-              <br />
-              {data[3].body4}
-            </p>
-            <h4>Register</h4>
-          </div>
-          <div className="vertical-line"></div>
-          <div className="img">
-            <h1 ref={myRef4}>{data[3].imgtitle}</h1>
-            <img src={data[3].url} alt="" />
-          </div>
-        </div>
-        <div className="whole-eventscontainer">
-          <div className="eventHeadingNew">
-            <h3>{data[4].title}</h3>
-            <p>
-              {data[4].body1}
-              <br />
-              <br />
-              {data[4].body2}
-              <br />
-              <br />
-              {data[4].body3}
-              <br />
-              <br />
-              {data[4].body4}
-            </p>
-            <h4>Register</h4>
-          </div>
-          <div className="vertical-line"></div>
-          <div className="img">
-            <h1 ref={myRef5}>{data[4].imgtitle}</h1>
-            <img src={data[4].url} alt="" />
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[4].title}</h3>
+              <p>
+                {data[4].body1}
+                <br />
+                <br />
+                {data[4].body2}
+                <br />
+                <br />
+                {data[4].body3}
+                <br />
+                <br />
+                {data[4].body4}
+              </p>
+              <h4>Register</h4>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="img">
+              <h1 ref={myRef5}>{data[4].imgtitle}</h1>
+              <img src={data[4].url} alt="" />
+            </div>
           </div>
         </div>
       </div>
