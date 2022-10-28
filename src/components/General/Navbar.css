@@ -48,6 +48,12 @@
 .mobile {
   display: none;
 }
+.active-links {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #006793;
+  text-decoration-thickness: 5px;
+}
 .links {
   text-decoration: none;
   color: white;

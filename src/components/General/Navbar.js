@@ -8,9 +8,7 @@ import logo2 from "../../assets/logo2.png";
 import logo1 from "../../assets/logo1.png";
 
 function Navbarnew() {
-  const changeStyle = () => {
-    console.log("you just clicked");
-  };
+  const [activeMenu, setActiveMenu] = useState("Home");
   const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
   const showham = () => {
@@ -31,22 +29,46 @@ function Navbarnew() {
         <div className="nav-links">
           <ul className="pageNames">
             <li>
-              <Link to="/" className="links" onClick={changeStyle}>
+              <Link
+                to="/"
+                className={activeMenu == "Home" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("Home");
+                }}
+              >
                 HOME
               </Link>
             </li>
             <li>
-              <Link to="/events" className="links">
+              <Link
+                to="/events"
+                className={activeMenu == "events" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("events");
+                }}
+              >
                 EVENTS
               </Link>
             </li>
             <li>
-              <Link to="/aboutus" className="links">
+              <Link
+                to="/aboutus"
+                className={activeMenu == "aboutus" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("aboutus");
+                }}
+              >
                 ABOUT US
               </Link>
             </li>
             <li>
-              <Link to="/register" className="links">
+              <Link
+                to="/register"
+                className={activeMenu == "register" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("register");
+                }}
+              >
                 REGISTER
               </Link>
             </li>
@@ -71,22 +93,48 @@ function Navbarnew() {
           <div className="ham">
             <ul className="nav-i">
               <li>
-                <Link to="/" className="links">
+                <Link
+                  to="/"
+                  className={activeMenu == "Home" ? "active-links" : "links"}
+                  onClick={() => {
+                    setActiveMenu("Home");
+                  }}
+                >
                   HOME
                 </Link>
               </li>
               <li>
-                <Link to="/events" className="links">
+                <Link
+                  to="/events"
+                  className={activeMenu == "events" ? "active-links" : "links"}
+                  onClick={() => {
+                    setActiveMenu("events");
+                  }}
+                >
                   EVENTS
                 </Link>
               </li>
               <li>
-                <Link to="/aboutus" className="links">
+                <Link
+                  to="/aboutus"
+                  className={activeMenu == "aboutus" ? "active-links" : "links"}
+                  onClick={() => {
+                    setActiveMenu("aboutus");
+                  }}
+                >
                   ABOUT US
                 </Link>
               </li>
               <li>
-                <Link to="/register" className="links">
+                <Link
+                  to="/register"
+                  className={
+                    activeMenu == "register" ? "active-links" : "links"
+                  }
+                  onClick={() => {
+                    setActiveMenu("register");
+                  }}
+                >
                   REGISTER
                 </Link>
               </li>
