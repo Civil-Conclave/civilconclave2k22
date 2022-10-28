@@ -27,6 +27,9 @@ function Events() {
   }, [width]);
 
   const scrollerPrev = (scrollOffset) => {
+    if (prevPos === 0.05 * width) {
+      return;
+    }
     console.log(ref.current.scrollLeft);
     ref.current.scrollLeft += scrollOffset;
     console.log("scrollLeft is", ref.current.scrollLeft);
@@ -35,6 +38,10 @@ function Events() {
     setIsActive(true);
   };
   const scrollerNext = (scrollOffset) => {
+    if (nextPos === 1.4000000000000001 * width) {
+      return;
+    }
+    console.log(nextPos / width);
     console.log(ref.current);
     ref.current.scrollLeft += scrollOffset;
     console.log("scrollLeft is", ref.current.scrollLeft);

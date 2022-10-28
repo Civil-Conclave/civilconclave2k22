@@ -41,3 +41,15 @@
   top: 95%;
   width: 15%;
 }
+
+@media (max-width: 760px) {
+  .fixedScrollWrapper {
+    display: none;
+  }
+  .scrollWrapper {
+    display: none;
+  }
+  .backCircle {
+    display: none;
+  }
+}

@@ -27,12 +27,10 @@
   background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%);
   border-radius: 25px 0px;
   color: aliceblue;
+  padding: 2rem;
 }
 .eventHeadingNew {
-  padding: 1.4vw;
-  padding-top: 5vh;
-  padding-left: 2vw;
-  width: 29vw;
+  width: 50%;
 }
 .eventHeadingNew h4 {
   font-weight: 650;
@@ -82,9 +80,7 @@
   margin-left: 3.2vw;
 }
 .Resarch-heading {
-  padding: 1.4vw;
-  padding-top: 5vh;
-  width: 28vw;
+  width: 50%;
   font-size: 15px;
 }
 .Resarch-heading h4 {
@@ -118,6 +114,7 @@
   .whole-eventscontainer {
     display: flex;
     flex-direction: column-reverse;
+    width: 70%;
   }
   .Resarch-img {
     align-content: center;
@@ -161,7 +158,7 @@
     text-align: center;
   }
   .Resarch-heading {
-    width: 86vw;
+    width: 90%;
     padding: 3vw;
   }
   .Resarch-heading h4 {

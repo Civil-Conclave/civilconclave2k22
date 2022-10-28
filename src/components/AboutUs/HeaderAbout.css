@@ -31,9 +31,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
+  display: flex;
   /* letter-spacing: 0.04em; */
 }
-.about-info h2 {
+.headerInformation {
   /* width: 30vw; */
   font-family: "Helvetica";
   font-style: normal;
@@ -41,9 +42,10 @@
   font-size: 1.5rem;
   letter-spacing: 0.04em;
   color: #278ac1;
+  display: flex;
 }
 .about-info img {
-  width: 100%;
+  width: 90%;
 }
 .frame-img {
   display: flex;
@@ -63,9 +65,45 @@
 .imgRightEllipse {
   width: 50%;
 }
-/* .right-ellipse img {
-  margin-left: 16.5vw;
-  margin-top: 28vh;
-  height: 18vh;
-  width: 5vw;
-} */
+.lineMob {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .header-about-container {
+    height: 40vh;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .frame-img {
+    width: 70%;
+    margin: auto;
+  }
+  .frame-img img {
+    width: 80%;
+  }
+  .about-info {
+    width: 90%;
+    margin: auto;
+  }
+  .left-img {
+    display: none;
+  }
+  .right-ellipse {
+    display: none;
+  }
+  .headerTitle {
+    justify-content: center;
+    font-size: 3rem;
+  }
+  .headerInformation {
+    justify-content: center;
+    text-align: center;
+  }
+  .lineDesktop {
+    display: none;
+  }
+  .lineMob {
+    display: block;
+  }
+}
