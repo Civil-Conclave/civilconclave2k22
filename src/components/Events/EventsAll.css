@@ -103,6 +103,7 @@
 @media (max-width: 760px) {
   .Scroller {
     display: none;
+    width: 0%;
   }
   .allEvents {
     width: 100%;
@@ -114,7 +115,9 @@
   .whole-eventscontainer {
     display: flex;
     flex-direction: column-reverse;
-    width: 70%;
+    width: 90%;
+    padding: 0;
+    margin: 2rem auto;
   }
   .Resarch-img {
     align-content: center;

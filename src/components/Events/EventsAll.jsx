@@ -5,6 +5,7 @@ import { motion, useScroll } from "framer-motion";
 import Scroller from "./Scroller.js";
 import HeaderEvents from "./HeaderEvents.js";
 import { useInView } from "react-intersection-observer";
+import Footer from "../General/Footer.js";
 const Events = () => {
   const options = {
     root: null,
@@ -45,6 +46,7 @@ const Events = () => {
   const myRef5 = useRef(null);
   const myRef6 = useRef(null);
   const headerRef = useRef(null);
+  const footerRef = useRef(null);
   const [currevent, setCurrevent] = useState("");
   const [headerView, setHeaderView] = useState(true);
 
@@ -130,7 +132,7 @@ const Events = () => {
                 <br />
                 {data[0].body4}
               </p>
-              <h4>Register</h4>
+              <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
             <div className="img">
@@ -153,7 +155,7 @@ const Events = () => {
                 <br />
                 {data[1].body4}
               </p>
-              <h4>Register</h4>
+              <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
             <div className="GuestLlecture-img">
@@ -176,7 +178,7 @@ const Events = () => {
                 <br />
                 {data[2].body4}
               </p>
-              <h4>Register</h4>
+              <h3>Register</h3>
             </div>
             <div className="Resarch-img">
               <h1 ref={myRef3}>{data[2].imgtitle}</h1>
@@ -198,7 +200,7 @@ const Events = () => {
                 <br />
                 {data[3].body4}
               </p>
-              <h4>Register</h4>
+              <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
             <div className="img">
@@ -221,7 +223,7 @@ const Events = () => {
                 <br />
                 {data[4].body4}
               </p>
-              <h4>Register</h4>
+              <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
             <div className="img">

@@ -130,6 +130,9 @@
   .ellipse {
     width: 100%;
   }
+  .Scroller {
+    width: 0%;
+  }
   .headerInfo {
     width: 60%;
   }

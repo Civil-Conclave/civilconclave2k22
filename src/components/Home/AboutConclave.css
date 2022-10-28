@@ -51,6 +51,7 @@
     height: 80vh;
   }
   .aboutMaterial {
-    top: 5%;
+    top: 0%;
+    padding: 0.5rem;
   }
 }
