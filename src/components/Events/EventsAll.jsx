@@ -6,7 +6,7 @@ import Scroller from "./Scroller.js";
 import HeaderEvents from "./HeaderEvents.js";
 import { useInView } from "react-intersection-observer";
 import Footer from "../General/Footer.js";
-const Events = () => {
+const Events = (props) => {
   const options = {
     root: null,
     rootMargin: "0px",
@@ -16,6 +16,11 @@ const Events = () => {
     root: null,
     rootMargin: "0px",
     threshold: 0.4,
+  };
+  const footerProps = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0,
   };
 
   const callbackFunction = (entries) => {
@@ -30,12 +35,21 @@ const Events = () => {
   const callbackFunctionHeader = (entries) => {
     const [entry] = entries;
     if (entry.isIntersecting) {
-      console.log(headerView);
       setHeaderView(true);
-      // yeh textContent vaali cheez console se nikal li maine
+      setShow(true);
     } else {
-      console.log(headerView);
       setHeaderView(false);
+      setShow(false);
+    }
+  };
+
+  const callbackFunctionFooter = (entries) => {
+    const [entry] = entries;
+    if (entry.isIntersecting) {
+      setFooterView(true);
+      setShow(true);
+    } else {
+      setFooterView(false);
     }
   };
 
@@ -49,6 +63,10 @@ const Events = () => {
   const footerRef = useRef(null);
   const [currevent, setCurrevent] = useState("");
   const [headerView, setHeaderView] = useState(true);
+  const [footerView, setFooterView] = useState(false);
+  const [show, setShow] = useState(false);
+  console.log("footerView is ", footerView);
+  console.log(footerRef);
 
   useEffect(() => {
     const observer1 = new IntersectionObserver(callbackFunction, options);
@@ -103,6 +121,17 @@ const Events = () => {
       if (headerRef.current) observerHeader.unobserve(headerRef.current);
     };
   }, [headerRef, headerProps]);
+  useEffect(() => {
+    const observerFooter = new IntersectionObserver(
+      callbackFunctionFooter,
+      footerProps
+    );
+    if (footerRef.current) observerFooter.observe(footerRef.current);
+
+    return () => {
+      if (footerRef.current) observerFooter.unobserve(footerRef.current);
+    };
+  }, [footerRef, footerProps]);
 
   return (
     <div className="wholeEventsContainer">
@@ -110,10 +139,7 @@ const Events = () => {
         <HeaderEvents></HeaderEvents>
       </div>
       <div className="EventsAllWrapper">
-        <div
-          className="Scroller"
-          style={{ display: headerView ? "none" : "block" }}
-        >
+        <div className="Scroller" style={{ display: show ? "none" : "block" }}>
           <Scroller currevent={currevent}></Scroller>
         </div>
         <div className="allEvents" id="allEvents">
@@ -135,7 +161,7 @@ const Events = () => {
               <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
-            <div className="img">
+            <div className="rightImg">
               <h1 ref={myRef1}>{data[0].imgtitle}</h1>
               <img src={data[0].url} alt="" />
             </div>
@@ -158,13 +184,13 @@ const Events = () => {
               <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
-            <div className="GuestLlecture-img">
+            <div className="rightImg">
               <h1 ref={myRef2}>{data[1].imgtitle}</h1>
               <img src={data[1].url} alt="" />
             </div>
           </div>
           <div className="whole-eventscontainer">
-            <div className="Resarch-heading">
+            <div className="eventHeadingNew">
               <h3>{data[2].title}</h3>
               <p>
                 {data[2].body1}
@@ -180,7 +206,7 @@ const Events = () => {
               </p>
               <h3>Register</h3>
             </div>
-            <div className="Resarch-img">
+            <div className="rightImg">
               <h1 ref={myRef3}>{data[2].imgtitle}</h1>
               <img src={data[2].url} alt="" />
             </div>
@@ -203,7 +229,7 @@ const Events = () => {
               <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
-            <div className="img">
+            <div className="rightImg">
               <h1 ref={myRef4}>{data[3].imgtitle}</h1>
               <img src={data[3].url} alt="" />
             </div>
@@ -226,12 +252,15 @@ const Events = () => {
               <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
-            <div className="img">
+            <div className="rightImg">
               <h1 ref={myRef5}>{data[4].imgtitle}</h1>
               <img src={data[4].url} alt="" />
             </div>
           </div>
         </div>
+      </div>
+      <div className="contentFooter" ref={footerRef}>
+        <Footer></Footer>
       </div>
     </div>
   );

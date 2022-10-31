@@ -4,6 +4,7 @@
   width: 20%;
   height: 40%;
   position: fixed;
+  z-index: 2;
   /* background-color: white; */
 }
 

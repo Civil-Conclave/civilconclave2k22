@@ -1,9 +1,9 @@
 import img from "../../assets/eve1.png";
-import img1 from "../../assets/eve1.png";
-import img2 from "../../assets/eve1.png";
-import img3 from "../../assets/eve1.png";
-import img4 from "../../assets/eve1.png";
-import img5 from "../../assets/eve1.png";
+// import img1 from "../../assets/eve2.png";
+import img2 from "../../assets/eve3.png";
+import img3 from "../../assets/eve4.png";
+import img4 from "../../assets/eve5.png";
+import img5 from "../../assets/eve6.png";
 
 const data = [
   {

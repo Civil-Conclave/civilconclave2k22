@@ -13,7 +13,9 @@
 }
 
 .eventHomeContainer {
-  background-color: #437084;
+  /* background-color: #437084; */
+  /* background-color: rgba(37, 34, 34, 0.105); */
+  background-color: black;
   display: flex;
   min-width: 150vw;
   justify-content: space-between;

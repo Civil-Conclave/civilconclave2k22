@@ -1,7 +1,6 @@
 import "./App.css";
-import React, { useState, useRef, useLayoutEffect } from "react";
+import React from "react";
 import Home from "./components/Home/index.js";
-import Footer from "./components/General/Footer.js";
 import Events from "./components/Events/index.js";
 import AboutUs from "./components/AboutUs/index.js";
 import Navbarnew from "./components/General/Navbar.js";
@@ -26,7 +25,6 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
-        <Footer></Footer>
       </div>
     </Router>
   );

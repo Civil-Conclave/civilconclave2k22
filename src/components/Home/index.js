@@ -4,6 +4,7 @@ import EventsHome from "./EventsHome.js";
 import AboutConclave from "./AboutConclave.js";
 import Heading from "../General/Heading.js";
 import ContactUs from "../General/ContactUs.js";
+import Footer from "../General/Footer";
 
 function index() {
   return (
@@ -14,6 +15,7 @@ function index() {
       <EventsHome></EventsHome>
       {/* <Heading name="Sponsors"></Heading> */}
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 }

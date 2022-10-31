@@ -23,6 +23,7 @@
   display: flex;
   top: 20%;
   z-index: 5;
+  justify-content: space-between;
 }
 .aboutLogo {
   width: 40%;
@@ -34,7 +35,7 @@
 }
 .aboutInfo {
   display: flex;
-  width: 60%;
+  width: 50%;
   margin: auto;
   align-items: center;
   justify-content: center;

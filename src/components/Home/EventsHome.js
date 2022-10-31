@@ -27,7 +27,7 @@ function Events() {
   }, [width]);
 
   const scrollerPrev = (scrollOffset) => {
-    if (prevPos === 0.05 * width) {
+    if (prevPos <= 0.05 * width) {
       return;
     }
     console.log(ref.current.scrollLeft);

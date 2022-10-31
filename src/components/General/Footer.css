@@ -1,13 +1,15 @@
 .Container {
   width: 100%;
   background-color: #292f3f;
+  z-index: 100;
 }
 .MainFooter {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-around;
   width: 100%;
+  padding: 3rem 0rem 3rem 0rem;
 }
 
 .FHeading {
@@ -29,8 +31,6 @@
   font-weight: bold;
 }
 .smalldiv {
-  padding: 0 6vw;
-  margin: 5.47vh 0;
 }
 .bluecolor {
   background-color: #278ac1;
@@ -51,18 +51,7 @@
   margin-right: 1vw;
 }
 .fu {
-  text-align: center;
-  margin-left: -2.3vw;
-  margin-bottom: 2.8vh;
-  margin-top: 0.5vh;
 }
-.visit {
-  margin-top: 12vh;
-}
-.mail {
-  margin-top: 2vh;
-}
-
 @media (max-width: 1020px) {
   .MainFooter {
     flex-direction: column;

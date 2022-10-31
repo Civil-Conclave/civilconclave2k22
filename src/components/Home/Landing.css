@@ -16,6 +16,7 @@
 
 .landingImg {
   width: 100%;
+  opacity: 0.4;
 }
 
 .landingInfo {
@@ -29,7 +30,7 @@
   color: white;
   align-items: center;
   padding: 0.5rem;
-  top: 20%;
+  top: 15%;
 }
 .teamInfo {
   display: flex;
@@ -55,7 +56,6 @@
   color: white;
   font-size: 6rem;
   width: 100%;
-  /* animation : transitionIn 4s; */
 }
 
 .colorblue {
@@ -66,7 +66,7 @@
 
 .ThemeInfo {
   position: relative;
-  padding: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .btnRegister {
