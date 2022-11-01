@@ -71,7 +71,7 @@
 
 @media (max-width: 760px) {
   .header-about-container {
-    height: 40vh;
+    height: 45vh;
     flex-direction: column-reverse;
     margin: auto;
   }
@@ -86,6 +86,9 @@
     width: 90%;
     margin: auto;
   }
+  .about-heading-main h1 {
+    font-size: 1.5rem;
+  }
   .left-img {
     display: none;
   }
@@ -94,7 +97,8 @@
   }
   .headerTitle {
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
   }
   .headerInformation {
     justify-content: center;
@@ -105,5 +109,6 @@
   }
   .lineMob {
     display: block;
+    padding-bottom: 2rem;
   }
 }

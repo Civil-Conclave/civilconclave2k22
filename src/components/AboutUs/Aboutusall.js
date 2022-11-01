@@ -14,11 +14,11 @@ export default function Aboutusall() {
     offset: ["start start", "end end"],
   });
 
-  const scaleX1 = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 10,
-    restDelta: 0.001,
-  });
+  // const scaleX1 = useSpring(scrollYProgress, {
+  //   stiffness: 50,
+  //   damping: 30,
+  //   restDelta: 0.001,
+  // });
 
   return (
     <>
@@ -27,7 +27,7 @@ export default function Aboutusall() {
           <div className="about-main-container">
             <motion.div
               className="aboutBackground fillLeft"
-              style={{ scaleX: scaleX1 }}
+              style={{ scaleX: scrollYProgress }}
             ></motion.div>
             <div className="about-context">
               <div className="about-heading-main">

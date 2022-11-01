@@ -31,7 +31,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/"
-                className={activeMenu == "Home" ? "active-links" : "links"}
+                className={activeMenu === "Home" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("Home");
                 }}
@@ -42,7 +42,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/events"
-                className={activeMenu == "events" ? "active-links" : "links"}
+                className={activeMenu === "events" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("events");
                 }}
@@ -53,7 +53,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/aboutus"
-                className={activeMenu == "aboutus" ? "active-links" : "links"}
+                className={activeMenu === "aboutus" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("aboutus");
                 }}
@@ -62,15 +62,16 @@ function Navbarnew() {
               </Link>
             </li>
             <li>
-              <Link
-                to="/register"
-                className={activeMenu == "register" ? "active-links" : "links"}
+              <a
+                href="https://drive.google.com/drive/folders/1TJTJcIphB2eg_zpiFzsyeIpsBrg6pv20"
+                target="_blank"
+                className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("register");
                 }}
               >
                 REGISTER
-              </Link>
+              </a>
             </li>
           </ul>
           <div className="mobile">
@@ -95,7 +96,7 @@ function Navbarnew() {
               <li>
                 <Link
                   to="/"
-                  className={activeMenu == "Home" ? "active-links" : "links"}
+                  className={activeMenu === "Home" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("Home");
                   }}
@@ -106,7 +107,7 @@ function Navbarnew() {
               <li>
                 <Link
                   to="/events"
-                  className={activeMenu == "events" ? "active-links" : "links"}
+                  className={activeMenu === "events" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("events");
                   }}
@@ -117,7 +118,9 @@ function Navbarnew() {
               <li>
                 <Link
                   to="/aboutus"
-                  className={activeMenu == "aboutus" ? "active-links" : "links"}
+                  className={
+                    activeMenu === "aboutus" ? "active-links" : "links"
+                  }
                   onClick={() => {
                     setActiveMenu("aboutus");
                   }}
@@ -129,7 +132,7 @@ function Navbarnew() {
                 <Link
                   to="/register"
                   className={
-                    activeMenu == "register" ? "active-links" : "links"
+                    activeMenu === "register" ? "active-links" : "links"
                   }
                   onClick={() => {
                     setActiveMenu("register");

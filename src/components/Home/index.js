@@ -13,7 +13,6 @@ function index() {
       <AboutConclave></AboutConclave>
       <Heading name="Events"></Heading>
       <EventsHome></EventsHome>
-      {/* <Heading name="Sponsors"></Heading> */}
       <ContactUs></ContactUs>
       <Footer></Footer>
     </div>

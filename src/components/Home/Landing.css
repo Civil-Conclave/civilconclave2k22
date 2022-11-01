@@ -16,7 +16,7 @@
 
 .landingImg {
   width: 100%;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .landingInfo {
@@ -97,7 +97,7 @@
     padding: 1rem;
   }
   .ThemeInfo {
-    width: 90%;
+    width: 80%;
     text-align: center;
     padding: 1rem;
   }

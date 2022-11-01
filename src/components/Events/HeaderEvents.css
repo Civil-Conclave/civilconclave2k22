@@ -127,8 +127,12 @@
 }
 
 @media (max-width: 760px) {
+  .eventContainer {
+    overflow: hidden;
+  }
   .ellipse {
     width: 100%;
+    overflow: hidden;
   }
   .Scroller {
     width: 0%;

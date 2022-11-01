@@ -39,7 +39,11 @@ const Events = (props) => {
       setShow(true);
     } else {
       setHeaderView(false);
-      setShow(false);
+      if (footerView) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
     }
   };
 
@@ -47,7 +51,6 @@ const Events = (props) => {
     const [entry] = entries;
     if (entry.isIntersecting) {
       setFooterView(true);
-      setShow(true);
     } else {
       setFooterView(false);
     }
@@ -133,6 +136,15 @@ const Events = (props) => {
     };
   }, [footerRef, footerProps]);
 
+  function handleClick(e) {
+    window.open("/CaseStudy");
+  }
+  function onPress(e) {
+    window.open(
+      "https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+    );
+  }
+
   return (
     <div className="wholeEventsContainer">
       <div className="headerContainer" ref={headerRef}>
@@ -158,7 +170,9 @@ const Events = (props) => {
                 <br />
                 {data[0].body4}
               </p>
-              <h3>Register</h3>
+              <button className="submitButton" onClick={handleClick}>
+                Read Problem Statements
+              </button>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">

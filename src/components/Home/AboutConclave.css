@@ -49,10 +49,23 @@
 
 @media (max-width: 760px) {
   .aboutWrapper {
-    height: 80vh;
+    height: 100vh;
   }
   .aboutMaterial {
     top: 0%;
     padding: 0.5rem;
+  }
+  .aboutMaterial {
+    flex-direction: column;
+  }
+  .aboutInfo {
+    width: 90%;
+  }
+  .info {
+    width: 100%;
+  }
+  .aboutLogo {
+    width: 50%;
+    padding: 1.5rem;
   }
 }

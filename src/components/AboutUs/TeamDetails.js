@@ -1,95 +1,88 @@
-import Chopra from "../../assets/Chopra.png";
+import ChopraS from "../../assets/Chopra.png";
+import KunalS from "../../assets/KunalS.png";
+import ShivikaM from "../../assets/ShivikaM.png";
+import ShlokiM from "../../assets/ShlokiM.png";
+import Shri from "../../assets/Shri.png";
+import Devansh from "../../assets/Devansh.png";
+import Vivek from "../../assets/Vivek.png";
+import Manu from "../../assets/Manu.png";
+import Achchar from "../../assets/Achchar.png";
+import Shubham from "../../assets/Shubham.png";
+import Vansh from "../../assets/Vansh.png";
+import Sourabh from "../../assets/Sourabh.png";
 
 const contacts = [
   {
     id: 1,
     name: "Aayush Chopra",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: ChopraS,
   },
   {
     id: 2,
     name: "Kunal Singh",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: KunalS,
   },
   {
     id: 3,
-    name: "Jatin Singh",
+    name: "Shivika Jain",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: ShivikaM,
   },
   {
     id: 4,
     name: "Shloki Jha",
     position: "Overall Co-Coordinator",
-    image: Chopra,
-  },
-  {
-    id: 5,
-    name: "Shivika Jain",
-    position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: ShlokiM,
   },
   {
     id: 5,
     name: "Shrivardhan Yadav",
-    position: "Overall Co-Coordinator",
-    image: Chopra,
+    position: "Sponsorship Head",
+    image: Shri,
   },
   {
     id: 6,
-    name: "Ishaan Jain",
-    position: "Overall Co-Coordinator",
-    image: Chopra,
+    name: "Sourabh Budakoti",
+    position: "Manager",
+    image: Sourabh,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 7,
+    name: "Devansh Kumar",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Devansh,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 8,
+    name: "Vivek",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Vivek,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 9,
+    name: "Manuvansh Rai",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Manu,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 10,
+    name: "Achchar Sharma",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Achchar,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 11,
+    name: "Shubham",
     position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Shubham,
   },
   {
-    id: 6,
-    name: "Ishaan Jain",
+    id: 12,
+    name: "Vansh Gupta",
     position: "Overall Co-Coordinator",
-    image: Chopra,
-  },
-  {
-    id: 6,
-    name: "Ishaan Jain",
-    position: "Overall Co-Coordinator",
-    image: Chopra,
-  },
-  {
-    id: 6,
-    name: "Ishaan Jain",
-    position: "Overall Co-Coordinator",
-    image: Chopra,
+    image: Vansh,
   },
 ];
 export default contacts;
