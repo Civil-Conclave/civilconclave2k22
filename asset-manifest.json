@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9ceabd3.css",
-    "main.js": "/static/js/main.c80f83e5.js",
+    "main.css": "/static/css/main.eb53602a.css",
+    "main.js": "/static/js/main.38693495.js",
     "static/js/787.3dad4ca2.chunk.js": "/static/js/787.3dad4ca2.chunk.js",
     "static/media/BackgroundBlueBg.png": "/static/media/BackgroundBlueBg.b062a5fbe5faecf1f31a.png",
     "static/media/map.png": "/static/media/map.65a5def71643c5241383.png",
@@ -30,6 +30,7 @@
     "static/media/about2.png": "/static/media/about2.61737222c45781c60b82.png",
     "static/media/Frame.png": "/static/media/Frame.a94e2e377bd538d76935.png",
     "static/media/about1.png": "/static/media/about1.dbc52330ed50960650ee.png",
+    "static/media/FloodDesign.jpeg": "/static/media/FloodDesign.8fc97e27d28a01eb1b7b.jpeg",
     "static/media/Forest.jpeg": "/static/media/Forest.f4b7b3a55c870f62efb1.jpeg",
     "static/media/eve3.png": "/static/media/eve3.5870f4a41dc37f44c675.png",
     "static/media/Chopra.png": "/static/media/Chopra.07dc5e6c00f8a22bfb59.png",
@@ -44,12 +45,12 @@
     "static/media/Ellipse.png": "/static/media/Ellipse.fc81df395a52a54932c3.png",
     "static/media/logo2.png": "/static/media/logo2.7439798022dc484d7697.png",
     "index.html": "/index.html",
-    "main.d9ceabd3.css.map": "/static/css/main.d9ceabd3.css.map",
-    "main.c80f83e5.js.map": "/static/js/main.c80f83e5.js.map",
+    "main.eb53602a.css.map": "/static/css/main.eb53602a.css.map",
+    "main.38693495.js.map": "/static/js/main.38693495.js.map",
     "787.3dad4ca2.chunk.js.map": "/static/js/787.3dad4ca2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ceabd3.css",
-    "static/js/main.c80f83e5.js"
+    "static/css/main.eb53602a.css",
+    "static/js/main.38693495.js"
   ]
 }
