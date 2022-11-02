@@ -137,7 +137,7 @@ const Events = (props) => {
   }, [footerRef, footerProps]);
 
   function handleClick(e) {
-    window.open("/CaseStudy");
+    window.open("/casestudy");
   }
   function handleClickCaseS(e) {
     window.open(
