@@ -5,6 +5,11 @@ import LandingBg from "../../assets/BackgroundBlueBg.png";
 import { motion } from "framer-motion";
 
 function HomePage() {
+  function onPress(e) {
+    window.open(
+      "https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
+    );
+  }
   return (
     <div className="WrapperLanding">
       <div className="landingBg">
@@ -30,7 +35,9 @@ function HomePage() {
           Unravish and explore the deeper insights with this
           <br /> Inter IIT fest dedicated to civil engineers. Dive right in...
         </div>
-        <button className="btnRegister">Register</button>
+        <button className="btnRegister" onClick={onPress}>
+          Register
+        </button>
       </div>
     </div>
   );

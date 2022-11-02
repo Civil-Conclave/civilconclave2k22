@@ -74,6 +74,12 @@
   color: white;
   background-color: transparent;
   border: none;
+  text-decoration: underline;
+  align-self: auto;
+}
+.caseStudyButtons {
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 760px) {
   .Scroller {

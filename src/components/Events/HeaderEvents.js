@@ -26,7 +26,6 @@ function HeaderEvents() {
         <div className="footText">Case Study</div>
         <div className="footText">Guest Lecture</div>
         <div className="footText">Research work Presentation</div>
-        <div className="footText">Panel discussion</div>
         <div className="footText">Seek the Civil Geek</div>
         <div className="footText">Design Different</div>
       </div>

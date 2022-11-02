@@ -77,7 +77,7 @@ function Events() {
         </div>
         <div className="sec 3">
           <img className="eventImages" src={Event3} alt="/" />
-          <div className="eventName event3">• STCG</div>
+          <div className="eventName event3">• Seek the civil geek</div>
         </div>
         <div className="sec 4">
           <img className="eventImages" src={Event4} alt="/" />

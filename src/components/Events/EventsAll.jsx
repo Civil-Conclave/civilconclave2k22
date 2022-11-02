@@ -139,9 +139,24 @@ const Events = (props) => {
   function handleClick(e) {
     window.open("/CaseStudy");
   }
-  function onPress(e) {
+  function handleClickCaseS(e) {
     window.open(
-      "https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+      "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
+    );
+  }
+  function handleClickResearch(e) {
+    window.open(
+      "https://drive.google.com/file/d/1J4c_B4HhMiq3A5CTZd4Q-hXwzMWJhWu3/view?usp=sharing"
+    );
+  }
+  function handleClickStcg(e) {
+    window.open(
+      "https://drive.google.com/file/d/1h9Pkr7J8zeDEs9m1pn9zKJaoOprcrJZS/view?usp=sharing"
+    );
+  }
+  function handleClickDesign(e) {
+    window.open(
+      "https://drive.google.com/file/d/1tBVbifnuDtZygYdHdqSD0WRhz89xUqQa/view?usp=sharing"
     );
   }
 
@@ -170,9 +185,14 @@ const Events = (props) => {
                 <br />
                 {data[0].body4}
               </p>
-              <button className="submitButton" onClick={handleClick}>
-                Read Problem Statements
-              </button>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickCaseS}>
+                  Rulebook
+                </button>
+                <button className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button>
+              </div>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
@@ -195,7 +215,6 @@ const Events = (props) => {
                 <br />
                 {data[1].body4}
               </p>
-              <h3>Register</h3>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
@@ -218,7 +237,9 @@ const Events = (props) => {
                 <br />
                 {data[2].body4}
               </p>
-              <h3>Register</h3>
+              <button className="submitButton" onClick={handleClickResearch}>
+                Rulebook
+              </button>
             </div>
             <div className="rightImg">
               <h1 ref={myRef3}>{data[2].imgtitle}</h1>
@@ -240,7 +261,9 @@ const Events = (props) => {
                 <br />
                 {data[3].body4}
               </p>
-              <h3>Register</h3>
+              <button className="submitButton" onClick={handleClickStcg}>
+                Rulebook
+              </button>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
@@ -263,7 +286,9 @@ const Events = (props) => {
                 <br />
                 {data[4].body4}
               </p>
-              <h3>Register</h3>
+              <button className="submitButton" onClick={handleClickDesign}>
+                Rulebook
+              </button>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">

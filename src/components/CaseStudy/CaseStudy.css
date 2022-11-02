@@ -1,29 +1,39 @@
 .casestudy1 {
   display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.casestudy2 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 2rem;
 }
 .casestudy_context {
   width: 60%;
 }
 .casestudy_image {
-  width: 40%;
-  margin-top: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .imgg {
-  width: 90%;
-  height: 40vh;
+  width: 100%;
 }
 .casestudy_heading {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 3vw;
-  margin-left: 8vw;
-  margin-top: 6vw;
+  font-size: 2rem;
+  color: white;
 }
 .casestudy_heading2 {
   color: #278ac1;
-  margin-left: 8vw;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 1.5rem;
 }
 .casestudy-main {
   width: 80%;
@@ -31,43 +41,82 @@
   background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%);
   border-radius: 1rem;
   margin-top: 1%;
-  height: 80vh;
 }
 .casestudy_main_write {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   font-weight: 400;
-  margin-left: 8vw;
+  color: white;
 }
 .casestudy-btn {
   color: white;
-  margin-left: 8vw;
-  margin-top: 6vw;
   background-color: #278ac1;
-  font-size: 3vw;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  margin-left: 1.5rem;
 }
 .casestudy-btnr {
   color: white;
-  margin-left: 32.5vw;
-  margin-top: 6vw;
   background-color: #278ac1;
-  width: 25vw;
-  height: 7vw;
   font-size: 1.5rem;
 }
 .text-casestudy {
   color: white;
-  margin-left: 10vw;
-  font-size: 2vw;
+  font-size: 1.5rem;
   font-weight: 700;
+  margin-right: 2rem;
 }
 .imggr {
   margin-left: 4vw;
   width: 90%;
-  height: 40vh;
 }
 .text-casestudyr {
   color: white;
   margin-left: 4vw;
-  font-size: 2vw;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .casestudy1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .casestudy_image {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .imgg {
+    width: 80%;
+  }
+  .casestudy-main {
+    width: 90%;
+  }
+  .casestudy_context {
+    width: 100%;
+  }
+  .casestudy_heading {
+    font-size: 1rem;
+  }
+  .casestudy_heading2 {
+    font-size: 0.8rem;
+  }
+  .casestudy_main_write {
+    font-size: 0.7rem;
+  }
+  .casestudy1 {
+    padding: 0;
+  }
+  .casestudy2 {
+    padding: 0;
+  }
+  .casestudy-btn {
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+  }
+  .text-casestudy {
+    margin-right: 0;
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+  }
 }

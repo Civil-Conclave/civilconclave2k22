@@ -8,7 +8,7 @@ import logo2 from "../../assets/logo2.png";
 import logo1 from "../../assets/logo1.png";
 
 function Navbarnew() {
-  const [activeMenu, setActiveMenu] = useState("Home");
+  const [activeMenu, setActiveMenu] = useState("");
   const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
   const showham = () => {
@@ -63,7 +63,7 @@ function Navbarnew() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/drive/folders/1TJTJcIphB2eg_zpiFzsyeIpsBrg6pv20"
+                href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
                 target="_blank"
                 className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {
@@ -129,8 +129,9 @@ function Navbarnew() {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/register"
+                <a
+                  href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
+                  target="_blank"
                   className={
                     activeMenu === "register" ? "active-links" : "links"
                   }
@@ -139,7 +140,7 @@ function Navbarnew() {
                   }}
                 >
                   REGISTER
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
