@@ -53,13 +53,13 @@ export default function CaseStudyleft() {
                 In association with Department of Hydrology, IIT Roorkee
               </p>
               <p className="casestudy_main_write">
-                Forest Survey of India (FSI), is the premier national
-                organisation under the Union Ministry of Environment and
-                Forests, responsible for the task of assessment and monitoring
-                of the forest resources of the country on a regular basis. The
-                contingents will be provided with a problem related to inventory
-                generation , easing out road network inside indian forests, and
-                the economic factors related to industrial projects .
+                Chicago is the third most populous city in the United States of
+                America and one of the 40 largest urban areas in the world with
+                a 2.7 million population (2020). The city receives an average
+                rainfall of 35 inches per year and thunderstorms bring most of
+                the city’s rainfall. The case study involves demanding solutions
+                related to flood control problems in chicago and the cost
+                associated with it.
               </p>
             </div>
             <div className="casestudy_image">

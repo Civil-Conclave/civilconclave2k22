@@ -1,10 +1,10 @@
 import "./App.css";
-import React from "react";
-import Home from "./components/Home/index.js";
-import Events from "./components/Events/index.js";
-import AboutUs from "./components/AboutUs/index.js";
+import React, { Suspense, lazy } from "react";
 import Navbarnew from "./components/General/Navbar.js";
-import CaseStudy from "./components/CaseStudy/index.js";
+// import Home from "./components/Home/index.js";
+// import Events from "./components/Events/index.js";
+// import AboutUs from "./components/AboutUs/index.js";
+// import CaseStudy from "./components/CaseStudy/index.js";
 
 import {
   BrowserRouter as Router,
@@ -15,19 +15,25 @@ import {
   useParams,
 } from "react-router-dom";
 import "./App.css";
+const Home = lazy(() => import("./components/Home/index.js"));
+const Events = lazy(() => import("./components/Events/index.js"));
+const AboutUs = lazy(() => import("./components/AboutUs/index.js"));
+const CaseStudy = lazy(() => import("./components/CaseStudy/index.js"));
 
 function App() {
   return (
     <Router>
-      <div className="finalWrapper">
-        <Navbarnew></Navbarnew>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/casestudy" element={<CaseStudy />} />
-        </Routes>
-      </div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="finalWrapper">
+          <Navbarnew></Navbarnew>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/casestudy" element={<CaseStudy />} />
+          </Routes>
+        </div>
+      </Suspense>
     </Router>
   );
 }
