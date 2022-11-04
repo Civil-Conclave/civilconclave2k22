@@ -77,6 +77,11 @@
   border-radius: 1rem;
   /* border-color: white; */
 }
+.Date {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+}
 
 @media (max-width: 760px) {
   .landingBg {

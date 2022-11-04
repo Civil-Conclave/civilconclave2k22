@@ -20,12 +20,8 @@ function Team() {
     <div className="teamContainer">
       <div className="teamHeader">
         <div className="blueLine"></div>
-        <div className="HeaderInfo">
-          OUR <br></br>TEAM
-        </div>
+        <div className="HeaderInfo">OUR TEAM</div>
       </div>
-
-      {/* CARDS */}
       <div className="MiddleDiv">{contacts.map(createEntry)}</div>
     </div>
   );

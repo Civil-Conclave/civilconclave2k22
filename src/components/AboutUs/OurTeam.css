@@ -17,8 +17,7 @@
   color: white;
   font-weight: 700;
   font-size: 6rem;
-  transform: translateY(-28%);
-  /* width: 30%; */
+  transform: translateY(-50%);
   z-index: 8;
 }
 
@@ -27,7 +26,7 @@
   width: 90%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 15.51vh;
   column-gap: 5%;
   justify-items: center;

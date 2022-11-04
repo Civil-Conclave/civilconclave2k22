@@ -15,7 +15,7 @@ const contacts = [
   {
     id: 1,
     name: "Aayush Chopra",
-    position: "Overall Co-Coordinator",
+    position: "Overall Coordinator",
     image: ChopraS,
   },
   {
@@ -51,37 +51,37 @@ const contacts = [
   {
     id: 7,
     name: "Devansh Kumar",
-    position: "Overall Co-Coordinator",
+    position: "Senior Manager",
     image: Devansh,
   },
   {
     id: 8,
     name: "Vivek",
-    position: "Overall Co-Coordinator",
+    position: "Manager",
     image: Vivek,
   },
   {
     id: 9,
     name: "Manuvansh Rai",
-    position: "Overall Co-Coordinator",
+    position: "Technical Manager",
     image: Manu,
   },
   {
     id: 10,
     name: "Achchar Sharma",
-    position: "Overall Co-Coordinator",
+    position: "Senior Manager",
     image: Achchar,
   },
   {
     id: 11,
     name: "Shubham",
-    position: "Overall Co-Coordinator",
+    position: "Manager",
     image: Shubham,
   },
   {
     id: 12,
     name: "Vansh Gupta",
-    position: "Overall Co-Coordinator",
+    position: "Manager",
     image: Vansh,
   },
 ];
