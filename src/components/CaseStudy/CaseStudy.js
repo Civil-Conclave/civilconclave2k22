@@ -9,6 +9,11 @@ export default function CaseStudyleft() {
       "https://drive.google.com/file/d/1gd-mEHXP10-ft1SlHPPRWssC6lwUmLzC/view?usp=sharing"
     );
   }
+  function onPressFlood(e) {
+    window.open(
+      "https://drive.google.com/file/d/1N74REMpL-o1b93x3xwovsL7APjLruSMM/view?usp=sharing"
+    );
+  }
   function onPressRules(e) {
     window.open(
       "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
@@ -69,7 +74,7 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPress}>
+            <button className="casestudy-btn" onClick={onPressFlood}>
               PROBLEM STATEMENT
             </button>
             <button className="text-casestudy" onClick={onPressRules}>
