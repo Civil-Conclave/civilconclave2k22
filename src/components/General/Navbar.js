@@ -63,7 +63,7 @@ function Navbarnew() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
+                href="https://docs.google.com/document/d/1lZKT-0peBlpXkNjfeEI9zA8gq4jVOcUtZvw9E4SfXo8/edit"
                 target="_blank"
                 className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {
@@ -130,7 +130,7 @@ function Navbarnew() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1lZKT-0peBlpXkNjfeEI9zA8gq4jVOcUtZvw9E4SfXo8/edit"
                   target="_blank"
                   className={
                     activeMenu === "register" ? "active-links" : "links"

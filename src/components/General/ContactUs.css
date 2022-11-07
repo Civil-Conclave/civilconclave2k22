@@ -42,11 +42,6 @@
 .input {
   width: 40%;
 }
-textarea {
-  resize: none;
-  border: none;
-  outline: none;
-}
 #msg {
   text-align: center;
   background-color: black;
@@ -64,7 +59,12 @@ textarea {
   height: 15vh;
   width: 100%;
   color: white;
-
+  font-size: 1rem;
+  font-family: "Inter";
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: #292f3f;
   border-radius: 0.37rem;
   box-shadow: 0px 3.19081px 3.19081px rgba(0, 0, 0, 0);
@@ -73,6 +73,8 @@ textarea {
   height: 5vh;
   width: 100%;
   color: white;
+  font-family: "Inter";
+  font-size: 1rem;
   background-color: #292f3f;
   border-radius: 0.37rem;
   box-shadow: 0px 3.19081px 3.19081px rgba(106, 36, 36, 0);
@@ -81,17 +83,9 @@ textarea {
   height: 5vh;
   width: 100%;
   color: white;
-
+  font-family: "Inter";
+  font-size: 1rem;
   background-color: #292f3f;
   border-radius: 0.37rem;
   box-shadow: 0px 3.19081px 3.19081px rgba(0, 0, 0, 0);
-}
-.email-input:focus {
-  background-color: #016194;
-}
-.name-input:focus {
-  background-color: #016194;
-}
-.message-input:focus {
-  background-color: #016194;
 }

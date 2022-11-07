@@ -36,5 +36,6 @@
   .MiddleDiv {
     column-gap: 20px;
     row-gap: 7vh;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
