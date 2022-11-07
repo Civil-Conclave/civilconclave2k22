@@ -94,6 +94,8 @@
   /* margin-top: 70vh; */
 }
 .footText {
+  background-color: transparent;
+  border: none;
   display: flex;
   color: white;
   font-size: 1rem;

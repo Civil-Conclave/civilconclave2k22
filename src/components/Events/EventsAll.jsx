@@ -163,7 +163,13 @@ const Events = (props) => {
   return (
     <div className="wholeEventsContainer">
       <div className="headerContainer" ref={headerRef}>
-        <HeaderEvents></HeaderEvents>
+        <HeaderEvents
+          ref1={myRef1}
+          ref2={myRef2}
+          ref3={myRef3}
+          ref4={myRef4}
+          ref5={myRef5}
+        ></HeaderEvents>
       </div>
       <div className="EventsAllWrapper">
         <div className="Scroller" style={{ display: show ? "none" : "block" }}>

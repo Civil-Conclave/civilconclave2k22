@@ -1,7 +1,22 @@
 import React from "react";
 import "./HeaderEvents.css";
 import Ellipse from "../../assets/Ellipse.png";
-function HeaderEvents() {
+function HeaderEvents(props) {
+  const handleClick1 = () => {
+    props.ref1.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleClick2 = () => {
+    props.ref2.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleClick3 = () => {
+    props.ref3.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleClick4 = () => {
+    props.ref4.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleClick5 = () => {
+    props.ref5.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="eventContainer">
       <div className="ellipse">
@@ -23,11 +38,21 @@ function HeaderEvents() {
       </div>
 
       <div className="footInfo">
-        <div className="footText">Case Study</div>
-        <div className="footText">Guest Lecture</div>
-        <div className="footText">Research work Presentation</div>
-        <div className="footText">Seek the Civil Geek</div>
-        <div className="footText">Design Different</div>
+        <button className="footText" onClick={handleClick1}>
+          Case Study
+        </button>
+        <button className="footText" onClick={handleClick2}>
+          Guest Lecture
+        </button>
+        <button className="footText" onClick={handleClick3}>
+          Research work Presentation
+        </button>
+        <button className="footText" onClick={handleClick4}>
+          Seek the Civil Geek
+        </button>
+        <button className="footText" onClick={handleClick5}>
+          Design Different
+        </button>
       </div>
       <div className="footLine">
         <div className="line"></div>

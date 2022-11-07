@@ -14,6 +14,11 @@ export default function CaseStudyleft() {
       "https://drive.google.com/file/d/1N74REMpL-o1b93x3xwovsL7APjLruSMM/view?usp=sharing"
     );
   }
+  function onPressGril(e) {
+    window.open(
+      "https://drive.google.com/file/d/1vo9bdQ2YqIqYFWJiGnPZqhPdNNpZIT_j/view?usp=sharing"
+    );
+  }
   function onPressRules(e) {
     window.open(
       "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
@@ -82,19 +87,16 @@ export default function CaseStudyleft() {
             </button>
           </div>
         </div>
-        {/* <div className="casestudy-main Left">
+        <div className="casestudy-main Left">
           <div className="casestudy1">
             <div className="casestudy_context">
-              <p className="casestudy_heading">CHOPRA</p>
-              <p className="casestudy_heading2">In association with FSI</p>
+              <p className="casestudy_heading">SOIL ANALYSIS</p>
+              <p className="casestudy_heading2">In association with GRIL</p>
               <p className="casestudy_main_write">
-                Forest Survey of India (FSI), is the premier national
-                organisation under the Union Ministry of Environment and
-                Forests, responsible for the task of assessment and monitoring
-                of the forest resources of the country on a regular basis. The
-                contingents will be provided with a problem related to inventory
-                generation , easing out road network inside indian forests, and
-                the economic factors related to industrial projects .
+                GRIL, is the premier national organisation under the Union
+                Ministry of Environment and Forests, responsible for the task of
+                assessment and monitoring of the forest resources of the country
+                on a regular basis.
               </p>
             </div>
             <div className="casestudy_image">
@@ -102,14 +104,14 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPress}>
+            <button className="casestudy-btn" onClick={onPressGril}>
               PROBLEM STATEMENT
             </button>
             <button className="text-casestudy" onClick={onPressRules}>
               RULE BOOK
             </button>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );
