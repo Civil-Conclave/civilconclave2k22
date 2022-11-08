@@ -141,22 +141,22 @@ const Events = (props) => {
   }
   function handleClickCaseS(e) {
     window.open(
-      "https://docs.google.com/document/d/1OslS35x9bmqMoaTiRtC9NzBYxFmO96KXA8WT1Bdraww/edit"
+      "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
     );
   }
   function handleClickResearch(e) {
     window.open(
-      "https://docs.google.com/document/d/12ctv9vOoGsu8kJtO1ckBCvedec_rCJROtpB3pq80Ajo/edit"
+      "https://drive.google.com/file/d/1J4c_B4HhMiq3A5CTZd4Q-hXwzMWJhWu3/view?usp=sharing"
     );
   }
   function handleClickStcg(e) {
     window.open(
-      "https://docs.google.com/document/d/1BHYQ9YqqQTMKBKv44wQI_JKKgHi203ZmeYXBwra_IVU/edit"
+      "https://drive.google.com/file/d/1h9Pkr7J8zeDEs9m1pn9zKJaoOprcrJZS/view?usp=sharing"
     );
   }
   function handleClickDesign(e) {
     window.open(
-      "https://docs.google.com/document/d/1cPalRX_N6E_6NdK1-5GkHUJWM4nG2ENXcZc9pAXr5Vc/edit"
+      "https://drive.google.com/file/d/1tBVbifnuDtZygYdHdqSD0WRhz89xUqQa/view?usp=sharing"
     );
   }
 
