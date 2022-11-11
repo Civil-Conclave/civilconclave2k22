@@ -1,6 +1,7 @@
 import React from "react";
 import FSI from "../../assets/Forest.jpeg";
 import FloodDesign from "../../assets/FloodDesign.jpeg";
+import SoilCaseStudy from "../../assets/SoilCaseStudy.jpeg";
 import "./CaseStudy.css";
 
 export default function CaseStudyleft() {
@@ -90,17 +91,25 @@ export default function CaseStudyleft() {
         <div className="casestudy-main Left">
           <div className="casestudy1">
             <div className="casestudy_context">
-              <p className="casestudy_heading">SOIL ANALYSIS</p>
+              <p className="casestudy_heading">
+                SAFE BEARING CAPACITY ANALYSIS
+              </p>
               <p className="casestudy_heading2">In association with GRIL</p>
               <p className="casestudy_main_write">
-                GRIL, is the premier national organisation under the Union
-                Ministry of Environment and Forests, responsible for the task of
-                assessment and monitoring of the forest resources of the country
-                on a regular basis.
+                Quality is not an act; it's a habit. The difficulties
+                encountered in constructing infrastructure start from the
+                foundations. With confidence, it is critical for an engineer to
+                build a firm foundation before designing and executing concepts.
+                Although reliable, conventional methods for ground improvement
+                do not always fit into the time equation. Given the large domain
+                and number of projects on the horizon, the magnitude of the
+                viability of integrating innovative methodologies is worth
+                emphasizing. GRI anticipates newer and innovative ideas from
+                future Industry wizards.
               </p>
             </div>
             <div className="casestudy_image">
-              <img src={FSI} className="imgg"></img>
+              <img src={SoilCaseStudy} className="imgg"></img>
             </div>
           </div>
           <div className="casestudy2">
