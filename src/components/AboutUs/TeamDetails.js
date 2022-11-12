@@ -84,5 +84,11 @@ const contacts = [
     position: "Manager",
     image: Vansh,
   },
+  {
+    id: 13,
+    name: "Ishaan Jain",
+    position: "Manager",
+    image: Vansh,
+  },
 ];
 export default contacts;
