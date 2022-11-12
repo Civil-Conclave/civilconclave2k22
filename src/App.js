@@ -1,11 +1,6 @@
 import "./App.css";
 import React, { Suspense, lazy } from "react";
 import Navbarnew from "./components/General/Navbar.js";
-// import Home from "./components/Home/index.js";
-// import Events from "./components/Events/index.js";
-// import AboutUs from "./components/AboutUs/index.js";
-// import CaseStudy from "./components/CaseStudy/index.js";
-
 import {
   BrowserRouter as Router,
   Routes,
