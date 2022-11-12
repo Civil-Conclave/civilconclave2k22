@@ -76,14 +76,14 @@
 }
 
 .eventName {
-  width: 80%;
-  height: 10%;
+  width: 125%;
+  height: 8%;
   font-size: 2rem;
   font-family: Inter;
   color: white;
   position: absolute;
-  top: 40%;
-  left: 52%;
+  top: 30%;
+  left: 25%;
   transform: rotate(270deg);
 }
 
