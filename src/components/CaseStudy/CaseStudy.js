@@ -2,6 +2,7 @@ import React from "react";
 import FSI from "../../assets/Forest.jpeg";
 import FloodDesign from "../../assets/FloodDesign.jpeg";
 import SoilCaseStudy from "../../assets/SoilCaseStudy.jpeg";
+import Structural from "../../assets/Structural.jpeg";
 import "./CaseStudy.css";
 
 export default function CaseStudyleft() {
@@ -13,6 +14,11 @@ export default function CaseStudyleft() {
   function onPressFlood(e) {
     window.open(
       "https://drive.google.com/file/d/1N74REMpL-o1b93x3xwovsL7APjLruSMM/view?usp=sharing"
+    );
+  }
+  function onPressStructural(e) {
+    window.open(
+      "https://drive.google.com/file/d/1I74RTYqsM97QSh8mCbWOIi058q0TfQpi/view?usp=sharing"
     );
   }
   function onPressGril(e) {
@@ -114,6 +120,42 @@ export default function CaseStudyleft() {
           </div>
           <div className="casestudy2">
             <button className="casestudy-btn" onClick={onPressGril}>
+              PROBLEM STATEMENT
+            </button>
+            <button className="text-casestudy" onClick={onPressRules}>
+              RULE BOOK
+            </button>
+          </div>
+        </div>
+        <div className="casestudy-main Right">
+          <div className="casestudy1">
+            <div className="casestudy_context">
+              <p className="casestudy_heading">
+                TECHNOLOGICAL AUGMENTATIONS TO CONCRETE
+              </p>
+              {/* <p className="casestudy_heading2">
+                In association with Department of Hydrology, IIT Roorkee
+              </p> */}
+              <p className="casestudy_main_write">
+                Concrete is the principal material used in all building
+                procedures. Concrete strength is critical to the structure's
+                longevity. Have you ever considered the scope and volume of
+                on-site manual interventions, such as monitoring and even
+                completing specific trivial but vital tasks? Manual requirements
+                might be unpredictable, displaying a lack of confidence while
+                taxing financial and time resources. Developing on-site
+                solutions that eliminate manual interventions utilizing newer
+                technology such as I.O.T will gain traction in the future. The
+                Civil Conclave provides you with the platform to develop
+                industry-relevant, innovative ideas with a focus on technology.
+              </p>
+            </div>
+            <div className="casestudy_image">
+              <img src={Structural} className="imgg"></img>
+            </div>
+          </div>
+          <div className="casestudy2">
+            <button className="casestudy-btn" onClick={onPressStructural}>
               PROBLEM STATEMENT
             </button>
             <button className="text-casestudy" onClick={onPressRules}>
