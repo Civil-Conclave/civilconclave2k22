@@ -130,12 +130,8 @@ export default function CaseStudyleft() {
         <div className="casestudy-main Right">
           <div className="casestudy1">
             <div className="casestudy_context">
-              <p className="casestudy_heading">
-                TECHNOLOGICAL AUGMENTATIONS TO CONCRETE
-              </p>
-              {/* <p className="casestudy_heading2">
-                In association with Department of Hydrology, IIT Roorkee
-              </p> */}
+              <p className="casestudy_heading">ON SITE CONCRETE TECHNOLOGY</p>
+              <p className="casestudy_heading2">In association with ONGC</p>
               <p className="casestudy_main_write">
                 Concrete is the principal material used in all building
                 procedures. Concrete strength is critical to the structure's
