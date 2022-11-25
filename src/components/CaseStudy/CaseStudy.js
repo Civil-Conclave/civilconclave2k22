@@ -6,7 +6,7 @@ import Structural from "../../assets/Structural.jpeg";
 import "./CaseStudy.css";
 
 export default function CaseStudyleft() {
-  function onPress(e) {
+  function onPressForest(e) {
     window.open(
       "https://drive.google.com/file/d/1gd-mEHXP10-ft1SlHPPRWssC6lwUmLzC/view?usp=sharing"
     );
@@ -26,9 +26,24 @@ export default function CaseStudyleft() {
       "https://drive.google.com/file/d/1vo9bdQ2YqIqYFWJiGnPZqhPdNNpZIT_j/view?usp=sharing"
     );
   }
-  function onPressRules(e) {
+  function onPressForestInfo(e) {
     window.open(
-      "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
+      "https://drive.google.com/file/d/1nuCdHNee2WjwlgFQ3VsP6wCaEhObLb_e/view?usp=sharing"
+    );
+  }
+  function onPressFloodInfo(e) {
+    window.open(
+      "https://drive.google.com/file/d/1jn0KJlOL7fFvzaU9LPsbsAymI_8S9fXQ/view?usp=sharing"
+    );
+  }
+  function onPressSoilInfo(e) {
+    window.open(
+      "https://drive.google.com/file/d/1lOBa8xRGUtIEqA79QXUp4ss-gUKdSLWj/view?usp=sharing"
+    );
+  }
+  function onPressConcreteInfo(e) {
+    window.open(
+      "https://drive.google.com/file/d/1Smmcyw0Q6vijxeDckRN14RGODu6QMod3/view?usp=sharing"
     );
   }
   return (
@@ -54,10 +69,10 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPress}>
+            <button className="casestudy-btn" onClick={onPressForestInfo}>
               PROBLEM STATEMENT
             </button>
-            <button className="text-casestudy" onClick={onPressRules}>
+            <button className="text-casestudy" onClick={onPressForest}>
               RULE BOOK
             </button>
           </div>
@@ -86,10 +101,10 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressFlood}>
+            <button className="casestudy-btn" onClick={onPressFloodInfo}>
               PROBLEM STATEMENT
             </button>
-            <button className="text-casestudy" onClick={onPressRules}>
+            <button className="text-casestudy" onClick={onPressFlood}>
               RULE BOOK
             </button>
           </div>
@@ -119,10 +134,10 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressGril}>
+            <button className="casestudy-btn" onClick={onPressSoilInfo}>
               PROBLEM STATEMENT
             </button>
-            <button className="text-casestudy" onClick={onPressRules}>
+            <button className="text-casestudy" onClick={onPressGril}>
               RULE BOOK
             </button>
           </div>
@@ -151,10 +166,10 @@ export default function CaseStudyleft() {
             </div>
           </div>
           <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressStructural}>
+            <button className="casestudy-btn" onClick={onPressConcreteInfo}>
               PROBLEM STATEMENT
             </button>
-            <button className="text-casestudy" onClick={onPressRules}>
+            <button className="text-casestudy" onClick={onPressStructural}>
               RULE BOOK
             </button>
           </div>
