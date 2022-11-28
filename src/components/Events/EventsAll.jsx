@@ -141,7 +141,7 @@ const Events = (props) => {
   }
   function handleClickCaseS(e) {
     window.open(
-      "https://drive.google.com/file/d/14ZDl0AAlQv-qXGa-hP7NMDHIyWBGcYcq/view?usp=sharing"
+      "https://drive.google.com/file/d/1sf01QiMGc4_5KIyzIQv5B02EuCoW3g9K/view?usp=sharing"
     );
   }
   function handleClickResearch(e) {
@@ -193,7 +193,7 @@ const Events = (props) => {
               </p>
               <div className="caseStudyButtons">
                 <button className="submitButton" onClick={handleClickCaseS}>
-                  Rulebook
+                  Click Here to Submit
                 </button>
                 <button className="submitButton" onClick={handleClick}>
                   View Problem Statements
