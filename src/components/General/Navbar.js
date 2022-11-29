@@ -75,16 +75,18 @@ function Navbarnew() {
             </li>
           </ul>
           <div className="mobile">
-            <VscMenu
+           {ham ?
+     <ImCross
+     className="mob-icon"
+     onClick={showham}
+   />
+   :
+<VscMenu
               className="mob-icon"
-              style={{ display: burgerstate ? "block" : "none" }}
               onClick={showham}
             />
-            <ImCross
-              className="mob-icon"
-              style={{ display: burgerstate ? "none" : "block" }}
-              onClick={showham}
-            />
+           } 
+       
           </div>
         </div>
       </div>
@@ -99,6 +101,7 @@ function Navbarnew() {
                   className={activeMenu === "Home" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("Home");
+                    setHam(false)
                   }}
                 >
                   HOME
@@ -110,6 +113,7 @@ function Navbarnew() {
                   className={activeMenu === "events" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("events");
+                    setHam(false)
                   }}
                 >
                   EVENTS
@@ -123,6 +127,7 @@ function Navbarnew() {
                   }
                   onClick={() => {
                     setActiveMenu("aboutus");
+                    setHam(false)
                   }}
                 >
                   ABOUT US
@@ -137,6 +142,7 @@ function Navbarnew() {
                   }
                   onClick={() => {
                     setActiveMenu("register");
+                    setHam(false)
                   }}
                 >
                   REGISTER
