@@ -159,6 +159,11 @@ const Events = (props) => {
       "https://drive.google.com/file/d/1tBVbifnuDtZygYdHdqSD0WRhz89xUqQa/view?usp=sharing"
     );
   }
+  function handleClickResearchSubmit(e) {
+    window.open(
+      "https://drive.google.com/file/d/1NcwJtkA_mcjhRnI7UuSys_kxJVBxOtCp/view?usp=sharing"
+    );
+  }
 
   return (
     <div className="wholeEventsContainer">
@@ -243,9 +248,17 @@ const Events = (props) => {
                 <br />
                 {data[2].body4}
               </p>
-              <button className="submitButton" onClick={handleClickResearch}>
-                Rulebook
-              </button>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickResearch}>
+                  Rulebook
+                </button>
+                <button
+                  className="submitButton"
+                  onClick={handleClickResearchSubmit}
+                >
+                  Click here to Submit
+                </button>
+              </div>
             </div>
             <div className="rightImg">
               <h1 ref={myRef3}>{data[2].imgtitle}</h1>
