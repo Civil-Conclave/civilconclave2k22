@@ -26,6 +26,9 @@ import Satyarth from "../../assets/Sattu.png";
 import Sutik from "../../assets/Sutik.png";
 import Prakhar from "../../assets/Prakhar.png";
 import Varun from "../../assets/Varun.png";
+import IshaanKing from "../../assets/IshaanKing.png";
+import Ujjwal from "../../assets/Ujjwal.png";
+import Yashasvi from "../../assets/Yashasvi.png";
 const contacts = [
   {
     id: 1,
@@ -51,16 +54,36 @@ const contacts = [
     position: "Overall Co-Coordinator",
     image: ShlokiM,
   },
-  
   {
     id: 5,
     name: "Jatin Singh",
-    position: "Senior Manager",
+    position: "President CEC",
     image: Jatin,
   },
-  
-
-
+  {
+    id: 6,
+    name: "Ishaan Jain",
+    position: "WebD Head",
+    image: IshaanKing,
+  },
+  {
+    id: 10,
+    name: "Shrivardhan Yadav",
+    position: "Sponsorship Head",
+    image: Shri,
+  },
+  {
+    id: 8,
+    name: "Akhil Agrawal",
+    position: "Delegations Head",
+    image: Akhil,
+  },
+  {
+    id: 11,
+    name: "Manik Goyal",
+    position: "Design Head",
+    image: Manik,
+  },
   {
     id: 6,
     name: "Devansh Kumar",
@@ -69,37 +92,17 @@ const contacts = [
   },
   {
     id: 7,
-    name: "Achchar Sharma",
+    name: "Achhar Sharma",
     position: "Senior Manager",
     image: Achchar,
   },
+
   {
-    id: 8,
-    name: "Akhil Agrawal",
+    id: 9,
+    name: "Sutikshna Kumar",
     position: "Senior Manager",
-    image: Akhil,
+    image: Sutik,
   },
-  
-    {
-      id: 9,
-      name: "Sutikshna Kumar",
-      position: "Senior Manager",
-      image: Sutik ,
-    },
-    {
-    id: 10,
-    name: "Shrivardhan Yadav",
-    position: "Sponsorship Head",
-    image: Shri,
-  },
-
-  {
-    id: 11,
-    name: "Manik Goyal",
-    position: "Design Head",
-    image: Manik,
-  },
-
 
   {
     id: 12,
@@ -126,6 +129,12 @@ const contacts = [
     image: Rohit,
   },
   {
+    id: 15,
+    name: "Ujjwal Sharma",
+    position: "Manager",
+    image: Ujjwal,
+  },
+  {
     id: 16,
     name: "Vansh Gupta",
     position: "Manager",
@@ -139,12 +148,18 @@ const contacts = [
     image: Vivek,
   },
   {
+    id: 17,
+    name: "Yashasvi Choudhary",
+    position: "Manager",
+    image: Yashasvi,
+  },
+  {
     id: 18,
     name: "Adarsh Pratap Singh",
     position: "Manager",
     image: Aps,
   },
-  
+
   {
     id: 19,
     name: "Aditya Gautam",
@@ -163,15 +178,14 @@ const contacts = [
     position: "Manager",
     image: Pal,
   },
- 
+
   {
     id: 22,
     name: "Shreyansh Jain",
     position: "Manager",
     image: Shreyansh,
   },
-  
-  
+
   {
     id: 23,
     name: "Kundan Kumar",
@@ -188,27 +202,25 @@ const contacts = [
     id: 25,
     name: "Vaishali Dubey",
     position: "Manager",
-    image: Vaishali ,
+    image: Vaishali,
   },
   {
     id: 26,
     name: "Satyarth Goyal",
     position: "Manager",
-    image: Satyarth ,
+    image: Satyarth,
   },
   {
     id: 27,
     name: "Prakhar Khatri",
     position: "Manager",
-    image: Prakhar ,
+    image: Prakhar,
   },
   {
     id: 28,
     name: "Varun Mishra",
     position: "Manager",
-    image: Varun ,
+    image: Varun,
   },
-  
-
 ];
 export default contacts;

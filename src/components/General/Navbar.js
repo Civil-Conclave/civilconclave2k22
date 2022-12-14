@@ -69,7 +69,7 @@ function Navbarnew() {
                   setActiveMenu("sponsor");
                 }}
               >
-                SPONSOR
+                SPONSORS
               </Link>
             </li>
             <li>
@@ -86,18 +86,11 @@ function Navbarnew() {
             </li>
           </ul>
           <div className="mobile">
-           {ham ?
-     <ImCross
-     className="mob-icon"
-     onClick={showham}
-   />
-   :
-<VscMenu
-              className="mob-icon"
-              onClick={showham}
-            />
-           } 
-       
+            {ham ? (
+              <ImCross className="mob-icon" onClick={showham} />
+            ) : (
+              <VscMenu className="mob-icon" onClick={showham} />
+            )}
           </div>
         </div>
       </div>
@@ -112,7 +105,7 @@ function Navbarnew() {
                   className={activeMenu === "Home" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("Home");
-                    setHam(false)
+                    setHam(false);
                   }}
                 >
                   HOME
@@ -124,7 +117,7 @@ function Navbarnew() {
                   className={activeMenu === "events" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("events");
-                    setHam(false)
+                    setHam(false);
                   }}
                 >
                   EVENTS
@@ -138,23 +131,25 @@ function Navbarnew() {
                   }
                   onClick={() => {
                     setActiveMenu("aboutus");
-                    setHam(false)
+                    setHam(false);
                   }}
                 >
                   ABOUT US
                 </Link>
               </li>
               <li>
-              <Link
-                to="/sponsor"
-                className={activeMenu === "sponsor" ? "active-links" : "links"}
-                onClick={() => {
-                  setActiveMenu("sponsor");
-                  setHam(false)
-                }}
-              >
-                SPONSOR
-              </Link>
+                <Link
+                  to="/sponsor"
+                  className={
+                    activeMenu === "sponsor" ? "active-links" : "links"
+                  }
+                  onClick={() => {
+                    setActiveMenu("sponsor");
+                    setHam(false);
+                  }}
+                >
+                  SPONSOR
+                </Link>
               </li>
               <li>
                 <a
@@ -165,7 +160,7 @@ function Navbarnew() {
                   }
                   onClick={() => {
                     setActiveMenu("register");
-                    setHam(false)
+                    setHam(false);
                   }}
                 >
                   REGISTER

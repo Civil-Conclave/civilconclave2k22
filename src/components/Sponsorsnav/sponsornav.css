@@ -1,113 +1,130 @@
-.sponsornav-header{
+.sponsornav-header {
   text-align: center;
   align-items: center;
   justify-content: center;
   justify-items: center;
 }
-.sponsornav-header h1{
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 55px;
-    text-align: center;
-    color: #F5F5F5;
+.sponsornav-header h1 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  color: #f5f5f5;
 }
-.spon-line1{
-    background: linear-gradient(90deg, rgba(31, 120, 159, 0) 0%, rgba(31, 120, 159, 0.73) 46.68%, rgba(31, 120, 159, 0) 97.41%);
-border-radius: 0px;
-transform: rotate(-180deg);
-width: 405px;
-height: 15px;
-margin-top: 4px;
-margin-left: 36vw;
+.spon-line {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 120, 159, 0) 0%,
+    rgba(31, 120, 159, 0.73) 46.68%,
+    rgba(31, 120, 159, 0) 97.41%
+  );
+  border-radius: 0px;
+  transform: rotate(-180deg);
+  width: 100%;
+  height: 10px;
+  margin-bottom: 0.5rem;
 }
-.sponnav-container{
-display: grid;
-grid-template-columns: auto auto auto;
-justify-content: space-evenly;
+.sponnav-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
 }
-.sponnavbody h1{
-    font-family: 'Helvetica';
-    color: #F5F5F5;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-text-align: center;
+.sponnavbody h1 {
+  font-family: "Helvetica";
+  color: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
 }
-.sponnavbody p{
-   color:  rgba(7, 96, 137, 1);
-   text-align: center;
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-margin-top: -15px;
+.sponnavbody p {
+  color: rgba(7, 96, 137, 1);
+  text-align: center;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: -15px;
 }
-.sponnavbody{
-    width: 100%;
-margin-top: 13vh;
+.sponnavbody {
+  width: 70%;
+  margin: auto;
+  margin-top: 10vh;
 }
-.sponnavbody-img{
- justify-content: center;
- text-align: center;
- justify-items: center;
-    align-items: center;
+.sponnavbody img {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
 @media (max-width: 900px) {
-    .sponnav-container{
-        display: flex;
-     flex-direction: column;
-        justify-content: space-evenly;
-        }
-        .sponnavbody{
-            width: 100%;
-        margin-top: 10vh;
-        }
-        .sponnavbody-img{
-            justify-content: center;
-            text-align: center;
-            justify-items: center;
-               align-items: center;
-           }
-        .sponnavbody img{
-            height: 25vh;
-        }
-        .sponnavbody h1{
-            font-family: 'Helvetica';
-            color: #F5F5F5;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        text-align: center;
-        }
-        .sponnavbody p{
-           color:  rgba(7, 96, 137, 1);
-           text-align: center;
-        font-family: 'Helvetica';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        margin-top: -15px;
-        }
-        .sponsornav-header h1{
-            font-family: 'Helvetica';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 38px;
-            line-height: 55px;
-            text-align: center;
-            color: #F5F5F5;
-        }
-        .spon-line1{
-            background: linear-gradient(90deg, rgba(31, 120, 159, 0) 0%, rgba(31, 120, 159, 0.73) 46.68%, rgba(31, 120, 159, 0) 97.41%);
-        border-radius: 0px;
-        transform: rotate(-180deg);
-        width: 405px;
-        height: 15px;
-        top: 154px;
-        left: -140px;
-        position: absolute;
-        
-        }
+  .sponnav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .sponnavbody {
+    margin-top: 5vh;
+  }
+  .sponnavbody-img {
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .sponnavbody img {
+    /* height: 25vh; */
+  }
+  .sponnavbody h1 {
+    font-family: "Helvetica";
+    color: #f5f5f5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .sponnavbody p {
+    color: rgba(7, 96, 137, 1);
+    text-align: center;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: -15px;
+  }
+  .sponsornav-header h1 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+  .spon-line {
+    background: linear-gradient(
+      90deg,
+      rgba(31, 120, 159, 0) 0%,
+      rgba(31, 120, 159, 0.73) 46.68%,
+      rgba(31, 120, 159, 0) 97.41%
+    );
+    border-radius: 0px;
+    transform: rotate(-180deg);
+    width: 90%;
+    margin: auto;
+    height: 8px;
+    top: 20%;
+    /* left: -140px; */
+    position: absolute;
+  }
+  .line2 {
+    top: 22%;
+  }
 }
