@@ -1,0 +1,113 @@
+.sponsornav-header{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.sponsornav-header h1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #F5F5F5;
+}
+.spon-line1{
+    background: linear-gradient(90deg, rgba(31, 120, 159, 0) 0%, rgba(31, 120, 159, 0.73) 46.68%, rgba(31, 120, 159, 0) 97.41%);
+border-radius: 0px;
+transform: rotate(-180deg);
+width: 405px;
+height: 15px;
+margin-top: 4px;
+margin-left: 36vw;
+}
+.sponnav-container{
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: space-evenly;
+}
+.sponnavbody h1{
+    font-family: 'Helvetica';
+    color: #F5F5F5;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+}
+.sponnavbody p{
+   color:  rgba(7, 96, 137, 1);
+   text-align: center;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+margin-top: -15px;
+}
+.sponnavbody{
+    width: 100%;
+margin-top: 13vh;
+}
+.sponnavbody-img{
+ justify-content: center;
+ text-align: center;
+ justify-items: center;
+    align-items: center;
+}
+@media (max-width: 900px) {
+    .sponnav-container{
+        display: flex;
+     flex-direction: column;
+        justify-content: space-evenly;
+        }
+        .sponnavbody{
+            width: 100%;
+        margin-top: 10vh;
+        }
+        .sponnavbody-img{
+            justify-content: center;
+            text-align: center;
+            justify-items: center;
+               align-items: center;
+           }
+        .sponnavbody img{
+            height: 25vh;
+        }
+        .sponnavbody h1{
+            font-family: 'Helvetica';
+            color: #F5F5F5;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        }
+        .sponnavbody p{
+           color:  rgba(7, 96, 137, 1);
+           text-align: center;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: -15px;
+        }
+        .sponsornav-header h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 55px;
+            text-align: center;
+            color: #F5F5F5;
+        }
+        .spon-line1{
+            background: linear-gradient(90deg, rgba(31, 120, 159, 0) 0%, rgba(31, 120, 159, 0.73) 46.68%, rgba(31, 120, 159, 0) 97.41%);
+        border-radius: 0px;
+        transform: rotate(-180deg);
+        width: 405px;
+        height: 15px;
+        top: 154px;
+        left: -140px;
+        position: absolute;
+        
+        }
+}

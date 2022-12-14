@@ -62,6 +62,17 @@ function Navbarnew() {
               </Link>
             </li>
             <li>
+              <Link
+                to="/sponsor"
+                className={activeMenu === "sponsor" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("sponsor");
+                }}
+              >
+                SPONSOR
+              </Link>
+            </li>
+            <li>
               <a
                 href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
                 target="_blank"
@@ -132,6 +143,18 @@ function Navbarnew() {
                 >
                   ABOUT US
                 </Link>
+              </li>
+              <li>
+              <Link
+                to="/sponsor"
+                className={activeMenu === "sponsor" ? "active-links" : "links"}
+                onClick={() => {
+                  setActiveMenu("sponsor");
+                  setHam(false)
+                }}
+              >
+                SPONSOR
+              </Link>
               </li>
               <li>
                 <a
