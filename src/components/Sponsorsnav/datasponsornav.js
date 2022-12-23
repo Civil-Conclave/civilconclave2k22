@@ -12,75 +12,73 @@ import sponnimg11 from "../../assets/knowledge.png";
 import sponnimg12 from "../../assets/silver.png";
 import sponnimg13 from "../../assets/Techncal.png";
 
-const sponnavdata=
-[
-{
+const sponnavdata = [
+  {
     url: img,
     title: "TITLE SPONSOR",
-    body: "STEEL SUTORITY OF INDIA",
-},
-{
+    body: "STEEL AUTHORITY OF INDIA",
+  },
+  {
     url: sponnimg1,
     title: "TITLE SPONSOR",
     body: "TATA STEEL",
-},
+  },
 
-{
+  {
     url: sponnimg3,
     title: "PLATINUM SPONSOR",
     body: "NATIONAL MISSION FOR CLEAN GANGA",
-},
-{
+  },
+  {
     url: sponnimg2,
     title: "PLATINUM SPONSOR",
     body: "METHODEX",
-},
-{
+  },
+  {
     url: sponnimg5,
     title: "GOLD SPONSOR",
     body: "G R INFRAPROJECTS LTD.",
-},
-{
+  },
+  {
     url: sponnimg6,
     title: "GOLD SPONSOR",
     body: "SIKA",
-},
-{
+  },
+  {
     url: sponnimg7,
     title: "GOLD SPONSOR",
     body: "OIL AND NATURAL GAS CORPORATION",
-},
-{
+  },
+  {
     url: sponnimg12,
     title: "SILVER PARTNER",
     body: "EDU FABRICA",
-},
-{
+  },
+  {
     url: sponnimg8,
     title: "BRONZE SONSOR ",
     body: "CONSORT",
-},
-{
+  },
+  {
     url: sponnimg9,
     title: "BRONZE SPONSOR",
     body: "NCC",
-},
-{
+  },
+  {
     url: sponnimg10,
     title: "BRONZE SPONSOR",
     body: "OIL AND NATURAL GAS CORPORATION",
-},
-{
+  },
+  {
     url: sponnimg11,
     title: "KNOWLEDGE PARTNER",
     body: "FOREST SURVEY OF INDIA",
-},
+  },
 
-{
+  {
     url: sponnimg13,
     title: "TECHNICAL PARTNER",
     body: "BENTLEY",
-},
-
-]
-export default sponnavdata
+  },
+];
+export default sponnavdata;
