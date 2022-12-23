@@ -165,6 +165,16 @@ const Events = (props) => {
     );
   }
 
+  function handleSubmitDesign(e) {
+    window.open("https://forms.gle/JfSMk2DGKeHYSmRD8");
+  }
+
+  function handleProblemStatements(e) {
+    window.open(
+      "https://drive.google.com/file/d/1sglDM9gkdQ9wVectu2mSeBFjbz1bhLFm/view?usp=sharing"
+    );
+  }
+
   return (
     <div className="wholeEventsContainer">
       <div className="headerContainer" ref={headerRef}>
@@ -305,9 +315,17 @@ const Events = (props) => {
                 <br />
                 {data[4].body4}
               </p>
-              <button className="submitButton" onClick={handleClickDesign}>
-                Rulebook
-              </button>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleSubmitDesign}>
+                  Click Here to Submit
+                </button>
+                <button
+                  className="submitButton"
+                  onClick={handleProblemStatements}
+                >
+                  View Problem Statements
+                </button>
+              </div>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
