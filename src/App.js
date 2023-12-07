@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <div className="finalWrapper">
-          <Navbarnew></Navbarnew>
+          {/*<Navbarnew></Navbarnew>*/}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
