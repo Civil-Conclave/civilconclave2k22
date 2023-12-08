@@ -13,27 +13,27 @@ import {
 import "./App.css";
 const Home = lazy(() => {
   return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/Home/index.js")), 700);
+    setTimeout(() => resolve(import("./components/Home/index.js")), 400);
   });
 });
 const Events = lazy(() => {
   return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/Events/index.js")), 700);
+    setTimeout(() => resolve(import("./components/Events/index.js")), 400);
   });
 });
 const AboutUs = lazy(() => {
   return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/AboutUs/index.js")), 700);
+    setTimeout(() => resolve(import("./components/AboutUs/index.js")), 400);
   });
 });
 const CaseStudy = lazy(() => {
   return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/CaseStudy/index.js")), 700);
+    setTimeout(() => resolve(import("./components/CaseStudy/index.js")), 400);
   });
 });
 const Sponsornav= lazy(() => {
   return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/Sponsorsnav/index.js")), 700);
+    setTimeout(() => resolve(import("./components/Sponsorsnav/index.js")), 400);
   });
 });
 
