@@ -15,15 +15,18 @@ function Events() {
 
   useLayoutEffect(() => {
     setWidth(ref.current.offsetWidth);
+    console.log("uselayout triggered")
+    console.log("width:",width);
   }, []);
 
-  console.log(width);
+
 
   const [prevPos, setPrevPos] = useState(0.1 * width);
   const [nextPos, setNextPos] = useState(0.9 * width);
   useEffect(() => {
     setPrevPos(0.05 * width);
     setNextPos(0.9 * width);
+    console.log("useeffect triggered")
   }, [width]);
 
   const scrollerPrev = (scrollOffset) => {
