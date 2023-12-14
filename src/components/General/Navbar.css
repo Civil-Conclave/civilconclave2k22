@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   height: 8vh;
+  width: 100%;
 }
 .logos {
   top: 5%;
@@ -28,22 +29,34 @@
 #img2 {
   width: 100%;
 }
+
+.nav-links {
+  display: flex;
+  width: 100%;
+  /* margin-left: 54vw; */
+  /* padding-left: 1vw; */
+  
+}
+
 .pageNames {
   width: 60%;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 14rem;
+  margin-left: 31vw;
 }
-.nav-links {
-  display: flex;
-  width: 60%;
-  /* margin-left: 54vw; */
-}
+
 .nav-links li {
   list-style-type: none;
-  /* display: flex; */
+  display: flex;
+  /* margin-left: 2vw; */
+  align-items:flex-start;
+  /* justify-self: flex-end; */
+  font-size: 1.25vw;
+ 
+  /* align-content: center; */
+  /* justify-content: center; */
 }
 .mobile {
   display: none;
@@ -85,7 +98,7 @@
   .mob-icon {
     position: absolute;
     z-index: 50;
-    transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out,;
   }
   .nav-links li {
     display: none;
@@ -94,7 +107,10 @@
 .ham {
   overflow: hidden;
   overflow-y: hidden;
-  animation: anim 2s;
+  animation-name: anim ;
+  animation-duration: 2s;
+  /* animation-direction: reverse; */
+  
   /* position: absolute; */
   position: fixed;
   top: 0;
@@ -102,12 +118,12 @@
   background: transparent;
   height: 100vh;
   background-color: black;
-  width: 38vw;
+  width: 50vw;
   margin-left: 62vw;
 }
 @keyframes anim {
   from {
-    width: 76vw;
+    width: 0vw;
   }
   to {
     width: 38vw;
@@ -115,7 +131,9 @@
 }
 .nav-i {
   overflow: hidden;
-  animation: anim 2s;
+  animation-name: anim;
+  animation-duration: 2s;
+  /* animation-direction: reverse; */
 }
 .nav-i li {
   justify-content: space-between;

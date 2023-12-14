@@ -68,5 +68,19 @@ const data = [
     body4: "",
     imgtitle: "DESIGN DIFFERENT",
   },
+
+  {
+    url: img2,
+    title: "BRAINSTORM, INNOVATE, SUSTAIN",
+    body1:
+      "InnoVista provides a platform for aspiring leaders to bring startup ideas to life. Pitch your world-changing concept, as innovation thrives in the hands of determined individuals eager to reshape the future"    
+      ,
+      body2:
+      "For civil geeks, it is essential to provide startups with a platform to showcase their ideas to the general public and discuss them among like-minded entrepreneurs.",
+      body3:
+      "The Civil conclave’24 proudly presents the “InnoVista” specifically for civil entrepreneurs. Get your thinking hats, flash your ideas, and form Enterprises.",
+      body4: "A mixture of technology, vision, and business acumen bound together to give a new peak to civil.",
+    imgtitle: "INNOVISTA",
+  },
 ];
 export default data;
