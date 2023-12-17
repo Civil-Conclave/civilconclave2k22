@@ -33,6 +33,9 @@
   width: 100%;
   opacity: 1;
 }
+.bullet{
+  color: #E5D536;
+}
 
 .sec {
   position: relative;

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/conclavelogo.png";
+import Logo from "../../assets/footerconclavelogo.png";
 import Insta from "../../assets/Insta.png";
 import fb from "../../assets/fb.png";
 import linked from "../../assets/linked.png";

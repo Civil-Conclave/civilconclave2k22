@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-import map from "../../assets/map.png";
+import map from "../../assets/Rectangle 447.png";
 import "./ContactUs.css";
 
 export default function Lastcomponent() {
