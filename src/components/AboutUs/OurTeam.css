@@ -1,20 +1,24 @@
 .teamContainer {
-  background-color: black;
+  background-color: #010101;
   margin: 4rem 0 4rem 0;
   width: 100%;
 }
+
 .teamHeader {
   padding-left: 10vw;
 }
+
 .blueLine {
-  background: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%);
+  background: linear-gradient(180deg, #2C4C9D 0%, rgba(44, 76, 157, 0) 92.74%);
 
   width: 80vw;
   height: 18vh;
   z-index: 5;
 }
+
+
 .HeaderInfo {
-  color: white;
+  color: #E5D536;
   font-weight: 700;
   font-size: 6rem;
   transform: translateY(-50%);
@@ -32,6 +36,7 @@
   justify-items: center;
   align-items: center;
 }
+
 @media (max-width: 720px) {
   .MiddleDiv {
     column-gap: 20px;
