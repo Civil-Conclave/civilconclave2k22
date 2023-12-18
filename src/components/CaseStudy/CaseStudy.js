@@ -5,6 +5,10 @@ import SoilCaseStudy from "../../assets/SoilCaseStudy.jpeg";
 import Structural from "../../assets/Structural.jpeg";
 import "./CaseStudy.css";
 
+
+import Ellipse from "../../assets/Ellipse.png";
+
+
 export default function CaseStudyleft() {
   function onPressForest(e) {
     window.open(
@@ -48,6 +52,32 @@ export default function CaseStudyleft() {
   }
   return (
     <>
+
+<div className="eventContainer">
+<div className="ellipse">
+        <div className="headerInfo">
+          <div className="headerEventHeading">EVENTS</div>
+          <hr className="headline"/>
+          <div className="eventDes">CASE STUDY</div>
+        </div>
+        <img src={Ellipse} className="ellipseImg"></img>
+       </div>
+       <div className="leftStripes">
+        <div className="stripes1"></div>
+        <div className="space"></div>
+        <div className="stripes1"></div>
+       </div>
+       <div className="rightStripes">
+        {/* <div className="stripes2"></div> */}
+        <div className="space"></div>
+        <div className="stripes2"></div>
+      </div>
+</div>
+     
+
+
+
+
       <div className="casestudy-wrapper">
         <div className="casestudy-main Left">
           <div className="casestudy1">
