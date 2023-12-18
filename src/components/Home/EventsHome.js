@@ -7,6 +7,7 @@ import Event5 from "../../assets/Event1.png";
 import Event6 from "../../assets/workshop.png";
 import Event7 from "../../assets/unsplash_gcsNOsPEXfs.png";
 import "./EventsHome.css";
+import {Link} from "react-router-dom";
 
 function Events() {
   const ref = useRef(null);
@@ -76,31 +77,31 @@ function Events() {
       <div className="eventHomeContainer">
         <div className="sec sec1">
           <img className="eventImages" src={Event1} alt="/" />
-          <div className="eventName event1"><span className="bullet">•</span> Case Study</div>
+          <div className="eventName event1"><Link style={{ color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Case Study</Link></div>
         </div>
         <div className="sec 2">
           <img className="eventImages" src={Event2} alt="/" />
-          <div className="eventName event2"><span className="bullet">•</span> Research Renaissance</div>
+          <div className="eventName event2"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Research Renaissance</Link></div>
         </div>
         <div className="sec 3">
           <img className="eventImages" src={Event3} alt="/" />
-          <div className="eventName event3"><span className="bullet">•</span> Seek the civil geek</div>
+          <div className="eventName event3"><Link style={{ color: 'white',textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Seek the civil geek</Link></div>
         </div>
         <div className="sec 4">
           <img className="eventImages" src={Event4} alt="/" />
-          <div className="eventName event4"><span className="bullet">•</span> Design Different</div>
+          <div className="eventName event4"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Design Different</Link></div>
         </div>
         <div className="sec 5">
           <img className="eventImages" src={Event5} alt="/" />
-          <div className="eventName event5"><span className="bullet">•</span> Guest Lectures</div>
+          <div className="eventName event5"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Guest Lectures</Link></div>
         </div>
         <div className="sec 6">
           <img className="eventImages" src={Event7} alt="/" />
-          <div className="eventName event6"><span className="bullet">•</span> Innovista</div>
+          <div className="eventName event6"><Link style={{ color: 'white',textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Innovista</Link></div>
         </div>
         <div className="sec 7">
           <img className="eventImages" src={Event6} alt="/" />
-          <div className="eventName event7"><span className="bullet">•</span> Workshop</div>
+          <div className="eventName event7"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Workshop</Link></div>
         </div>
       </div>
     </div>
