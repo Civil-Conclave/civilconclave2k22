@@ -38,13 +38,14 @@
 }
 .teamName {
   font-size: 2rem;
+  font-weight: bold;
 }
 .teamPresents {
   font-size: 1rem;
   margin: auto;
 }
 .teamYear {
-  color: #006793;
+  color: #E5D536;
 }
 .ThemeHeading {
   padding: 0.5rem;
@@ -56,26 +57,35 @@
   color: white;
   font-size: 6rem;
   width: 100%;
+  text-align: center;
 }
 
 .colorblue {
-  color: #006793;
+  color: #E5D536;
   font-size: 9rem;
+  line-height: 0.8;
   letter-spacing: 20%;
 }
 
 .ThemeInfo {
+  margin-top: 4rem;
+  line-height: 1.8;
+  text-align: center;
   position: relative;
   padding-bottom: 1.5rem;
 }
 
 .btnRegister {
-  background-color: #005a80;
+  margin-top: 1.5rem;
+  background-color: #122B5B;
+  /*border: 1px solid white;*/
+  border-style: none;
   font-size: 1.5rem;
   color: white;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
   border-radius: 1rem;
-  /* border-color: white; */
+  cursor: pointer;
+
 }
 .Date {
   font-size: 1.5rem;
@@ -102,14 +112,17 @@
     padding: 1rem;
   }
   .ThemeInfo {
+    margin-top: 0px !important;
+    font-size: 3vw;
     width: 80%;
     text-align: center;
-    padding: 1rem;
+
   }
   .colorblue {
     font-size: 3rem;
   }
   .btnRegister {
+    margin-top: 10px!important;
     font-size: 1.2rem;
   }
 }

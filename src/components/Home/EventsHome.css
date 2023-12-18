@@ -27,11 +27,19 @@
   /* width: 100%; */
   transition-duration: 1s;
   width: 150%;
-}
 
+}
+.eventImages{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .eventImages:hover {
   width: 100%;
   opacity: 1;
+}
+.bullet{
+  color: #E5D536;
 }
 
 .sec {
