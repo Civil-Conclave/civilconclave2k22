@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/conclavelogo.png";
+import Logo from "../../assets/footerconclavelogo.png";
 import Insta from "../../assets/Insta.png";
 import fb from "../../assets/fb.png";
 import linked from "../../assets/linked.png";
@@ -8,7 +8,7 @@ function footer() {
   return (
     <div className="Container">
       <div className="MainFooter">
-        <div className="smalldiv">
+        <div className="smalldiv1">
           <img src={Logo} className="logo" />
         </div>
         <div className="smalldiv">

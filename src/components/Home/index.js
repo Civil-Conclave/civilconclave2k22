@@ -16,8 +16,7 @@ function Home() {
     useScrollSnap({ref: scrollRef, duration: 20, delay: 5});
 
 
-    return (
-        <div className="HomeWrapper" ref={scrollRef}>
+    return (<div className="HomeWrapper" ref={scrollRef}>
             <span>
                 <Navbarnew></Navbarnew>
                 <Landing></Landing>
@@ -28,11 +27,13 @@ function Home() {
             <Heading name="Events"></Heading>
             <EventsHome></EventsHome>
             </span>
+            <span>
+                <Heading name="Sponsors"></Heading>
             <Sponsor></Sponsor>
+                </span>
             <ContactUs></ContactUs>
             <Footer></Footer>
-        </div>
-    );
+        </div>);
 }
 
 export default Home;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutConclave.css";
-import Logo from "../../assets/conclavelogo1.png";
+import Logo from "../../assets/aboutconclavelogo.png";
 import Buildings from "../../assets/WhiteBuildings.png";
 
 function AboutConclave() {

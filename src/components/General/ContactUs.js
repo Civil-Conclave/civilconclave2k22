@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-import map from "../../assets/map.png";
+import map from "../../assets/Rectangle 447.png";
 import "./ContactUs.css";
 
 export default function Lastcomponent() {
@@ -36,7 +36,7 @@ export default function Lastcomponent() {
               </div>
             </div>
             <div className="input2">
-              <p className="inputStyle">Type your message here...</p>
+              <p className="inputStyle">Your Message</p>
               <input type="Message" className="message-input" name="message" />
             </div>
             <div className="btn">
