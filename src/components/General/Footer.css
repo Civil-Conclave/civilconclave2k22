@@ -1,0 +1,76 @@
+.Container {
+  width: 100%;
+  background-color: #2C4C9D;
+  z-index: 100;
+}
+
+.MainFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+.FHeading {
+  font-weight: 600;
+  line-height: 1.134rem;
+  font-size: 0.938rem;
+  color: #278ac1;
+  margin-bottom: 1.66vh;
+  /* margin-top: 0; */
+}
+
+.Ftext {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.908rem;
+  color: white;
+  margin-bottom: 1vh;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.smalldiv {}
+
+.bluecolor {
+  background-color: #E5D536;
+  height: 2.49vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1vw;
+}
+
+.imgBox {
+  margin-right: 1vw;
+}
+
+.fu {}
+
+@media (max-width: 1020px) {
+  .MainFooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .smalldiv {
+    margin-top: 1.47vh;
+  }
+
+  .Ftext {
+    margin-bottom: 0.9vh;
+  }
+}
