@@ -16,8 +16,8 @@ function Events() {
 
   useLayoutEffect(() => {
     setWidth(ref.current.offsetWidth);
-    console.log("uselayout triggered")
-    console.log("width:",width);
+    // console.log("uselayout triggered")
+    // console.log("width:",width);
   }, []);
 
 
@@ -27,29 +27,31 @@ function Events() {
   useEffect(() => {
     setPrevPos(0.05 * width);
     setNextPos(0.9 * width);
-    console.log("useeffect triggered")
+    // console.log("useeffect triggered")
   }, [width]);
 
   const scrollerPrev = (scrollOffset) => {
-    // console.log("prevpos is: ", prevPos)
+    console.log("prevpos is: ", prevPos)
     if (prevPos < 76) {
       return;
     }
     console.log(ref.current.scrollLeft);
     ref.current.scrollLeft += scrollOffset;
-    console.log("scrollLeft is", ref.current.scrollLeft);
+    // console.log("scrollLeft is", ref.current.scrollLeft);
     setPrevPos(prevPos - width / 4);
     setNextPos(nextPos - width / 4);
     setIsActive(true);
   };
   const scrollerNext = (scrollOffset) => {
-    if (nextPos === 1.4000000000000001 * width) {
+    // console.log("width",width)
+    // console.log("nextpos", nextPos)
+    if (nextPos/width>1.2) {
       return;
     }
     console.log(nextPos / width);
-    console.log(ref.current);
+    // console.log(ref.current);
     ref.current.scrollLeft += scrollOffset;
-    console.log("scrollLeft is", ref.current.scrollLeft);
+    // console.log("scrollLeft is", ref.current.scrollLeft);
     setPrevPos(prevPos + width / 4);
     setNextPos(nextPos + width / 4);
     setIsActive(true);
