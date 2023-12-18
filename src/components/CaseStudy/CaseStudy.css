@@ -189,7 +189,7 @@
   /* line-height: 7.64vh; */
 }
 .eventDes {
-  color: #9dd4f6;
+  color: #e5edf3;
   font-size: 1.8rem;
   font-weight: 700;
   /* line-height: 4.15vh; */
@@ -218,8 +218,8 @@
   height: 3.04vh;
   background: linear-gradient(
     90deg,
-    #1f789f 25.19%,
-    rgba(31,120,159, 0.73) 67.54%,
+    #e5d536 25.19%,
+    rgba(229,213,54, 0.73) 67.54%,
     rgba(31, 120, 159, 0) 97.41%
   );
   border-radius: 0px;
@@ -230,8 +230,8 @@
   height: 3.04vh;
   background: linear-gradient(
     90deg,
-    #1f789f 25.19%,
-    rgba(31,120,159, 0.73) 67.54%,
+    #e5d536 25.19%,
+    rgba(229,213,54, 0.73) 67.54%,
     rgba(31, 120, 159, 0) 97.41%
   );
 

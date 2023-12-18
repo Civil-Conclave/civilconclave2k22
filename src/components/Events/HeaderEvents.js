@@ -50,6 +50,9 @@ function HeaderEvents(props) {
         <button className="footText" onClick={handleClick3}>
           Research work Presentation
         </button>
+        <button className="footText" onClick={handleClick3}>
+          Workshop
+        </button>
         <button className="footText" onClick={handleClick4}>
           Seek the Civil Geek
         </button>

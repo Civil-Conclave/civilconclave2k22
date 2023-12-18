@@ -6,7 +6,7 @@ import Structural from "../../assets/Structural.jpeg";
 import "./CaseStudy.css";
 
 
-import Ellipse from "../../assets/Ellipse.png";
+import Ellipse from "../../assets/Ellipse1.png";
 
 
 export default function CaseStudyleft() {

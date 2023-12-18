@@ -62,6 +62,7 @@ const Events = (props) => {
   const myRef4 = useRef(null);
   const myRef5 = useRef(null);
   const myRef6 = useRef(null);
+  const myRef7 = useRef(null);
   const headerRef = useRef(null);
   const footerRef = useRef(null);
   const [currevent, setCurrevent] = useState("");
@@ -370,10 +371,43 @@ const Events = (props) => {
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
-              <h1 ref={myRef1}>{data[5].imgtitle}</h1>
+              <h1 ref={myRef6}>{data[5].imgtitle}</h1>
               <img src={data[5].url} alt="" />
             </div>
           </div>
+
+
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[6].title}</h3>
+              <p>
+                {data[6].body1}
+                <br />
+                <br />
+                {data[6].body2}
+                <br />
+                <br />
+                {data[6].body3}
+                <br />
+                <br />
+                {data[6].body4}
+              </p>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickCaseS}>
+                  Click Here to Submit
+                </button>
+                <button className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button>
+              </div>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="rightImg">
+              <h1 ref={myRef7}>{data[6].imgtitle}</h1>
+              <img src={data[6].url} alt="" />
+            </div>
+          </div>
+
         </div>
       </div>
       <div className="contentFooter" ref={footerRef}>
