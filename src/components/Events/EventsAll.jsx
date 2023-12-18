@@ -113,6 +113,16 @@ const Events = (props) => {
       if (myRef5.current) observer5.unobserve(myRef5.current);
     };
   }, [myRef5, options]);
+
+  useEffect(() => {
+    const observer6 = new IntersectionObserver(callbackFunction, options);
+    if (myRef6.current) observer6.observe(myRef6.current);
+
+    return () => {
+      if (myRef6.current) observer6.unobserve(myRef6.current);
+    };
+  }, [myRef6, options]);
+
   useEffect(() => {
     const observerHeader = new IntersectionObserver(
       callbackFunctionHeader,
@@ -184,6 +194,7 @@ const Events = (props) => {
           ref3={myRef3}
           ref4={myRef4}
           ref5={myRef5}
+          ref6={myRef6}
         ></HeaderEvents>
       </div>
       <div className="EventsAllWrapper">

@@ -17,6 +17,9 @@ function HeaderEvents(props) {
   const handleClick5 = () => {
     props.ref5.current?.scrollIntoView({ behavior: "smooth" });
   };
+  const handleClick6 = () => {
+    props.ref6.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="eventContainer">
       <div className="ellipse">
@@ -52,6 +55,9 @@ function HeaderEvents(props) {
         </button>
         <button className="footText" onClick={handleClick5}>
           Design Different
+        </button>
+        <button className="footText" onClick={handleClick6}>
+          Innovista
         </button>
       </div>
       <div className="footLine">
