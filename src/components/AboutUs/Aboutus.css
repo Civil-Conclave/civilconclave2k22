@@ -1,5 +1,5 @@
 .about-wrapper {
-  background-color: black;
+  background-color: #010101;
   display: flex;
   flex-direction: column;
   /* justify-content: flex-start; */
@@ -24,12 +24,14 @@
 
 .aboutBackground {
   position: absolute;
-  background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%);
+  background-image: linear-gradient(180deg, #2C4C9D 0%, rgba(44, 76, 157, 0) 92.74%);
   /* width: 60%; */
   height: 100%;
   width: 100%;
   /* padding: 1rem; */
 }
+
+
 .fillLeft {
   transform-origin: 100%;
   opacity: 1;
@@ -44,6 +46,7 @@
   width: 55%;
   z-index: 2;
 }
+
 .about-image {
   width: 45%;
   display: flex;
@@ -51,15 +54,18 @@
   z-index: 2;
   justify-content: flex-end;
 }
+
 .about-png {
   width: 70%;
 }
+
 .about-heading {
-  color: #278ac1;
+  color: #E5D536;
   font-size: 3vw;
   font-family: Helvetica;
   width: 100%;
 }
+
 .about-information {
   color: white;
   font-size: 1.5rem;
@@ -73,20 +79,25 @@
     align-items: center;
     margin: 2rem auto;
   }
+
   .about-context {
     width: 90%;
     margin: auto;
     padding: 0;
   }
+
   .about-heading {
     text-align: center;
   }
+
   .about-image {
     width: 60%;
   }
+
   .about-png {
     width: 100%;
   }
+
   .about-information p {
     text-align: center;
     font-size: 1rem;

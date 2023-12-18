@@ -3,6 +3,7 @@
   background-color: #2C4C9D;
   z-index: 100;
 }
+
 .MainFooter {
   display: flex;
   flex-direction: row;
@@ -20,6 +21,7 @@
   margin-bottom: 1.66vh;
   /* margin-top: 0; */
 }
+
 .Ftext {
   font-weight: 400;
   font-size: 0.75rem;
@@ -27,19 +29,23 @@
   color: white;
   margin-bottom: 1vh;
 }
+
 .bold {
   font-weight: bold;
 }
-.smalldiv {
-}
+
+.smalldiv {}
+
 .bluecolor {
-  background-color: #E5D536 ;
+  background-color: #E5D536;
   height: 2.49vh;
 }
+
 .logo {
   display: flex;
   justify-content: center;
 }
+
 .image {
   display: flex;
   justify-content: space-between;
@@ -47,14 +53,16 @@
   align-items: center;
   margin-left: -1vw;
 }
+
 .imgBox {
   margin-right: 1vw;
 }
 
 @media (max-width: 1020px) {
-  .Container{
+  .Container {
     overflow: hidden;
   }
+
   .MainFooter {
     display: flex;
     /*padding-left: 1rem;*/
@@ -62,19 +70,22 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
   .smalldiv {
 
-  padding-left: 1rem;
+    padding-left: 1rem;
 
     margin-top: 1.47vh;
   }
-  .smalldiv1{
-    margin-top: -10px!important;
+
+  .smalldiv1 {
+    margin-top: -10px !important;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .Ftext {
     max-width: 90%;
     margin-bottom: 0.9vh;
