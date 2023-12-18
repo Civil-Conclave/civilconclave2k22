@@ -36,7 +36,7 @@ export default function Lastcomponent() {
               </div>
             </div>
             <div className="input2">
-              <p className="inputStyle">Type your message here...</p>
+              <p className="inputStyle">Your Message</p>
               <input type="Message" className="message-input" name="message" />
             </div>
             <div className="btn">

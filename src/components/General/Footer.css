@@ -52,14 +52,31 @@
 }
 
 @media (max-width: 1020px) {
+  .Container{
+    overflow: hidden;
+  }
   .MainFooter {
+    display: flex;
+    /*padding-left: 1rem;*/
+
     flex-direction: column;
     align-items: flex-start;
   }
   .smalldiv {
+
+  padding-left: 1rem;
+
     margin-top: 1.47vh;
   }
+  .smalldiv1{
+    margin-top: -10px!important;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .Ftext {
+    max-width: 90%;
     margin-bottom: 0.9vh;
   }
 }

@@ -112,14 +112,17 @@
     padding: 1rem;
   }
   .ThemeInfo {
+    margin-top: 0px !important;
+    font-size: 3vw;
     width: 80%;
     text-align: center;
-    padding: 1rem;
+
   }
   .colorblue {
     font-size: 3rem;
   }
   .btnRegister {
+    margin-top: 10px!important;
     font-size: 1.2rem;
   }
 }

@@ -8,7 +8,7 @@ function footer() {
   return (
     <div className="Container">
       <div className="MainFooter">
-        <div className="smalldiv">
+        <div className="smalldiv1">
           <img src={Logo} className="logo" />
         </div>
         <div className="smalldiv">
