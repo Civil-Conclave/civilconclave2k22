@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderEvents.css";
-import Ellipse from "../../assets/Ellipse.png";
+import Ellipse from "../../assets/Ellipse1.png";
 function HeaderEvents(props) {
   const handleClick1 = () => {
     props.ref1.current?.scrollIntoView({ behavior: "smooth" });

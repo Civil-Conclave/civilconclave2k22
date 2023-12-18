@@ -333,6 +333,36 @@ const Events = (props) => {
               <img src={data[4].url} alt="" />
             </div>
           </div>
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[5].title}</h3>
+              <p>
+                {data[5].body1}
+                <br />
+                <br />
+                {data[5].body2}
+                <br />
+                <br />
+                {data[5].body3}
+                <br />
+                <br />
+                {data[5].body4}
+              </p>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickCaseS}>
+                  Click Here to Submit
+                </button>
+                <button className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button>
+              </div>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="rightImg">
+              <h1 ref={myRef1}>{data[5].imgtitle}</h1>
+              <img src={data[5].url} alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="contentFooter" ref={footerRef}>
