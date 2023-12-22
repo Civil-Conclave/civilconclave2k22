@@ -27,7 +27,7 @@
   width: 58vw;
   z-index: 10000000;
   height: 100%;
-  background-image: linear-gradient(rgba(7, 96, 137, 1), rgba(34, 33, 80, 1));
+  background-image: linear-gradient(120deg,rgba(44, 76, 157, 1), rgba(4, 9, 22, 1));
   margin-left: 14vw;
   margin-top: 8vh;
   display: flex;

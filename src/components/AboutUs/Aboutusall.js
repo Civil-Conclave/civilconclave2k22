@@ -11,7 +11,7 @@ export default function Aboutusall() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerref,
-    offset: ["start start", "end end"],
+    offset: ["start center", "end end"],
   });
 
   // const scaleX1 = useSpring(scrollYProgress, {
