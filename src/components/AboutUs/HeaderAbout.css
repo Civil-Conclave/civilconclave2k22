@@ -51,11 +51,13 @@
   display: flex;
   justify-content: center;
   width: 30%;
+
 }
 .frame-img img {
   width: 80%;
 }
 .right-ellipse {
+  padding: 0!important;
   width: 10%;
   display: flex;
   align-items: flex-end;

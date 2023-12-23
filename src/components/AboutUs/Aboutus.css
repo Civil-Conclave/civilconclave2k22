@@ -1,9 +1,10 @@
-.about-wrapper {
+.contentWrapper {
   background-color: black;
   display: flex;
   flex-direction: column;
   /* justify-content: flex-start; */
   width: 100%;
+  gap: 2rem;
   margin-top: 2%;
   /* margin: auto; */
   overflow: hidden;
@@ -28,6 +29,7 @@
   /* width: 60%; */
   height: 100%;
   width: 100%;
+  /*margin-bottom: 1rem;*/
   /* padding: 1rem; */
 }
 .fillLeft {
@@ -41,6 +43,7 @@
 }
 
 .about-context {
+  /*margin-bottom: 2rem;*/
   width: 55%;
   z-index: 2;
 }
