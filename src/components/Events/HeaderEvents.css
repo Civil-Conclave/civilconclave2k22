@@ -28,28 +28,28 @@
 }
 .headerEventHeading {
   color: white;
-  font-size: 1.8rem;
+  font-size: 2.1vw;
   font-weight: 700;
   padding: 1rem;
   /* line-height: 7.64vh; */
 }
 .eventDes {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4vw;
   font-weight: 400;
   /* line-height: 4.15vh; */
 }
 
 .leftStripes {
   position: absolute;
-  top: 60%;
+  top: 30vh;
   left: 0;
   width: 30%;
 }
 
 .rightStripes {
   position: absolute;
-  top: 60%;
+  top: 30vh;
   left: 70%;
   width: 30%;
 }
@@ -63,8 +63,8 @@
   height: 3.04vh;
   background: linear-gradient(
     90deg,
-    #1f789f 25.19%,
-    rgba(31, 120, 159, 0.73) 67.54%,
+    #e5d536 25.19%,
+    rgba(229,213,54, 0.73) 67.54%,
     rgba(31, 120, 159, 0) 97.41%
   );
   border-radius: 0px;
@@ -75,8 +75,8 @@
   height: 3.04vh;
   background: linear-gradient(
     90deg,
-    #1f789f 25.19%,
-    rgba(31, 120, 159, 0.73) 67.54%,
+    #e5d536 25.19%,
+    rgba(229,213,54, 0.73) 67.54%,
     rgba(31, 120, 159, 0) 97.41%
   );
 
@@ -131,6 +131,7 @@
 @media (max-width: 760px) {
   .eventContainer {
     overflow: hidden;
+    height: 60vh;
   }
   .ellipse {
     width: 100%;
@@ -148,4 +149,25 @@
   .footInfo {
     display: none;
   }
+
+  .leftStripes{
+    margin-top: 6.1rem;
+    width: 21vw;
+  }
+
+  .rightStripes{
+    margin-top: 6.1rem;
+    width: 21vw;
+    
+   margin-left: 9vw;
+  }
+
+  .headerEventHeading {
+    font-size: 5vw;
+  }
+
+  .eventDes{
+    font-size: 3vw;
+  }
+
 }

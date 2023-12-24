@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderEvents.css";
-import Ellipse from "../../assets/Ellipse.png";
+import Ellipse from "../../assets/Ellipse1.png";
 function HeaderEvents(props) {
   const handleClick1 = () => {
     props.ref1.current?.scrollIntoView({ behavior: "smooth" });
@@ -16,6 +16,9 @@ function HeaderEvents(props) {
   };
   const handleClick5 = () => {
     props.ref5.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleClick6 = () => {
+    props.ref6.current?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div className="eventContainer">
@@ -47,11 +50,17 @@ function HeaderEvents(props) {
         <button className="footText" onClick={handleClick3}>
           Research work Presentation
         </button>
+        <button className="footText" onClick={handleClick3}>
+          Workshop
+        </button>
         <button className="footText" onClick={handleClick4}>
           Seek the Civil Geek
         </button>
         <button className="footText" onClick={handleClick5}>
           Design Different
+        </button>
+        <button className="footText" onClick={handleClick6}>
+          Innovista
         </button>
       </div>
       <div className="footLine">

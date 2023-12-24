@@ -1,39 +1,46 @@
 .header-about-container {
-  background-color: black;
+  background-color: #010101;
   height: 50vh;
   /* position: relative; */
   display: flex;
   width: 100%;
 }
+
 .left-img {
   position: relative;
   width: 10%;
 }
+
 .leftimg {
   width: 50%;
   margin-top: 10vh;
   position: absolute;
   z-index: 5;
 }
+
 .leftimg2 {
   position: relative;
   margin-top: 7vh;
   width: 50%;
 }
+
 .about-info {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .headerTitle {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
   display: flex;
+  color: #E5D536;
   /* letter-spacing: 0.04em; */
 }
+
 .headerInformation {
   /* width: 30vw; */
   font-family: "Helvetica";
@@ -41,21 +48,25 @@
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.04em;
-  color: #278ac1;
+  color: white;
   display: flex;
 }
+
 .about-info img {
   width: 90%;
 }
+
 .frame-img {
   display: flex;
   justify-content: center;
   width: 30%;
 
 }
+
 .frame-img img {
   width: 80%;
 }
+
 .right-ellipse {
   padding: 0!important;
   width: 10%;
@@ -64,9 +75,11 @@
   justify-content: end;
   padding: 1rem;
 }
+
 .imgRightEllipse {
   width: 50%;
 }
+
 .lineMob {
   display: none;
 }
@@ -77,38 +90,48 @@
     flex-direction: column-reverse;
     margin: auto;
   }
+
   .frame-img {
     width: 70%;
     margin: auto;
   }
+
   .frame-img img {
     width: 80%;
   }
+
   .about-info {
     width: 90%;
     margin: auto;
   }
+
   .about-heading-main h1 {
     font-size: 1.5rem;
   }
+
   .left-img {
     display: none;
   }
+
   .right-ellipse {
     display: none;
   }
+
   .headerTitle {
     justify-content: center;
     font-size: 2rem;
     padding: 1rem;
   }
+
   .headerInformation {
     justify-content: center;
     text-align: center;
   }
+
   .lineDesktop {
     display: none;
   }
+
   .lineMob {
     display: block;
     padding-bottom: 2rem;

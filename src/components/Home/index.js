@@ -9,6 +9,7 @@ import Sponsor from "./Sponsor/Sponsor.js";
 import useScrollSnap from "react-use-scroll-snap";
 import {useRef} from "react";
 import Navbarnew from "../General/Navbar";
+import AboutUS from "./AboutUS.js";
 
 
 function Home() {
@@ -29,8 +30,11 @@ function Home() {
             </span>
             <span>
                 <Heading name="Sponsors"></Heading>
-            <Sponsor></Sponsor>
+            {/* <Sponsor></Sponsor> */}
                 </span>
+            <span>
+                    <AboutUS></AboutUS>
+            </span>
             <ContactUs></ContactUs>
             <Footer></Footer>
         </div>);

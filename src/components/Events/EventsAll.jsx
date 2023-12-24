@@ -62,6 +62,7 @@ const Events = (props) => {
   const myRef4 = useRef(null);
   const myRef5 = useRef(null);
   const myRef6 = useRef(null);
+  const myRef7 = useRef(null);
   const headerRef = useRef(null);
   const footerRef = useRef(null);
   const [currevent, setCurrevent] = useState("");
@@ -113,6 +114,16 @@ const Events = (props) => {
       if (myRef5.current) observer5.unobserve(myRef5.current);
     };
   }, [myRef5, options]);
+
+  useEffect(() => {
+    const observer6 = new IntersectionObserver(callbackFunction, options);
+    if (myRef6.current) observer6.observe(myRef6.current);
+
+    return () => {
+      if (myRef6.current) observer6.unobserve(myRef6.current);
+    };
+  }, [myRef6, options]);
+
   useEffect(() => {
     const observerHeader = new IntersectionObserver(
       callbackFunctionHeader,
@@ -184,6 +195,7 @@ const Events = (props) => {
           ref3={myRef3}
           ref4={myRef4}
           ref5={myRef5}
+          ref6={myRef6}
         ></HeaderEvents>
       </div>
       <div className="EventsAllWrapper">
@@ -333,6 +345,69 @@ const Events = (props) => {
               <img src={data[4].url} alt="" />
             </div>
           </div>
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[5].title}</h3>
+              <p>
+                {data[5].body1}
+                <br />
+                <br />
+                {data[5].body2}
+                <br />
+                <br />
+                {data[5].body3}
+                <br />
+                <br />
+                {data[5].body4}
+              </p>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickCaseS}>
+                  Click Here to Submit
+                </button>
+                <button className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button>
+              </div>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="rightImg">
+              <h1 ref={myRef6}>{data[5].imgtitle}</h1>
+              <img src={data[5].url} alt="" />
+            </div>
+          </div>
+
+
+          <div className="whole-eventscontainer">
+            <div className="eventHeadingNew">
+              <h3>{data[6].title}</h3>
+              <p>
+                {data[6].body1}
+                <br />
+                <br />
+                {data[6].body2}
+                <br />
+                <br />
+                {data[6].body3}
+                <br />
+                <br />
+                {data[6].body4}
+              </p>
+              <div className="caseStudyButtons">
+                <button className="submitButton" onClick={handleClickCaseS}>
+                  Click Here to Submit
+                </button>
+                <button className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button>
+              </div>
+            </div>
+            <div className="vertical-line"></div>
+            <div className="rightImg">
+              <h1 ref={myRef7}>{data[6].imgtitle}</h1>
+              <img src={data[6].url} alt="" />
+            </div>
+          </div>
+
         </div>
       </div>
       <div className="contentFooter" ref={footerRef}>

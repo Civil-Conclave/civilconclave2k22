@@ -1,3 +1,6 @@
+// import Hamburger from 'hamburger-react'
+
+
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -8,6 +11,10 @@ import logo2 from "../../assets/logo2.png";
 import logo1 from "../../assets/logo1.png";
 
 function Navbarnew() {
+
+  // const [isOpen, setOpen] = useState(false)
+
+
   const [activeMenu, setActiveMenu] = useState("");
   const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
@@ -91,6 +98,9 @@ function Navbarnew() {
             ) : (
               <VscMenu className="mob-icon" onClick={showham} />
             )}
+
+{/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
+
           </div>
         </div>
       </div>
@@ -154,7 +164,7 @@ function Navbarnew() {
               <li>
                 <a
                   href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
-                  target="_blank"
+                  target="blank"
                   className={
                     activeMenu === "register" ? "active-links" : "links"
                   }
@@ -169,9 +179,11 @@ function Navbarnew() {
             </ul>
           </div>
         </>
-      ) : (
+       ) : (
         " "
-      )}
+       )
+       
+       }
     </>
   );
 }

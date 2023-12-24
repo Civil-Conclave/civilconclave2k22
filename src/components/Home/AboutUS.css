@@ -1,0 +1,147 @@
+.AboutusWrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Aboutusmainheading {
+    font-family: "Helvetica";
+    font-style: normal;
+    width: 98.9vw;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #E5D536;
+    padding-top: 60px;
+}
+
+.Aboutus-wrapper {
+    font-family: "Helvetica";
+    font-style: normal;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Aboutus-vision {
+
+    width: 56vw;
+    z-index: 10000000;
+    height: 100%;
+    background-image: linear-gradient(rgba(7, 96, 137, 1), rgba(34, 33, 80, 1));
+    margin-left: 22vw;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.Aboutus-body {
+    width: 100%;
+    margin: 4vw;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Aboutus-info h1 {
+    font-weight: 700;
+    font-size: 2.8vw;
+    text-align: center;
+}
+
+/* .Aboutus-info {
+    width: 40vw;
+} */
+
+.Aboutus-info p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.know-morebtn {
+    width: 11vw;
+    height: 6vh;
+    margin-top: 8%;
+    border-radius: 2vw;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.Aboutus-concept {
+
+    width: 58vw;
+    z-index: 10000000;
+    height: 100%;
+    background-image: linear-gradient(rgba(7, 96, 137, 1), rgba(34, 33, 80, 1));
+    margin-left: 14vw;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 800px) {
+    .Aboutusmainheading {
+        font-family: "Helvetica";
+        font-style: normal;
+        width: 98.9vw;
+        text-align: center;
+        font-weight: 1000;
+        font-size: 3rem;
+        color: #E5D536;
+        margin-top: 30px;
+    }
+
+    .Aboutus-info {
+        margin-top: 4vh;
+    }
+
+    .Aboutus-vision {
+        width: 82vw;
+        margin-left: 9vw;
+        border-radius: 1%;
+    }
+
+    .Aboutus-body {
+        margin-top: 1vh;
+    }
+
+    .Aboutus-info h1 {
+        margin-top: 1vh;
+        font-size: 6.8vw;
+
+    }
+
+    .Aboutus-info p {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 4vh;
+    }
+
+    .know-morebtn {
+        width: 22vw;
+        height: 5vh;
+        margin-top: 20%;
+        border-radius: 2vw;
+        font-weight: 700;
+        text-align: center;
+        font-size: 3vw;
+        cursor: pointer;
+        margin-bottom: 1vh;
+    }
+}
