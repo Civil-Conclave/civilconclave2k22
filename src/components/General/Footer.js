@@ -4,6 +4,8 @@ import Insta from "../../assets/Insta.png";
 import fb from "../../assets/fb.png";
 import linked from "../../assets/linked.png";
 import "./Footer.css";
+import { Link } from "react-router-dom"
+
 function footer() {
   return (
     <div className="Container">
@@ -17,18 +19,18 @@ function footer() {
             Civil Engineering Department, Indian Institute of Technology,
             Roorkee
           </div>
-          <div className="Ftext bold">https://civil.iitr.ac.in</div>
+          <a className="Ftext bold" href='https://civil.iitr.ac.in' target= "_blank">https://civil.iitr.ac.in</a>
         </div>
         <div className="smalldiv visit">
           <div className="FHeading">VISIT</div>
-          <div className="Ftext">Home</div>
-          <div className="Ftext">Events</div>
-          <div className="Ftext">About Us</div>
-          <div className="Ftext">Register</div>
+          <Link className="Ftext" to = "/">Home</Link>
+          <Link className="Ftext" to = "/events">Events</Link>
+          <Link className="Ftext" to = "/aboutus">About Us</Link>
+          <Link className="Ftext" to  = "/Register">Register</Link>
         </div>
         <div className="smalldiv mail">
           <div className="FHeading">MAIL US</div>
-          <div className="Ftext">civilconclave@iitr.ac.in</div>
+          <a href= 'mailto:civilconclave@iitr.ac.in' className="Ftext" target='_blank' >civilconclave@iitr.ac.in</a>
         </div>
         <div className="smalldiv fu">
           <div className="FHeading fu">FOLLOW US</div>
