@@ -35,13 +35,14 @@ function Navbarnew() {
         </div>
         <div className="nav-links">
           <ul className="pageNames">
-            <li>
+            <li
+                onClick={(e) => {
+                  setActiveMenu("Home");
+                
+                }}>
               <Link
                 to="/"
-                className={activeMenu === "Home" ? "active-links" : "links"}
-                onClick={() => {
-                  setActiveMenu("Home");
-                }}
+               className={activeMenu === "Home" ? "active-links" : "links"} 
               >
                 HOME
               </Link>

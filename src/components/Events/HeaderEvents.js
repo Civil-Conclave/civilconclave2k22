@@ -1,6 +1,9 @@
 import React from "react";
 import "./HeaderEvents.css";
 import Ellipse from "../../assets/Ellipse1.png";
+import evecircle from "../../assets/event-circle.svg"
+import DoubleEllipse from "../../assets/DoubleEllipse.png";
+import rightimg from "../../assets/Ellipse 8.png";
 function HeaderEvents(props) {
   const handleClick1 = () => {
     props.ref1.current?.scrollIntoView({ behavior: "smooth" });
@@ -22,22 +25,16 @@ function HeaderEvents(props) {
   };
   return (
     <div className="eventContainer">
-      <div className="ellipse">
+      <div className="events-top">
+      <img src={DoubleEllipse} className="leftimg-event" alt="" />
+      <img className="imgRightEllipse-event" src={rightimg} alt="" />
+      <img className="img-mid-event" src={evecircle} alt="" />
+      <img className="img-mid-down-event" src={evecircle} alt="" />
         <div className="headerInfo">
           <div className="headerEventHeading">EVENTS</div>
+          <div className="header-line-events"></div>
           <div className="eventDes">GET TO KNOW ABOUT THE EVENTS HAPPENING</div>
         </div>
-        <img src={Ellipse} className="ellipseImg"></img>
-      </div>
-      <div className="leftStripes">
-        <div className="stripes1"></div>
-        <div className="space"></div>
-        <div className="stripes1"></div>
-      </div>
-      <div className="rightStripes">
-        <div className="stripes2"></div>
-        <div className="space"></div>
-        <div className="stripes2"></div>
       </div>
 
       <div className="footInfo">
@@ -48,7 +45,7 @@ function HeaderEvents(props) {
           Guest Lecture
         </button>
         <button className="footText" onClick={handleClick3}>
-          Research work Presentation
+          Research Renaissance
         </button>
         <button className="footText" onClick={handleClick3}>
           Workshop

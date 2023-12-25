@@ -25,8 +25,8 @@ function AboutUS(){
             <div className="Aboutus-body">
               <div className="Aboutus-info">
 
-                <h1>{data[Index].title}</h1>
-                <p>{data[Index].context}</p>
+                <h1>{data[Index]?.title}</h1>
+                <p>{data[Index]?.context}</p>
                 <button className="know-morebtn">Learn more </button>
               </div>
             </div>
