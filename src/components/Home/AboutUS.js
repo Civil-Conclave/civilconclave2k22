@@ -18,7 +18,7 @@ function AboutUS(){
 
     return (
       <div className="AboutusWrapper">
-        <div className="Aboutusmainheading">ABOUT US</div>
+        {/*<div className="Aboutusmainheading">ABOUT US</div>*/}
 
         <div className="Aboutus-wrapper">
           <div className="Aboutus-vision">
