@@ -40,8 +40,10 @@ export default function Lastcomponent() {
               <input type="Message" className="message-input" name="message" />
             </div>
             <div className="btn">
-              <button id="msg" type="submit" value="Send">
+              <button id="msg" type="submit" value="Send" >
+                <a href="'mailto:civilconclave@iitr.ac.in'">
                 SEND MESSAGE
+                </a>
               </button>
             </div>
           </form>

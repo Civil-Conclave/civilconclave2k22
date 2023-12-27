@@ -20,6 +20,7 @@
   color: white;
   margin-bottom: 1.66vh;
   /* margin-top: 0; */
+
 }
 
 .Ftext {
@@ -28,6 +29,9 @@
   line-height: 0.908rem;
   color: white;
   margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
 
 .bold {

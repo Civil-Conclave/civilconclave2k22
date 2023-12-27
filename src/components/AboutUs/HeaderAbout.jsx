@@ -1,9 +1,9 @@
 import React from "react";
 import DoubleEllipse from "../../assets/DoubleEllipse.png";
+import rightimg from "../../assets/Ellipse 8.png";
 import rectangleimg from "../../assets/Rectangle 622.png";
 import aboutuslinemob from "../../assets/AboutUsLineMobile.png";
 import frameimg from "../../assets/Frame.png";
-import rightimg from "../../assets/Ellipse 8.png";
 import "./HeaderAbout.css";
 const About = () => {
   return (
