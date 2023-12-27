@@ -29,198 +29,218 @@ import Varun from "../../assets/Varun.png";
 import IshaanKing from "../../assets/IshaanKing.png";
 import Ujjwal from "../../assets/Ujjwal.png";
 import Yashasvi from "../../assets/Yashasvi.png";
+import anchit from '../../assets/anchit.png'
+import anji from '../../assets/anji.png'
+import aryan from '../../assets/aryan.png'
+import baban from '../../assets/baban.png'
+import dhruv from '../../assets/dhruv.png'
+import dhruvc from '../../assets/dhruvc.png'
+import hardik from '../../assets/hardik.png'
+import loki from '../../assets/loki.png'
+import om from '../../assets/omsoyam.png'
+import priyanshu from '../../assets/priyanshuk.png'
+import sumit from '../../assets/sumit.png'
+import unnati from '../../assets/unnati.png'
+import abhyank from '../../assets/abhiyank.png'
+import sarthak from '../../assets/Sarthak.png'
 const contacts = [
   {
     id: 1,
-    name: "Aayush Chopra",
-    position: "Overall Coordinator",
-    image: ChopraS,
-  },
-  {
-    id: 2,
-    name: "Kunal Singh",
-    position: "Overall Co-Coordinator",
-    image: KunalS,
-  },
-  {
-    id: 3,
-    name: "Shivika Jain",
-    position: "Overall Co-Coordinator",
-    image: ShivikaM,
-  },
-  {
-    id: 4,
-    name: "Shloki Jha",
-    position: "Overall Co-Coordinator",
-    image: ShlokiM,
-  },
-  {
-    id: 5,
-    name: "Jatin Singh",
-    position: "President CEC",
-    image: Jatin,
-  },
-  {
-    id: 6,
-    name: "Ishaan Jain",
-    position: "WebD Head",
-    image: IshaanKing,
-  },
-  {
-    id: 10,
-    name: "Shrivardhan Yadav",
-    position: "Sponsorship Head",
-    image: Shri,
-  },
-  {
-    id: 8,
-    name: "Akhil Agrawal",
-    position: "Delegations Head",
-    image: Akhil,
-  },
-  {
-    id: 11,
     name: "Manik Goyal",
-    position: "Design Head",
+    position: "Overall Coordinator",
     image: Manik,
   },
   {
+    id: 2,
+    name: "Unnati Prasad",
+    position: "Overall Co-Coordinator",
+    image: unnati,
+  },
+  {
+    id: 3,
+    name: "Ishaan Jain",
+    position: "Overall Co-Coordinator",
+    image: IshaanKing,
+  },
+  {
+    id: 5,
+    name: "Abhyank Bansal",
+    position: "Overall Co-Coordinator",
+    image: abhyank,
+  },
+  {
     id: 6,
-    name: "Devansh Kumar",
-    position: "Senior Manager",
-    image: Devansh,
+    name: "Manuvansh Rai",
+    position: "Overall Co-Coordinator",
+    image: Manu,
+  },
+  {
+    id: 10,
+    name: "Akhil Agrawal",
+    position: "Overall Co-Coordinator",
+    image: Akhil,
+  },
+  {
+    id: 8,
+    name: "Shrivardhan Yadav",
+    position: "Overall Co-Coordinator",
+    image: Shri,
+  },
+  {
+    id: 11,
+    name: "Prakhar Khatri",
+    position: "WebDev Head",
+    image:Prakhar ,
+  },
+  {
+    id: 6,
+    name: "Rohit Garg",
+    position: "Delegations Head",
+    image: Rohit,
   },
   {
     id: 7,
-    name: "Achhar Sharma",
-    position: "Senior Manager",
-    image: Achchar,
+    name: "Sarthak Shah",
+    position: "Sponsorship Head",
+    image: sarthak,
   },
 
   {
     id: 9,
-    name: "Sutikshna Kumar",
-    position: "Senior Manager",
-    image: Sutik,
-  },
-
-  {
-    id: 12,
-    name: "Manuvansh Rai",
-    position: "Technical Manager",
-    image: Manu,
-  },
-  {
-    id: 13,
-    name: "Shubham",
-    position: "Manager",
-    image: Shubham,
-  },
-  {
-    id: 14,
-    name: "Sourabh Budakoti",
-    position: "Manager",
-    image: Sobu,
-  },
-  {
-    id: 15,
-    name: "Rohit Garg",
-    position: "Manager",
-    image: Rohit,
-  },
-  {
-    id: 15,
-    name: "Ujjwal Sharma",
-    position: "Manager",
-    image: Ujjwal,
-  },
-  {
-    id: 16,
-    name: "Vansh Gupta",
-    position: "Manager",
-    image: Vansh,
-  },
-
-  {
-    id: 17,
-    name: "Vivek",
-    position: "Manager",
-    image: Vivek,
-  },
-  {
-    id: 17,
-    name: "Yashasvi Choudhary",
-    position: "Manager",
-    image: Yashasvi,
-  },
-  {
-    id: 18,
-    name: "Adarsh Pratap Singh",
-    position: "Manager",
-    image: Aps,
-  },
-
-  {
-    id: 19,
-    name: "Aditya Gautam",
-    position: "Manager",
-    image: Gautam,
-  },
-  {
-    id: 20,
-    name: "Sourabh Meena",
-    position: "Manager",
-    image: Sourabh,
-  },
-  {
-    id: 21,
-    name: "Aayush Pal",
-    position: "Manager",
-    image: Pal,
-  },
-
-  {
-    id: 22,
     name: "Shreyansh Jain",
-    position: "Manager",
+    position: "Events Head",
     image: Shreyansh,
   },
 
   {
-    id: 23,
-    name: "Kundan Kumar",
-    position: "Manager",
-    image: Kundan,
+    id: 12,
+    name: "Adarsh Pratap Singh",
+    position: "Design Head",
+    image: Aps,
   },
   {
-    id: 24,
+    id: 12,
+    name: "Sourabh Budakoti",
+    position: "Senior Executive",
+    image: Sourabh,
+  },
+  {
+    id: 12,
     name: "Prerna Priyanshu",
-    position: "Manager",
+    position: "Senior Executive",
     image: Prerna,
   },
   {
-    id: 25,
-    name: "Vaishali Dubey",
+    id: 13,
+    name: "Anunjay Gupta",
     position: "Manager",
-    image: Vaishali,
+    image: anji,
   },
   {
-    id: 26,
-    name: "Satyarth Goyal",
+    id: 14,
+    name: "Dhruv Pankaj",
     position: "Manager",
-    image: Satyarth,
+    image: dhruv,
   },
   {
-    id: 27,
-    name: "Prakhar Khatri",
+    id: 15,
+    name: "Aryan Singhal",
     position: "Manager",
-    image: Prakhar,
+    image: aryan,
   },
   {
-    id: 28,
-    name: "Varun Mishra",
+    id: 15,
+    name: "Hardik Chawla",
     position: "Manager",
-    image: Varun,
+    image: hardik,
   },
+  {
+    id: 16,
+    name: "Dhruv Choudhary",
+    position: "Manager",
+    image: dhruvc,
+  },
+
+  {
+    id: 17,
+    name: "Anchit",
+    position: "Manager",
+    image:anchit,
+  },
+  {
+    id: 17,
+    name: "Babandeep Singh",
+    position: "Manager",
+    image: baban,
+  },
+  {
+    id: 18,
+    name: "Lokendra Singh Rathore",
+    position: "Manager",
+    image: loki,
+  },
+
+  {
+    id: 19,
+    name: "Sumit Pratap Singh",
+    position: "Manager",
+    image: sumit,
+  },
+  {
+    id: 20,
+    name: "Priyanshu Kumar",
+    position: "Manager",
+    image: priyanshu,
+  },
+  {
+    id: 21,
+    name: "Om Soyam",
+    position: "Manager",
+    image: om,
+  },
+  //
+  // {
+  //   id: 22,
+  //   name: "Shreyansh Jain",
+  //   position: "Manager",
+  //   image: Shreyansh,
+  // },
+  //
+  // {
+  //   id: 23,
+  //   name: "Kundan Kumar",
+  //   position: "Manager",
+  //   image: Kundan,
+  // },
+  // {
+  //   id: 24,
+  //   name: "Prerna Priyanshu",
+  //   position: "Manager",
+  //   image: Prerna,
+  // },
+  // {
+  //   id: 25,
+  //   name: "Vaishali Dubey",
+  //   position: "Manager",
+  //   image: Vaishali,
+  // },
+  // {
+  //   id: 26,
+  //   name: "Satyarth Goyal",
+  //   position: "Manager",
+  //   image: Satyarth,
+  // },
+  // {
+  //   id: 27,
+  //   name: "Prakhar Khatri",
+  //   position: "Manager",
+  //   image: Prakhar,
+  // },
+  // {
+  //   id: 28,
+  //   name: "Varun Mishra",
+  //   position: "Manager",
+  //   image: Varun,
+  // },
 ];
 export default contacts;
