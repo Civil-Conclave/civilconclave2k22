@@ -8,12 +8,17 @@ function AboutUS(){
   const [Index, setIndex] = useState(0);
   
   setTimeout(() => {
-    setIndex(Index + 1);
-  }, 3000);
-  if (Index === 3) {
-    setIndex(0);
-    console.log('ho to rha h ')
-  }
+    if (Index!==2) {
+      setIndex(Index + 1);
+    }
+    else{
+      setIndex(0)
+    }
+  }, 4500);
+  // if (Index > 3) {
+  //   setIndex(0);
+  //   // console.log('ho to rha h ')
+  // }
  
 
     return (

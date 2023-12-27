@@ -2,7 +2,7 @@ import React from "react";
 import "./Heading.css";
 
 function Heading(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="headingWrapper">
       <h1 className="headingName" style={{ color: "#E5D536" }}>

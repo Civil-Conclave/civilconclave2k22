@@ -30,23 +30,23 @@ const data = [
 
      
     },
-    {
-        id: 1,
-        title: "VISION",
-        context: (
-          <p>
-            Civil Conclave 2022 provides a common platform for civil engineering
-            enthusiasts.Being an inter-IIT event, it aims at bringing together the
-            students from the most elite colleges of India to compete and network.
-            <br></br>
-            <br></br>Young minds when put in the right direction can excel in all
-            fields. Civil engineering being the prime need of all times, rigorously
-            needs the budding minds for overall growth.<br></br>
-            <br></br>We understand this idea and are out to promote the same on the
-            inter-IIT level.
-          </p>
-        ),
-      
-      },
+    // {
+    //     id: 4,
+    //     title: "VISION",
+    //     context: (
+    //       <p>
+    //         Civil Conclave 2022 provides a common platform for civil engineering
+    //         enthusiasts.Being an inter-IIT event, it aims at bringing together the
+    //         students from the most elite colleges of India to compete and network.
+    //         <br></br>
+    //         <br></br>Young minds when put in the right direction can excel in all
+    //         fields. Civil engineering being the prime need of all times, rigorously
+    //         needs the budding minds for overall growth.<br></br>
+    //         <br></br>We understand this idea and are out to promote the same on the
+    //         inter-IIT level.
+    //       </p>
+    //     ),
+    //
+    //   },
   ];
   export default data;
