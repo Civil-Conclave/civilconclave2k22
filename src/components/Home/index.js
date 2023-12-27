@@ -30,9 +30,12 @@ function Home() {
             </span>
             <span>
                 <Heading name="Sponsors"></Heading>
-            <Sponsor></Sponsor>
+
+             <Sponsor></Sponsor>
+
                 </span>
             <span>
+                     <Heading name="About Us"></Heading>
                     <AboutUS></AboutUS>
             </span>
             <ContactUs></ContactUs>

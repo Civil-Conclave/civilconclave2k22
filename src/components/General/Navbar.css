@@ -75,6 +75,7 @@
   .nav-links {
     display: flex;
     flex-direction: column;
+    /*padding-right: 0;*/
     width: 20%;
   }
   .pageNames {
@@ -114,6 +115,7 @@
   /* position: absolute; */
   position: fixed;
   top: 0;
+  right: 0vw;
   z-index: 20;
   background: transparent;
   height: 100vh;
@@ -126,7 +128,7 @@
     width: 0vw;
   }
   to {
-    width: 38vw;
+    width: 50vw;
   }
 }
 .nav-i {
