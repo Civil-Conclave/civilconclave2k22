@@ -65,6 +65,7 @@
   color: white;
 }
 .casestudy-btn {
+  cursor: pointer;
   color: white;
   background-color: #278ac1;
   font-size: 1.5rem;
@@ -78,6 +79,7 @@
   font-size: 1.5rem;
 }
 .text-casestudy {
+  cursor: pointer;
   background-color: transparent;
   border: none;
   color: white;
