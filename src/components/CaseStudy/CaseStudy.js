@@ -10,201 +10,192 @@ import Ellipse from "../../assets/Ellipse1.png";
 
 
 export default function CaseStudyleft() {
-  function onPressForest(e) {
-    window.open(
-      "https://drive.google.com/file/d/1gd-mEHXP10-ft1SlHPPRWssC6lwUmLzC/view?usp=sharing"
-    );
-  }
-  function onPressFlood(e) {
-    window.open(
-      "https://drive.google.com/file/d/1N74REMpL-o1b93x3xwovsL7APjLruSMM/view?usp=sharing"
-    );
-  }
-  function onPressStructural(e) {
-    window.open(
-      "https://drive.google.com/file/d/1I74RTYqsM97QSh8mCbWOIi058q0TfQpi/view?usp=sharing"
-    );
-  }
-  function onPressGril(e) {
-    window.open(
-      "https://drive.google.com/file/d/1vo9bdQ2YqIqYFWJiGnPZqhPdNNpZIT_j/view?usp=sharing"
-    );
-  }
-  function onPressForestInfo(e) {
-    window.open(
-      "https://drive.google.com/file/d/1nuCdHNee2WjwlgFQ3VsP6wCaEhObLb_e/view?usp=sharing"
-    );
-  }
-  function onPressFloodInfo(e) {
-    window.open(
-      "https://drive.google.com/file/d/1jn0KJlOL7fFvzaU9LPsbsAymI_8S9fXQ/view?usp=sharing"
-    );
-  }
-  function onPressSoilInfo(e) {
-    window.open(
-      "https://drive.google.com/file/d/1lOBa8xRGUtIEqA79QXUp4ss-gUKdSLWj/view?usp=sharing"
-    );
-  }
-  function onPressConcreteInfo(e) {
-    window.open(
-      "https://drive.google.com/file/d/1Smmcyw0Q6vijxeDckRN14RGODu6QMod3/view?usp=sharing"
-    );
-  }
-  return (
-    <>
+    function onPressForest(e) {
+        window.open(
+            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+        );
+    }
 
-<div className="eventContainer">
-<div className="ellipse">
-        <div className="headerInfo">
-          <div className="headerEventHeading">EVENTS</div>
-          <hr className="headline"/>
-          <div className="eventDes">CASE STUDY</div>
-        </div>
-        <img src={Ellipse} className="ellipseImg"></img>
-       </div>
-       <div className="leftStripes">
-        <div className="stripes1"></div>
-        <div className="space"></div>
-        <div className="stripes1"></div>
-       </div>
-       <div className="rightStripes">
-        {/* <div className="stripes2"></div> */}
-        <div className="space"></div>
-        <div className="stripes2"></div>
-      </div>
-</div>
-     
+    function onPressFlood(e) {
+        window.open(
+            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+        );
+    }
+
+    function onPressStructural(e) {
+        window.open(
+            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+        );
+    }
+
+    function onPressGril(e) {
+        window.open(
+            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+        );
+    }
+
+    function onPressForestInfo(e) {
+        window.open(
+            "https://drive.google.com/file/d/17YvoUxYPaU4Elrc4YQByRQtn8yTkHJOR/view?usp=sharing"
+        );
+    }
+
+    function onPressFloodInfo(e) {
+        window.open(
+            "https://drive.google.com/file/d/1bjdYPzC7HK2q2XAwoVJWfoQhKULbxcX0/view?usp=sharing"
+        );
+    }
+
+    function onPressSoilInfo(e) {
+        window.open(
+            "https://drive.google.com/file/d/1pgY9O7Jfv8yBKvX8CySI7_4mJsDT6Zbs/view?usp=sharing"
+        );
+    }
+
+    function onPressConcreteInfo(e) {
+        window.open(
+            "https://drive.google.com/file/d/1Smmcyw0Q6vijxeDckRN14RGODu6QMod3/view?usp=sharing"
+        );
+    }
+
+    return (
+        <>
+
+            <div className="eventContainer">
+                <div className="ellipse">
+                    <div className="headerInfo">
+                        <div className="headerEventHeading">EVENTS</div>
+                        <hr className="headline"/>
+                        <div className="eventDes">CASE STUDY</div>
+                    </div>
+                    <img src={Ellipse} className="ellipseImg"></img>
+                </div>
+                <div className="leftStripes">
+                    <div className="stripes1"></div>
+                    <div className="space"></div>
+                    <div className="stripes1"></div>
+                </div>
+                <div className="rightStripes">
+                    {/* <div className="stripes2"></div> */}
+                    <div className="space"></div>
+                    <div className="stripes2"></div>
+                </div>
+            </div>
 
 
+            <div className="casestudy-wrapper">
+                <div className="casestudy-main Left">
+                    <div className="casestudy1">
+                        <div className="casestudy_context">
+                            <p className="casestudy_heading">Strategic Planning: Healthcare Services</p>
+                            {/*<p className="casestudy_heading2">In association with FSI</p>*/}
+                            <p className="casestudy_main_write">
+                                Assume that AIIMS Rishikesh is contemplating the establishment of a new sub-branch along
+                                the Delhi-Meerut
+                                Road in Modinagar town, aiming to enhance accessibility to healthcare services in the
+                                new region.
+                                Recognizing the importance of improved connectivity, this strategic decision reflects
+                                the institution's
+                                commitment to extending quality healthcare beyond its central location. The proposed
+                                sub-branch is poised to
+                                serve as a vital healthcare hub, catering to the medical needs of residents along the
+                                highway corridor and
+                                neighboring areas. This expansion aligns with AIIMS Rishikesh's mission to make
+                                healthcare more accessible
+                                and ensures that individuals in these regions have prompt access to specialized medical
+                                facilities. The initiative
+                                not only addresses the healthcare demands of the local population but also contributes
+                                to the overall
+                                development of the healthcare infrastructure in the region, fostering a healthier and
+                                more resilient community.
 
+                            </p>
+                        </div>
+                        <div className="casestudy_image">
+                            <img src={FSI} className="imgg"></img>
+                        </div>
+                    </div>
+                    <div className="casestudy2">
+                        <button className="casestudy-btn" onClick={onPressForestInfo}>
+                            PROBLEM STATEMENT
+                        </button>
+                        <button className="text-casestudy" onClick={onPressForest}>
+                            RULE BOOK
+                        </button>
+                    </div>
+                </div>
+                <div className="casestudy-main Right">
+                    <div className="casestudy1">
+                        <div className="casestudy_context">
+                            <p className="casestudy_heading">
+                                Reviving Joshimath: Engineering Solutions
+                            </p>
+                            {/*<p className="casestudy_heading2">*/}
+                            {/*    In association with Department of Hydrology, IIT Roorkee*/}
+                            {/*</p>*/}
+                            <p className="casestudy_main_write">
+                                Joshimath, situated in the Chamoli district of Uttarakhand, is a mountainous town along
+                                the
+                                Rishikesh-Badrinath National Highway (NH-7). This town plays a crucial role as a rest
+                                point for
+                                tourists on their way to destinations like Badrinath, Auli, Valley of Flowers, and
+                                Hemkund Sahib.
+                                It is a hub for both religious and tourist activities in the region. Joshimath, located
+                                in the
+                                high-risk seismic Zone-V, is crossed by swift streams with a steep gradient originating
+                                from
+                                Vishnuprayag, where the Dhauliganga and Alaknanda rivers converge.
 
-      <div className="casestudy-wrapper">
-        <div className="casestudy-main Left">
-          <div className="casestudy1">
-            <div className="casestudy_context">
-              <p className="casestudy_heading">REVAMPING INDIAN FORESTS</p>
-              <p className="casestudy_heading2">In association with FSI</p>
-              <p className="casestudy_main_write">
-                Forest Survey of India (FSI), is the premier national
-                organisation under the Union Ministry of Environment and
-                Forests, responsible for the task of assessment and monitoring
-                of the forest resources of the country on a regular basis. The
-                contingents will be provided with a problem related to inventory
-                generation , easing out road network inside indian forests, and
-                the economic factors related to industrial projects .
-              </p>
+                            </p>
+                        </div>
+                        <div className="casestudy_image">
+                            <img src={FloodDesign} className="imgg"></img>
+                        </div>
+                    </div>
+                    <div className="casestudy2">
+                        <button className="casestudy-btn" onClick={onPressFloodInfo}>
+                            PROBLEM STATEMENT
+                        </button>
+                        <button className="text-casestudy" onClick={onPressFlood}>
+                            RULE BOOK
+                        </button>
+                    </div>
+                </div>
+                <div className="casestudy-main Left">
+                    <div className="casestudy1">
+                        <div className="casestudy_context">
+                            <p className="casestudy_heading">
+                                Navigating Climate Crisis
+                            </p>
+                            {/*<p className="casestudy_heading2">In association with GRIL</p>*/}
+                            <p className="casestudy_main_write">
+                                In December 2015, global leaders convened in Paris, signing an agreement to limit the
+                                long-term rise in global temperatures, emphasizing the importance of keeping it below
+                                2°C and striving for 1.5°C. Despite these efforts, an alarming trend has emerged, with
+                                an
+                                increasing number of days breaching the 1.5°C mark, raising concerns about the
+                                proximity to the long-term warming limit. As of October 2, 2023, data from the
+                                Copernicus Climate Change Service indicates that 86 days this year have surpassed the
+                                1.5°C threshold. This acceleration in climate extremes necessitates unprecedented action
+                                worldwide.
+
+                            </p>
+                        </div>
+                        <div className="casestudy_image">
+                            <img src={SoilCaseStudy} className="imgg"></img>
+                        </div>
+                    </div>
+                    <div className="casestudy2">
+                        <button className="casestudy-btn" onClick={onPressSoilInfo}>
+                            PROBLEM STATEMENT
+                        </button>
+                        <button className="text-casestudy" onClick={onPressGril}>
+                            RULE BOOK
+                        </button>
+                    </div>
+                </div>
+
             </div>
-            <div className="casestudy_image">
-              <img src={FSI} className="imgg"></img>
-            </div>
-          </div>
-          <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressForestInfo}>
-              PROBLEM STATEMENT
-            </button>
-            <button className="text-casestudy" onClick={onPressForest}>
-              RULE BOOK
-            </button>
-          </div>
-        </div>
-        <div className="casestudy-main Right">
-          <div className="casestudy1">
-            <div className="casestudy_context">
-              <p className="casestudy_heading">
-                URBAN FLOOD MANAGEMENT - CHICAGO
-              </p>
-              <p className="casestudy_heading2">
-                In association with Department of Hydrology, IIT Roorkee
-              </p>
-              <p className="casestudy_main_write">
-                Chicago is the third most populous city in the United States of
-                America and one of the 40 largest urban areas in the world with
-                a 2.7 million population (2020). The city receives an average
-                rainfall of 35 inches per year and thunderstorms bring most of
-                the city’s rainfall. The case study involves demanding solutions
-                related to flood control problems in chicago and the cost
-                associated with it.
-              </p>
-            </div>
-            <div className="casestudy_image">
-              <img src={FloodDesign} className="imgg"></img>
-            </div>
-          </div>
-          <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressFloodInfo}>
-              PROBLEM STATEMENT
-            </button>
-            <button className="text-casestudy" onClick={onPressFlood}>
-              RULE BOOK
-            </button>
-          </div>
-        </div>
-        <div className="casestudy-main Left">
-          <div className="casestudy1">
-            <div className="casestudy_context">
-              <p className="casestudy_heading">
-                SAFE BEARING CAPACITY ANALYSIS
-              </p>
-              <p className="casestudy_heading2">In association with GRIL</p>
-              <p className="casestudy_main_write">
-                Quality is not an act; it's a habit. The difficulties
-                encountered in constructing infrastructure start from the
-                foundations. With confidence, it is critical for an engineer to
-                build a firm foundation before designing and executing concepts.
-                Although reliable, conventional methods for ground improvement
-                do not always fit into the time equation. Given the large domain
-                and number of projects on the horizon, the magnitude of the
-                viability of integrating innovative methodologies is worth
-                emphasizing. GRI anticipates newer and innovative ideas from
-                future Industry wizards.
-              </p>
-            </div>
-            <div className="casestudy_image">
-              <img src={SoilCaseStudy} className="imgg"></img>
-            </div>
-          </div>
-          <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressSoilInfo}>
-              PROBLEM STATEMENT
-            </button>
-            <button className="text-casestudy" onClick={onPressGril}>
-              RULE BOOK
-            </button>
-          </div>
-        </div>
-        <div className="casestudy-main Right">
-          <div className="casestudy1">
-            <div className="casestudy_context">
-              <p className="casestudy_heading">ON SITE CONCRETE TECHNOLOGY</p>
-              <p className="casestudy_heading2">In association with ONGC</p>
-              <p className="casestudy_main_write">
-                Concrete is the principal material used in all building
-                procedures. Concrete strength is critical to the structure's
-                longevity. Have you ever considered the scope and volume of
-                on-site manual interventions, such as monitoring and even
-                completing specific trivial but vital tasks? Manual requirements
-                might be unpredictable, displaying a lack of confidence while
-                taxing financial and time resources. Developing on-site
-                solutions that eliminate manual interventions utilizing newer
-                technology such as I.O.T will gain traction in the future. The
-                Civil Conclave provides you with the platform to develop
-                industry-relevant, innovative ideas with a focus on technology.
-              </p>
-            </div>
-            <div className="casestudy_image">
-              <img src={Structural} className="imgg"></img>
-            </div>
-          </div>
-          <div className="casestudy2">
-            <button className="casestudy-btn" onClick={onPressConcreteInfo}>
-              PROBLEM STATEMENT
-            </button>
-            <button className="text-casestudy" onClick={onPressStructural}>
-              RULE BOOK
-            </button>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+        </>
+    );
 }
