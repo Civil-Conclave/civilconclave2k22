@@ -3,8 +3,9 @@ import img from "../../assets/eve1.png";
 import img2 from "../../assets/eve3.png";
 import img3 from "../../assets/eve4.png";
 import img4 from "../../assets/eve5.png";
-import img5 from "../../assets/eve6.png";
+import img5 from "../../assets/design_diff.png";
 import img6 from "../../assets/5516 1.png";
+import img7 from "../../assets/innovista.png"
 
 const data = [
   {
@@ -89,6 +90,7 @@ const data = [
   },
 
   {
+    url:img7,
     title: "BRAINSTORM, INNOVATE, SUSTAIN",
     body1:
       "InnoVista provides a platform for aspiring leaders to bring startup ideas to life. Pitch your world-changing concept, as innovation thrives in the hands of determined individuals eager to reshape the future",

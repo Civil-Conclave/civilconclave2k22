@@ -46,7 +46,7 @@ function Scroller(props) {
       <div className="scrollWrapper">
         <img src={BackCircle} className="backCircle" alt="/" />
         <div className="eventType">{props.currevent}</div>
-        {/* <img
+        <img
           src={BlueCircle}
           className="blueCircle1"
           id="bc1"
@@ -55,9 +55,9 @@ function Scroller(props) {
             left: props.scrollval,
             width: "20%",
           }}
-        /> */}
-        {/* <img src={BlueCircle} className="blueCircle2" alt="/" /> */}
-        {/* <img src={BlueCircle} className="blueCircle3" alt="/" /> */}
+        /> 
+        <img src={BlueCircle} className="blueCircle2" alt="/" />
+         <img src={BlueCircle} className="blueCircle3" alt="/" />
       </div>
     </div>
   );

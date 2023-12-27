@@ -1,11 +1,44 @@
 .eventContainer {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 50vh;
-  background-color: #1e1e1e;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  height: 100vh;
+  /* background-color: #1e1e1e; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.leftimg-event{
+  width: 4vw;
+  margin-top: 10vh;
+  position: absolute;
+  z-index: 5;
+}
+.imgRightEllipse-event{
+  width: 4vw;
+  margin-top: 38vh;
+
+  position: absolute;
+  right: 0;
+}
+.img-mid-event{
+  width: 4vw;
+  margin-top: 9vh;
+
+  position: absolute;
+  left: 72.2%;
+}
+.img-mid-down-event{
+  width: 4vw;
+  margin-top: 33vh;
+
+  position: absolute;
+  left: 22%;
+}
+.header-line-events{
+  background: linear-gradient(90deg, rgba(44, 76, 157, 0.00) 0.38%, #0E49DD 52.1%, rgba(44, 76, 157, 0.00) 97.73%);
+  width: 676px;
+height: 15px;
+margin: 1rem 0; 
 }
 .ellipse {
   display: flex;
@@ -22,15 +55,22 @@
 .headerInfo {
   top: 20%;
   width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   z-index: 7;
   margin: auto;
 }
 .headerEventHeading {
-  color: white;
-  font-size: 2.1vw;
+  color: #E5D536;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 168.539px;
+  font-style: normal;
   font-weight: 700;
-  padding: 1rem;
+  line-height: normal;
   /* line-height: 7.64vh; */
 }
 .eventDes {
@@ -97,7 +137,8 @@
   background-color: transparent;
   border: none;
   display: flex;
-  color: white;
+  color: #e5d536;
+cursor: pointer;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -129,9 +170,10 @@
 }
 
 @media (max-width: 760px) {
+
   .eventContainer {
     overflow: hidden;
-    height: 60vh;
+    height: 40vh;
   }
   .ellipse {
     width: 100%;
@@ -149,7 +191,7 @@
   .footInfo {
     display: none;
   }
-
+   
   .leftStripes{
     margin-top: 6.1rem;
     width: 21vw;
@@ -163,11 +205,41 @@
   }
 
   .headerEventHeading {
-    font-size: 5vw;
+    font-size: 50px;
   }
 
   .eventDes{
-    font-size: 3vw;
+    font-size: 20px;
+    text-align: center;
   }
+  .imgRightEllipse-event{
+  display: none;
+  }
+  .img-mid-event{
+    display: none;
 
+  }
+  .img-mid-down-event{
+    display: none;
+
+  }
+  .header-line-events{
+width:0px;
+  }
+  .leftimg-event{
+    display: none;
+
+  }
+  .headerInfo {
+    /* top: 20%; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-size: 80px;
+    flex-direction: column;
+    justify-content: center;
+    /* position: absolute; */
+    z-index: 7;
+    margin: auto;
+  }
 }
