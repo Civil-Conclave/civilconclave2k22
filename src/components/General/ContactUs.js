@@ -41,7 +41,7 @@ export default function Lastcomponent() {
             </div>
             <div className="btn">
               <button id="msg" type="submit" value="Send" >
-                <a href="'mailto:civilconclave@iitr.ac.in'">
+                <a href='mailto:civilconclave@iitr.ac.in'>
                 SEND MESSAGE
                 </a>
               </button>
