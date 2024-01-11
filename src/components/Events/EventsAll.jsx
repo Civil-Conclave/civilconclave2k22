@@ -174,12 +174,12 @@ const Events = (props) => {
   }
   function handleClickDesign(e) {
     window.open(
-      "https://drive.google.com/file/d/1tBVbifnuDtZygYdHdqSD0WRhz89xUqQa/view?usp=sharing"
+      "https://drive.google.com/file/d/1g2Y6g8-0w4PDJtfZmcst3P8yyV2Vwp0v/view?usp=drive_link"
     );
   }
-  function handleClickResearchSubmit(e) {
+  function innovistasubmit(e) {
     window.open(
-      "https://drive.google.com/file/d/1NcwJtkA_mcjhRnI7UuSys_kxJVBxOtCp/view?usp=sharing"
+      "https://drive.google.com/file/d/1Vg0ee8GCmBq-cWOZIRPUIp2zMaZSpAXC/view?usp=drive_link"
     );
   }
 
@@ -187,9 +187,9 @@ const Events = (props) => {
     window.open("https://drive.google.com/file/d/1HdOr9lgIozWbaqj5gT5CZjwrXNGrqSgG/view?usp=drive_link");
   }
 
-  function handleProblemStatements(e) {
+  function casesubmit(e) {
     window.open(
-      "https://drive.google.com/file/d/1sglDM9gkdQ9wVectu2mSeBFjbz1bhLFm/view?usp=sharing"
+      "https://drive.google.com/file/d/1Z4AJG3qBc-vFTxQ4hh2bNWye64_pGFDT/view?usp=sharing"
     );
   }
   function handleClickCase6(e){
@@ -235,9 +235,9 @@ const Events = (props) => {
                 {data[0].body4}
               </p>
               <div className="caseStudyButtons">
-                {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseS}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={casesubmit}>
                   Click Here to Submit
-                </button> */}
+                </button>
                 <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseStudy}>
                   View Problem Statements
                 </button>
@@ -347,6 +347,7 @@ const Events = (props) => {
                 <button style={{cursor:'pointer'}} className="submitButton" onClick={handleSubmitDesign}>
                   Rulebook
                 </button>
+                
                 {/* <button style={{cursor:'pointer'}}
                   className="submitButton"
                   onClick={handleProblemStatements}
@@ -377,11 +378,14 @@ const Events = (props) => {
                 {data[5].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseS}>
+              <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseS}>
                   Rulebook
                 </button>
                 <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
                   View Problem Statements
+                </button>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickDesign}>
+                  Submit Here
                 </button>
               </div>
             </div>
@@ -409,6 +413,9 @@ const Events = (props) => {
                 {data[6].body4}
               </p>
               <div className="caseStudyButtons">
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={innovistasubmit}>
+                  Click Here to Submit
+                </button>
                 <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCase6}>
                   Rulebook
                 </button>
