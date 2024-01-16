@@ -82,7 +82,7 @@ function Navbarnew() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1AYeE72HbkTBC8EF8A5puFZW0MNfc1094/view?usp=sharing"
+                href="https://drive.google.com/file/d/1fqqk_r6-ANK8JGaO1bpzzdyZYbWoGozs/view?usp=drive_link"
                 target="_blank"
                 className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {

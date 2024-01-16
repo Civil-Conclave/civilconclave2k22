@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./AboutUS.css";
 import data from "./dataabout.js";
+import { Link } from "react-router-dom";
 
 
 function AboutUS(){
@@ -32,7 +33,8 @@ function AboutUS(){
 
                 <h1>{data[Index]?.title}</h1>
                 <p>{data[Index]?.context}</p>
-                <button className="know-morebtn">Learn more </button>
+               <Link to={'/aboutus'}><button className="know-morebtn">Learn more </button>
+               </Link> 
               </div>
             </div>
           </div>

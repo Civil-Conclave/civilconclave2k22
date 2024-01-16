@@ -123,7 +123,14 @@ const Events = (props) => {
       if (myRef6.current) observer6.unobserve(myRef6.current);
     };
   }, [myRef6, options]);
+  useEffect(() => {
+    const observer7 = new IntersectionObserver(callbackFunction, options);
+    if (myRef7.current) observer7.observe(myRef7.current);
 
+    return () => {
+      if (myRef7.current) observer7.unobserve(myRef7.current);
+    };
+  }, [myRef7, options]);
   useEffect(() => {
     const observerHeader = new IntersectionObserver(
       callbackFunctionHeader,
@@ -148,16 +155,16 @@ const Events = (props) => {
   }, [footerRef, footerProps]);
 
   function handleClick(e) {
-    window.open("/casestudy");
+    window.open("https://drive.google.com/file/d/1DMGycWmHIU7tcl3nMmq7r1WgAx2sPpkL/view?usp=drive_link");
   }
   function handleClickCaseS(e) {
     window.open(
-      "https://drive.google.com/file/d/1sf01QiMGc4_5KIyzIQv5B02EuCoW3g9K/view?usp=sharing"
+      "https://drive.google.com/file/d/1kyhvyUjlX7iCHrh2mnxq8QoT-eX6Dn1f/view?usp=drive_link"
     );
   }
   function handleClickResearch(e) {
     window.open(
-      "https://drive.google.com/file/d/1J4c_B4HhMiq3A5CTZd4Q-hXwzMWJhWu3/view?usp=sharing"
+      "https://drive.google.com/file/d/1CPwRgvLs3gN9G8-8JiCdcJP3nUsO1lxx/view?usp=drive_link"
     );
   }
   function handleClickStcg(e) {
@@ -167,25 +174,34 @@ const Events = (props) => {
   }
   function handleClickDesign(e) {
     window.open(
-      "https://drive.google.com/file/d/1tBVbifnuDtZygYdHdqSD0WRhz89xUqQa/view?usp=sharing"
+      "https://drive.google.com/file/d/1g2Y6g8-0w4PDJtfZmcst3P8yyV2Vwp0v/view?usp=drive_link"
     );
   }
-  function handleClickResearchSubmit(e) {
+  function innovistasubmit(e) {
     window.open(
-      "https://drive.google.com/file/d/1NcwJtkA_mcjhRnI7UuSys_kxJVBxOtCp/view?usp=sharing"
+      "https://drive.google.com/file/d/1Vg0ee8GCmBq-cWOZIRPUIp2zMaZSpAXC/view?usp=drive_link"
     );
   }
 
   function handleSubmitDesign(e) {
-    window.open("https://forms.gle/JfSMk2DGKeHYSmRD8");
+    window.open("https://drive.google.com/file/d/1HdOr9lgIozWbaqj5gT5CZjwrXNGrqSgG/view?usp=drive_link");
   }
 
-  function handleProblemStatements(e) {
+  function casesubmit(e) {
     window.open(
-      "https://drive.google.com/file/d/1sglDM9gkdQ9wVectu2mSeBFjbz1bhLFm/view?usp=sharing"
+      "https://drive.google.com/file/d/1Z4AJG3qBc-vFTxQ4hh2bNWye64_pGFDT/view?usp=sharing"
     );
   }
-
+  function handleClickCase6(e){
+    window.open(
+      "https://drive.google.com/file/d/1ii4OiGwNJd8gx6kgIh50iAHLjMbGbtrf/view?usp=drive_link"
+    );
+  }
+  function handleClickCaseStudy(e){
+    window.open(
+      "/casestudy"
+    );
+  }
   return (
     <div className="wholeEventsContainer">
       <div className="headerContainer" ref={headerRef}>
@@ -219,10 +235,10 @@ const Events = (props) => {
                 {data[0].body4}
               </p>
               <div className="caseStudyButtons">
-                <button className="submitButton" onClick={handleClickCaseS}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={casesubmit}>
                   Click Here to Submit
                 </button>
-                <button className="submitButton" onClick={handleClick}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseStudy}>
                   View Problem Statements
                 </button>
               </div>
@@ -271,15 +287,15 @@ const Events = (props) => {
                 {data[2].body4}
               </p>
               <div className="caseStudyButtons">
-                <button className="submitButton" onClick={handleClickResearch}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickResearch}>
                   Rulebook
                 </button>
-                <button
+                {/* <button style={{cursor:'pointer'}}
                   className="submitButton"
                   onClick={handleClickResearchSubmit}
                 >
                   Click here to Submit
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="rightImg">
@@ -302,9 +318,9 @@ const Events = (props) => {
                 <br />
                 {data[3].body4}
               </p>
-              <button className="submitButton" onClick={handleClickStcg}>
+              {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickStcg}>
                 Rulebook
-              </button>
+              </button> */}
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
@@ -328,15 +344,16 @@ const Events = (props) => {
                 {data[4].body4}
               </p>
               <div className="caseStudyButtons">
-                <button className="submitButton" onClick={handleSubmitDesign}>
-                  Click Here to Submit
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleSubmitDesign}>
+                  Rulebook
                 </button>
-                <button
+                
+                {/* <button style={{cursor:'pointer'}}
                   className="submitButton"
                   onClick={handleProblemStatements}
                 >
                   View Problem Statements
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="vertical-line"></div>
@@ -361,11 +378,14 @@ const Events = (props) => {
                 {data[5].body4}
               </p>
               <div className="caseStudyButtons">
-                <button className="submitButton" onClick={handleClickCaseS}>
-                  Click Here to Submit
+              <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseS}>
+                  Rulebook
                 </button>
-                <button className="submitButton" onClick={handleClick}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
                   View Problem Statements
+                </button>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickDesign}>
+                  Submit Here
                 </button>
               </div>
             </div>
@@ -393,12 +413,15 @@ const Events = (props) => {
                 {data[6].body4}
               </p>
               <div className="caseStudyButtons">
-                <button className="submitButton" onClick={handleClickCaseS}>
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={innovistasubmit}>
                   Click Here to Submit
                 </button>
-                <button className="submitButton" onClick={handleClick}>
-                  View Problem Statements
+                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCase6}>
+                  Rulebook
                 </button>
+                {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
+                  View Problem Statements
+                </button> */}
               </div>
             </div>
             <div className="vertical-line"></div>

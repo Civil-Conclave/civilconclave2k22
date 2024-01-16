@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import FSI from "../../assets/Forest.jpeg";
-import FloodDesign from "../../assets/FloodDesign.jpeg";
-import SoilCaseStudy from "../../assets/SoilCaseStudy.jpeg";
-import Structural from "../../assets/Structural.jpeg";
+import joshimath from "../../assets/joshimath.svg";
+import strategicplanning from "../../assets/strategic_planning.svg";
+import climatecrisis from "../../assets/climate_crisis.svg";
+import safety from "../../assets/intersection.svg";
 import "./CaseStudy.css";
 
 
@@ -12,13 +14,17 @@ import Ellipse from "../../assets/Ellipse1.png";
 export default function CaseStudyleft() {
     function onPressForest(e) {
         window.open(
-            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+
+            "https://drive.google.com/file/d/1ABMZ2DE6XX6DlABiRqMLUB2wlVp4ZMKh/view?usp=drive_link"
+
         );
     }
 
     function onPressFlood(e) {
         window.open(
-            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+
+            "https://drive.google.com/file/d/1dyAgx-hBhWzAdDCby8nvk_aLgpxrdTF4/view?usp=drive_link"
+
         );
     }
 
@@ -30,7 +36,9 @@ export default function CaseStudyleft() {
 
     function onPressGril(e) {
         window.open(
-            "https://drive.google.com/drive/folders/1iETHhNwjdhTBgHli0bxiM8Vac-hYPUnI?usp=drive_link"
+
+            "https://drive.google.com/file/d/16pSa9YSEPP6tHoNU_lb5yF9I_GYjc7Mo/view?usp=drive_link"
+
         );
     }
 
@@ -55,6 +63,19 @@ export default function CaseStudyleft() {
     function onPressConcreteInfo(e) {
         window.open(
             "https://drive.google.com/file/d/1Smmcyw0Q6vijxeDckRN14RGODu6QMod3/view?usp=sharing"
+        );
+    }
+
+
+    function onPressLast(e) {
+        window.open(
+            "https://drive.google.com/file/d/1tzPdjM9J5taDD-lBVIEEkrNEEJjbtNgO/view?usp=drive_link"
+        );
+    }
+    
+    function onPressLast_Rule(e) {
+        window.open(
+            "https://drive.google.com/file/d/1xR7QdVMLkuGZ6R3NUZm6_HopkLKZBb6_/view?usp=drive_link"
         );
     }
 
@@ -112,7 +133,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
-                            <img src={FSI} className="imgg"></img>
+
+                            <img src={strategicplanning} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -149,7 +172,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
-                            <img src={FloodDesign} className="imgg"></img>
+
+                            <img src={joshimath} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -182,7 +207,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
-                            <img src={SoilCaseStudy} className="imgg"></img>
+
+                            <img src={climatecrisis} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -190,6 +217,36 @@ export default function CaseStudyleft() {
                             PROBLEM STATEMENT
                         </button>
                         <button className="text-casestudy" onClick={onPressGril}>
+                            RULE BOOK
+                        </button>
+                    </div>
+                </div>
+
+                <div className="casestudy-main Right">
+                    <div className="casestudy1">
+                        <div className="casestudy_context">
+                            <p className="casestudy_heading">
+                                Tackling Pedestrian Safety
+                            </p>
+                            {/*<p className="casestudy_heading2">*/}
+                            {/*    In association with Department of Hydrology, IIT Roorkee*/}
+                            {/*</p>*/}
+                            <p className="casestudy_main_write">
+                            Presenting you all with the last case study for this edition of civil conclave on Tackling Pedestrian Safety.
+India demands our attention and collective effort towards Pedestrian accidents and the stark reality is that 32,825 precious lives were lost in 2022 alone, and it's a call for us to come together for change. Let's raise awareness and pave the way for change and make our streets safer for everyone.
+
+
+                            </p>
+                        </div>
+                        <div className="casestudy_image">
+                            <img src={safety} className="imgg"></img>
+                        </div>
+                    </div>
+                    <div className="casestudy2">
+                        <button className="casestudy-btn" onClick={onPressLast}>
+                            PROBLEM STATEMENT
+                        </button>
+                        <button className="text-casestudy" onClick={onPressLast_Rule}>
                             RULE BOOK
                         </button>
                     </div>

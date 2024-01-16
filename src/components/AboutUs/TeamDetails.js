@@ -46,6 +46,7 @@ import sarthak from '../../assets/Sarthak.png'
 import samarth from '../../assets/samarth.png'
 import dev from '../../assets/devpatel.png'
 import ankitlal from '../../assets/ankitlal.png'
+
 const contacts = [
   {
     id: 1,
@@ -201,6 +202,7 @@ const contacts = [
     position: "Manager",
     image: om,
   },
+
   {
     id: 22,
     name: "Samarth Pratap Singh",
