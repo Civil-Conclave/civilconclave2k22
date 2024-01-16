@@ -14,13 +14,17 @@ import Ellipse from "../../assets/Ellipse1.png";
 export default function CaseStudyleft() {
     function onPressForest(e) {
         window.open(
+
             "https://drive.google.com/file/d/1ABMZ2DE6XX6DlABiRqMLUB2wlVp4ZMKh/view?usp=drive_link"
+
         );
     }
 
     function onPressFlood(e) {
         window.open(
+
             "https://drive.google.com/file/d/1dyAgx-hBhWzAdDCby8nvk_aLgpxrdTF4/view?usp=drive_link"
+
         );
     }
 
@@ -32,7 +36,9 @@ export default function CaseStudyleft() {
 
     function onPressGril(e) {
         window.open(
+
             "https://drive.google.com/file/d/16pSa9YSEPP6tHoNU_lb5yF9I_GYjc7Mo/view?usp=drive_link"
+
         );
     }
 
@@ -60,6 +66,7 @@ export default function CaseStudyleft() {
         );
     }
 
+
     function onPressLast(e) {
         window.open(
             "https://drive.google.com/file/d/1tzPdjM9J5taDD-lBVIEEkrNEEJjbtNgO/view?usp=drive_link"
@@ -71,6 +78,7 @@ export default function CaseStudyleft() {
             "https://drive.google.com/file/d/1xR7QdVMLkuGZ6R3NUZm6_HopkLKZBb6_/view?usp=drive_link"
         );
     }
+
     return (
         <>
 
@@ -125,7 +133,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
+
                             <img src={strategicplanning} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -162,7 +172,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
+
                             <img src={joshimath} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -195,7 +207,9 @@ export default function CaseStudyleft() {
                             </p>
                         </div>
                         <div className="casestudy_image">
+
                             <img src={climatecrisis} className="imgg"></img>
+
                         </div>
                     </div>
                     <div className="casestudy2">
@@ -207,6 +221,7 @@ export default function CaseStudyleft() {
                         </button>
                     </div>
                 </div>
+
                 <div className="casestudy-main Right">
                     <div className="casestudy1">
                         <div className="casestudy_context">
@@ -236,6 +251,7 @@ India demands our attention and collective effort towards Pedestrian accidents a
                         </button>
                     </div>
                 </div>
+
             </div>
         </>
     );
