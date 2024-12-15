@@ -89,7 +89,7 @@ function Events() {
         </div>
         <div className="sec 4">
           <img className="eventImages" src={Event4} alt="/" />
-          <div className="eventName event4"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Design Different</Link></div>
+          <div className="eventName event4"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> City Planning</Link></div>
         </div>
         <div className="sec 5">
           <img className="eventImages" src={Event5} alt="/" />
