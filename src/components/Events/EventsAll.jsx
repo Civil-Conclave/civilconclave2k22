@@ -159,27 +159,27 @@ const Events = (props) => {
   }
   function handleClickCaseS(e) {
     window.open(
-      "https://drive.google.com/file/d/1kyhvyUjlX7iCHrh2mnxq8QoT-eX6Dn1f/view?usp=drive_link"
+      "https://drive.google.com/file/d/10Pav9-7jL8W-tLVCWAD-egoq7mgr4EPG/view?usp=sharing"
     );
   }
   function handleClickResearch(e) {
     window.open(
-      "https://drive.google.com/file/d/1CPwRgvLs3gN9G8-8JiCdcJP3nUsO1lxx/view?usp=drive_link"
+      "https://drive.google.com/file/d/10V00FgfXxbAtlWfVn0fbhkM6JHx5ZmdP/view?usp=sharing"
     );
   }
   function handleClickStcg(e) {
     window.open(
-      "https://drive.google.com/file/d/1h9Pkr7J8zeDEs9m1pn9zKJaoOprcrJZS/view?usp=sharing"
+      "https://drive.google.com/file/d/10KI4KZLCDN-vmyeAJY7rbMLhFaMDA1zN/view?usp=sharing"
     );
   }
   function handleClickDesign(e) {
     window.open(
-      "https://drive.google.com/file/d/1g2Y6g8-0w4PDJtfZmcst3P8yyV2Vwp0v/view?usp=drive_link"
+      "https://drive.google.com/file/d/10I_MAmfnE_jH1YXDGT13e_deMDXCjfBv/view?usp=sharing"
     );
   }
   function innovistasubmit(e) {
     window.open(
-      "https://drive.google.com/file/d/1Vg0ee8GCmBq-cWOZIRPUIp2zMaZSpAXC/view?usp=drive_link"
+      "https://drive.google.com/file/d/10mZWZepxH2vLqTrmYXirGAtmSBgela4M/view?usp=sharing"
     );
   }
 
@@ -192,12 +192,12 @@ const Events = (props) => {
       "https://drive.google.com/file/d/1Z4AJG3qBc-vFTxQ4hh2bNWye64_pGFDT/view?usp=sharing"
     );
   }
-  function handleClickCase6(e){
+  function handleClickCase6(e) {
     window.open(
       "https://drive.google.com/file/d/1ii4OiGwNJd8gx6kgIh50iAHLjMbGbtrf/view?usp=drive_link"
     );
   }
-  function handleClickCaseStudy(e){
+  function handleClickCaseStudy(e) {
     window.open(
       "/casestudy"
     );
@@ -235,18 +235,18 @@ const Events = (props) => {
                 {data[0].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={casesubmit}>
-                  Click Here to Submit
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickCaseS}>
+                  Rulebook
                 </button>
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseStudy}>
+                {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseStudy}>
                   View Problem Statements
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef1}>{data[0].imgtitle}</h1>
-              <img src={data[0].url} alt="" />
+              <img src={data[0].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -268,7 +268,7 @@ const Events = (props) => {
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef2}>{data[1].imgtitle}</h1>
-              <img src={data[1].url} alt="" />
+              <img src={data[1].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -287,7 +287,7 @@ const Events = (props) => {
                 {data[2].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickResearch}>
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickResearch}>
                   Rulebook
                 </button>
                 {/* <button style={{cursor:'pointer'}}
@@ -300,7 +300,7 @@ const Events = (props) => {
             </div>
             <div className="rightImg">
               <h1 ref={myRef3}>{data[2].imgtitle}</h1>
-              <img src={data[2].url} alt="" />
+              <img src={data[2].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -325,7 +325,7 @@ const Events = (props) => {
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef4}>{data[3].imgtitle}</h1>
-              <img src={data[3].url} alt="" />
+              <img src={data[3].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -344,10 +344,10 @@ const Events = (props) => {
                 {data[4].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleSubmitDesign}>
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleSubmitDesign}>
                   Rulebook
                 </button>
-                
+
                 {/* <button style={{cursor:'pointer'}}
                   className="submitButton"
                   onClick={handleProblemStatements}
@@ -359,7 +359,7 @@ const Events = (props) => {
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef5}>{data[4].imgtitle}</h1>
-              <img src={data[4].url} alt="" />
+              <img src={data[4].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -378,21 +378,21 @@ const Events = (props) => {
                 {data[5].body4}
               </p>
               <div className="caseStudyButtons">
-              <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCaseS}>
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickDesign}>
                   Rulebook
                 </button>
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
+                {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
                   View Problem Statements
                 </button>
                 <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickDesign}>
                   Submit Here
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef6}>{data[5].imgtitle}</h1>
-              <img src={data[5].url} alt="" />
+              <img src={data[5].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }}  />
             </div>
           </div>
 
@@ -413,10 +413,10 @@ const Events = (props) => {
                 {data[6].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={innovistasubmit}>
+                {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={innovistasubmit}>
                   Click Here to Submit
-                </button>
-                <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClickCase6}>
+                </button> */}
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={innovistasubmit}>
                   Rulebook
                 </button>
                 {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
@@ -427,7 +427,7 @@ const Events = (props) => {
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef7}>{data[6].imgtitle}</h1>
-              <img src={data[6].url} alt="" />
+              <img src={data[6].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
 

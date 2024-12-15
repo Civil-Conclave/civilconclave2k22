@@ -46,7 +46,7 @@ function footer() {
               </div>
               <div className="imgBox">
                 <a
-                  href="https://www.facebook.com/civilconclave.iitr/0"
+                  href="https://www.facebook.com/civilconclave.iitr/"
                   target="_blank"
                 >
                   <img src={fb} className="logo" />

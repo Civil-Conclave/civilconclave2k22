@@ -3,7 +3,7 @@ import img from "../../assets/eve1.png";
 import img2 from "../../assets/eve3.png";
 import img3 from "../../assets/eve4.png";
 import img4 from "../../assets/eve5.png";
-import img5 from "../../assets/design_diff.png";
+import img5 from "../../assets/planning.webp";
 import img6 from "../../assets/5516 1.png";
 import img7 from "../../assets/innovista.png"
 
@@ -77,16 +77,15 @@ const data = [
   },
   {
     url: img5,
-    title: "LEARN..DESIGN..PRESENT",
+    title: "CONCEIVE, ENGINEER, TRANSFORM",
     body1:
-      "Explore unconventional thinking in Design Different, a challenge testing problem-solving skills with real-world design dilemmas. Break free from traditional thinking and unleash your design genius.",
-    body2:
-      "By combining design tools with civil engineering expertise, Design Different will provide a unique opportunity for individuals to enhance their skills and gain valuable insights.",
+      "The City Planning event at the Nirmaan'25 - IIT Roorkee Civil Conclave offers a prestigious platform for participants to envision and craft the infrastructure of tomorrow's cities. This challenge encourages the creation of urban landscapes that integrate cutting-edge technologies, sustainable practices, and forward-thinking designs.",
+      body2:"Whether reimagining transportation systems, green building innovations, or efficient resource management, your vision will shape the future of urbanization.",
     body3:
-      "Participants are equipped with the tools and techniques necessary to tackle real-world challenges and contribute meaningfully to the future of both design and civil engineering.",
+      "For the leaders of tomorrow, this is an unparalleled opportunity to present their visionary city concepts to a distinguished audience. Showcase your expertise in urban planning, blending practicality with creativity to design cities that not only meet the demands of today but are poised to thrive in the future.",
     body4:
-      "They will embark on a two-day design challenge, starting with a problem statement on Day 1. They'll have ample time to brainstorm creative solutions and present their ideas to our judges.",
-    imgtitle: "DESIGN DIFFERENT",
+      "The City Planning event calls for a synthesis of architectural brilliance, engineering precision, and sustainable innovation, providing an opportunity to set new benchmarks in urban development.",
+    imgtitle: "CITY PLANNING",
   },
 
   {

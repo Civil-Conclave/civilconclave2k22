@@ -54,7 +54,7 @@ function HeaderEvents(props) {
           Seek the Civil Geek
         </button>
         <button className="footText" onClick={handleClick5}>
-          Design Different
+          City Planning
         </button>
         <button className="footText" onClick={handleClick6}>
           Innovista
