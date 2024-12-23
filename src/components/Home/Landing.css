@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+
 .WrapperLanding {
   width: 100%;
   background-color: black;
@@ -35,23 +37,30 @@
   padding: 0.5rem;
   top: 15%;
 }
+.nirman{
+  font-size: 4rem;
+  text-align: center;
+  font-weight:600;
+}
 .teamInfo {
   display: flex;
   flex-direction: column;
 }
 .teamName {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 .teamPresents {
-  font-size: 1rem;
-  margin: auto;
+  font-size: 1.5rem;
+  /* margin: auto; */
+  text-align: center;
+  font-weight: 700;
 }
 .teamYear {
   color: #E5D536;
 }
 .ThemeHeading {
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 .ThemeName {
   position: relative;
@@ -65,13 +74,13 @@
 
 .colorblue {
   color: #E5D536;
-  font-size: 9rem;
+  font-size: 6rem;
   line-height: 0.8;
-  letter-spacing: 20%;
+  /* letter-spacing: 20%; */
 }
 
 .ThemeInfo {
-  margin-top: 4rem;
+  margin-top: 1rem;
   line-height: 1.8;
   text-align: center;
   position: relative;
@@ -80,11 +89,13 @@
 
 .btnRegister {
   margin-top: 1.5rem;
-  background-color: #122B5B;
+  background-color: #E5D536;
   /*border: 1px solid white;*/
   border-style: none;
   font-size: 1.5rem;
-  color: white;
+  font-family:"Montserrat";
+  color: black;
+  font-weight: 700;
   padding: 0.5rem 3rem 0.5rem 3rem;
   border-radius: 1rem;
   cursor: pointer;

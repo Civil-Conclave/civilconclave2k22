@@ -96,7 +96,7 @@ const data = [
     body2:
       "For civil geeks, it is essential to provide startups with a platform to showcase their ideas to the general public and discuss them among like-minded entrepreneurs.",
     body3:
-      "The Civil conclave’24 proudly presents the “InnoVista” specifically for civil entrepreneurs. Get your thinking hats, flash your ideas, and form Enterprises.",
+      "The Civil conclave’25 proudly presents the “InnoVista” specifically for civil entrepreneurs. Get your thinking hats, flash your ideas, and form Enterprises.",
     body4:
       "A mixture of technology, vision, and business acumen bound together to give a new peak to civil.",
     imgtitle: "INNOVISTA",

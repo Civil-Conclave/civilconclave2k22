@@ -17,8 +17,11 @@ function HomePage() {
       </div>
       <div className="landingInfo">
         <div className="teamInfo">
+          <div className="nirman">
+          Nirmaan'<span className="teamYear">25</span>
+          </div>
           <div className="teamName">
-            Civil Conclave 20<span className="teamYear">24</span>
+            IIT Roorkee<span className="teamYear"> Civil Conclave</span>
           </div>
           <div className="teamPresents">Presents</div>
         </div>
@@ -28,16 +31,16 @@ function HomePage() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <h1 className="ThemeName">SCULPTURING</h1>
-          <h1 className="ThemeName colorblue"> INNOVATION</h1>
+          <h1 className="ThemeName">RESILIENCE</h1>
+          <h1 className="ThemeName colorblue"> REVOLUTION</h1>
         </motion.div>
-        {/*<div className="Date">24-26 December</div>*/}
+        
         <div className="ThemeInfo">
           Unravish and explore the deeper insights with this
           <br /> Inter IIT fest dedicated to civil engineers. Dive right in...
         </div>
         <button className="btnRegister" onClick={onPress}>
-          Register
+          REGISTER
         </button>
       </div>
     </div>
