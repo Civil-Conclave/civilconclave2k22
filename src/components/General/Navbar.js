@@ -69,7 +69,7 @@ function Navbarnew() {
                 ABOUT US
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/sponsor"
                 className={activeMenu === "sponsor" ? "active-links" : "links"}
@@ -79,10 +79,10 @@ function Navbarnew() {
               >
                 SPONSORS
               </Link>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://drive.google.com/file/d/1fqqk_r6-ANK8JGaO1bpzzdyZYbWoGozs/view?usp=drive_link"
+                href="https://forms.gle/9sStQdhs7qX95swi6"
                 target="_blank"
                 className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {

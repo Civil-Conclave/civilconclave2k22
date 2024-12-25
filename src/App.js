@@ -31,11 +31,11 @@ const CaseStudy = lazy(() => {
     setTimeout(() => resolve(import("./components/CaseStudy/index.js")), 400);
   });
 });
-const Sponsornav= lazy(() => {
-  return new Promise(resolve => {
-    setTimeout(() => resolve(import("./components/Sponsorsnav/index.js")), 400);
-  });
-});
+// const Sponsornav= lazy(() => {
+//   return new Promise(resolve => {
+//     setTimeout(() => resolve(import("./components/Sponsorsnav/index.js")), 400);
+//   });
+// });
 
 function App() {
   return (
@@ -61,7 +61,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/casestudy" element={<CaseStudy />} />
-            <Route path="/sponsor" element={<Sponsornav />} />
+            {/* <Route path="/sponsor" element={<Sponsornav />} /> */}
           </Routes>
         </div>
       </Suspense>

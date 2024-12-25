@@ -28,12 +28,12 @@ function Home() {
             <Heading name="Events"></Heading>
             <EventsHome></EventsHome>
             </span>
-            <span>
+            {/* <span>
                 <Heading name="Sponsors"></Heading>
 
              <Sponsor></Sponsor>
 
-                </span>
+                </span> */}
             <span>
                      <Heading name="About Us"></Heading>
                     <AboutUS></AboutUS>

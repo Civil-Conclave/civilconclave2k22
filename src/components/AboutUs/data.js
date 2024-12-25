@@ -8,7 +8,7 @@ const data = [
     title: "VISION",
     context: (
       <p>
-        Civil Conclave 2022 provides a common platform for civil engineering
+        Civil Conclave 2025 provides a common platform for civil engineering
         enthusiasts.Being an inter-IIT event, it aims at bringing together the
         students from the most elite colleges of India to compete and network.
         <br></br>
@@ -26,7 +26,7 @@ const data = [
     title: "CONCEPT",
     context: (
       <p>
-        On the whole, Civil Conclave 2022 is dedicated to nurturing technology
+        On the whole, Civil Conclave 2025 is dedicated to nurturing technology
         and including youth power in civil engineering via different events.
         <br></br>
         <br></br>Different events like case studies, research work presentations
@@ -42,7 +42,7 @@ const data = [
     title: "THEME",
     context: (
       <p>
-        Civil Conclave 2022 comes along with the theme of "Fortifying Future".
+        Civil Conclave 2025 comes along with the theme of "Fortifying Future".
         <br></br>
         <br></br>Sustainability has always been the need of the hour. Keeping
         the growing technology and future needs in mind, adopting sustainable
