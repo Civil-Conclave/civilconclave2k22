@@ -36,7 +36,7 @@ const data = [
     //     title: "VISION",
     //     context: (
     //       <p>
-    //         Civil Conclave 2022 provides a common platform for civil engineering
+    //         Civil Conclave 2025 provides a common platform for civil engineering
     //         enthusiasts.Being an inter-IIT event, it aims at bringing together the
     //         students from the most elite colleges of India to compete and network.
     //         <br></br>

@@ -14,12 +14,19 @@ function footer() {
           <img src={Logo} className="logo" />
         </div>
         <div className="smalldiv">
-          <div className="FHeading">CONTACTS</div>
+          <div className="FHeading"></div>
           <div className="Ftext">
             Civil Engineering Department, Indian Institute of Technology,
             Roorkee
           </div>
           <a className="Ftext bold" href='https://civil.iitr.ac.in' target= "_blank">https://civil.iitr.ac.in</a>
+          <a className="Ftext bold" href='https://linktr.ee/CivilConclave' target= "_blank">https://linktr.ee/CivilConclave</a>
+          <br />
+          <div className="number">
+          <div className="FHeading">For queries, Contact </div>
+            <div className="spocName">Priyanshu: 9508877029 </div>
+            <div className="spocName">Shreyansh: 7973452381 </div>
+          </div>
         </div>
         <div className="smalldiv visit">
           <div className="FHeading">VISIT</div>
@@ -52,14 +59,14 @@ function footer() {
                   <img src={fb} className="logo" />
                 </a>
               </div>
-              <div className="imgBox">
+              {/* <div className="imgBox">
                 <a
                   href="https://www.linkedin.com/company/civil-conclave-iitroorkee/?original_referer=https%3A%2F%2Fcivilconclave.iitr.ac.in%2F"
                   target="_blank"
                 >
                   <img src={linked} className="logo" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

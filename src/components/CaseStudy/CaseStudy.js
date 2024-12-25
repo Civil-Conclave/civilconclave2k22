@@ -233,7 +233,7 @@ export default function CaseStudyleft() {
                             {/*</p>*/}
                             <p className="casestudy_main_write">
                             Presenting you all with the last case study for this edition of civil conclave on Tackling Pedestrian Safety.
-India demands our attention and collective effort towards Pedestrian accidents and the stark reality is that 32,825 precious lives were lost in 2022 alone, and it's a call for us to come together for change. Let's raise awareness and pave the way for change and make our streets safer for everyone.
+India demands our attention and collective effort towards Pedestrian accidents and the stark reality is that 32,825 precious lives were lost in 2025 alone, and it's a call for us to come together for change. Let's raise awareness and pave the way for change and make our streets safer for everyone.
 
 
                             </p>
