@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, matchPath, useLocation } from "react-router-dom";
 import img from "../../assets/g12.png";
 import { VscMenu } from "react-icons/vsc";
 import { ImCross } from "react-icons/im";
@@ -13,7 +13,15 @@ import logo2 from "../../assets/logo2.png";
 function Navbarnew() {
 
   // const [isOpen, setOpen] = useState(false)
+  
+    // const location = useLocation();
+  
+    // const isOnEventsPage = matchPath(location.pathname, {
+    //   path: "/",
+    //   // exact: true,
+    // });
 
+    const [bgColor, setbgColor] = useState("black");
 
   const [activeMenu, setActiveMenu] = useState("");
   const [burgerstate, setBurgerState] = useState(true);
@@ -24,7 +32,13 @@ function Navbarnew() {
   };
   return (
     <>
-      <div className="navbarWrapper">
+    {
+      // isOnEventsPage ? setbgColor("") : setbgColor("black")
+    }
+      <div className="navbarWrapper"
+      
+      // style={{backgroundColor:`${bgcolor}`}}
+       >
         <div className="logos">
           <div className="logo1">
             <img src={logo1} id="img1" />

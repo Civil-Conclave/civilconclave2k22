@@ -10,11 +10,12 @@ import useScrollSnap from "react-use-scroll-snap";
 import {useRef} from "react";
 import Navbarnew from "../General/Navbar";
 import AboutUS from "./AboutUS.js";
-
+import "./index.css";
+import NewFooter from "../General/newFooter.js";
 
 function Home() {
     const scrollRef = useRef(null)
-    useScrollSnap({ref: scrollRef, duration: 20, delay: 5});
+    useScrollSnap({ref: scrollRef, duration: 10, delay: 3});
 
 
     return (<div className="HomeWrapper" ref={scrollRef}>
@@ -24,8 +25,8 @@ function Home() {
             </span>
 
             {/* <AboutConclave></AboutConclave> */}
-            <span>
-            <Heading name="Events"></Heading>
+            <span className="Landing2">
+            {/* <Heading name="Events"></Heading> */}
             <EventsHome></EventsHome>
             </span>
             {/* <span>
@@ -39,8 +40,14 @@ function Home() {
                      
                     <AboutUS></AboutUS>
             </span>
+            <div className="lastdivLanding">
+
+            
             <ContactUs></ContactUs>
-            <Footer></Footer>
+            
+            {/* <Footer></Footer> */}
+            <NewFooter/>
+            </div>
         </div>);
 }
 
