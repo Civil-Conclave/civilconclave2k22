@@ -1,7 +1,25 @@
 .AboutusWrapper {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 1rem; */
+    background-image: url("../../assets/BG2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2vw;
 }
+
+/* .Bg2 {
+    height:100vh;
+    overflow-y: hidden;
+    z-index: -10;
+  }
+  
+  .Bg2Img {
+    width: 100vw;
+  
+    height: 100%;
+  
+    opacity: 0.3;
+  } */
 
 .Aboutusmainheading {
     font-family: "Helvetica";
@@ -10,7 +28,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 4vw;
-    color: #E5D536;
+    color: #EFBF04;
     padding-top: 60px;
 }
 
@@ -21,6 +39,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+
+    
 }
 
 .Aboutus-vision {
@@ -28,7 +48,11 @@
     width: 56vw;
     z-index: 10000000;
     height: 100%;
-    background-image: linear-gradient(180deg, #2C4C9D 0%, rgba(44, 76, 157, 0) 92.74%);
+    /* background-image: linear-gradient(180deg, #2C4C9D 0%, rgba(44, 76, 157, 0) 92.74%); */
+    background-image: url("../../assets/BG_aboutUS_box.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
     margin-left: 22vw;
     margin-top: 6vh;
     display: flex;
@@ -52,6 +76,7 @@
     font-weight: 700;
     font-size: 2.8vw;
     text-align: center;
+    color: #EFBF04;
 }
 
 /* .Aboutus-info {
@@ -71,10 +96,11 @@
     height: 6vh;
     margin-top: 8%;
     border-radius: 2vw;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     font-size: 1vw;
     cursor: pointer;
+    background-color: #EFBF04;
 }
 
 .Aboutus-concept {
@@ -100,7 +126,7 @@
         text-align: center;
         font-weight: 1000;
         font-size: 3rem;
-        color: #E5D536;
+        color: #EFBF04;
         margin-top: 30px;
     }
 

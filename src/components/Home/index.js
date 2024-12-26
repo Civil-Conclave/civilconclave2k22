@@ -23,7 +23,7 @@ function Home() {
                 <Landing></Landing>
             </span>
 
-            <AboutConclave></AboutConclave>
+            {/* <AboutConclave></AboutConclave> */}
             <span>
             <Heading name="Events"></Heading>
             <EventsHome></EventsHome>
@@ -35,7 +35,8 @@ function Home() {
 
                 </span> */}
             <span>
-                     <Heading name="About Us"></Heading>
+                    
+                     
                     <AboutUS></AboutUS>
             </span>
             <ContactUs></ContactUs>

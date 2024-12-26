@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import img from "../../assets/g12.png";
 import { VscMenu } from "react-icons/vsc";
 import { ImCross } from "react-icons/im";
+import logo1 from "../../assets/CC logo.png";
 import logo2 from "../../assets/logo2.png";
-import logo1 from "../../assets/logo1.png";
 
 function Navbarnew() {
 

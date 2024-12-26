@@ -6,12 +6,13 @@
 }
 
 .main-container {
-  width: 80%;
+  width: 100%;
   display: flex;
   /*gap: 2rem;*/
   background-color: black;
   padding: 2rem;
   margin: auto;
+  background-image: url("../../assets/BG2.png");
 }
 
 .main {
@@ -56,9 +57,9 @@
 
 #msg {
   text-align: center;
-  background-color: black;
-  border: 5px solid #2C4C9D;
-  color: white;
+  background-color: #EFBF04;
+  border: 5px solid #EFBF04;
+  color: black;
   border-radius: 0.2rem;
 
   font-family: "Inter";
@@ -68,8 +69,9 @@
 }
 
 #msg a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-weight: 800;
 }
 
 .message-input {
