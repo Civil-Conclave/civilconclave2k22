@@ -1,7 +1,12 @@
 .Container {
   width: 100%;
-  background-color: #2C4C9D;
+  /* background-color: #2C4C9D; */
+  /* background-image: url("../../assets/BG2.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 100;
+  margin-top: -5vh;
+  /* padding-bottom: 20vh; */
 }
 
 .MainFooter {
@@ -45,7 +50,7 @@
 .smalldiv {}
 
 .bluecolor {
-  background-color: #E5D536;
+  /* background-color: #E5D536; */
   height: 2.49vh;
 }
 

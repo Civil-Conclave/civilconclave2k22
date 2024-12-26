@@ -1,7 +1,7 @@
 import React from "react";
 import "./Landing.css";
 // import LandingBg from "../../assets/BgHome1.png";
-import LandingBg from "../../assets/BackgroundBlueBg.png";
+import LandingBg from "../../assets/HeroBG.png";
 import { motion } from "framer-motion";
 
 function HomePage() {

@@ -3,11 +3,12 @@ import Event1 from "../../assets/casestudy.png";
 import Event2 from "../../assets/research.png";
 import Event3 from "../../assets/stgc.png";
 import Event4 from "../../assets/design.png";
-import Event5 from "../../assets/Event1.png";
+import Event5 from "../../assets/guest lectures.png";
 import Event6 from "../../assets/workshop.png";
-import Event7 from "../../assets/unsplash_gcsNOsPEXfs.png";
+import Event7 from "../../assets/innovista.png";
 import "./EventsHome.css";
 import {Link} from "react-router-dom";
+import Heading from "../General/Heading";
 
 function Events() {
   const ref = useRef(null);
@@ -59,7 +60,11 @@ function Events() {
   };
 
   return (
+    <div className="eventWrapper">
+    <Heading name="EVENTS"></Heading>
+    
     <div className="bigcontainer" ref={ref}>
+      
       <button
         className="prevButton"
         style={{
@@ -104,6 +109,7 @@ function Events() {
           <div className="eventName event7"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Workshop</Link></div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

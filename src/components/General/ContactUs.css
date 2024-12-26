@@ -6,12 +6,15 @@
 }
 
 .main-container {
-  width: 80%;
+  width: 100vw;
   display: flex;
   /*gap: 2rem;*/
-  background-color: black;
-  padding: 2rem;
+  /* background-color: black; */
+  padding: 2rem 0px;
   margin: auto;
+  /* background-image: url("../../assets/BG2.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -25,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 33%;
 }
 
 #map {
@@ -56,9 +59,9 @@
 
 #msg {
   text-align: center;
-  background-color: black;
-  border: 5px solid #2C4C9D;
-  color: white;
+  background-color: #EFBF04;
+  border: 5px solid #EFBF04;
+  color: black;
   border-radius: 0.2rem;
 
   font-family: "Inter";
@@ -68,12 +71,13 @@
 }
 
 #msg a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-weight: 800;
 }
 
 .message-input {
-  height: 15vh;
+  height: 10vh;
   width: 100%;
   color: white;
   font-size: 1rem;

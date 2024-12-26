@@ -1,3 +1,12 @@
 .HomeWrapper{
-    background-color: black;
+    /* background-color: black; */
+}
+
+.lastdivLanding{
+    /* background-color: aqua !important; */
+    background-image: url("../../assets/BG2.png");
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: 10;
+    height: 121vh;
 }

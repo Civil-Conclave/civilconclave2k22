@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./AboutUS.css";
 import data from "./dataabout.js";
 import { Link } from "react-router-dom";
+import BG2 from "../../assets/BG2.png";
+import Heading from "../General/Heading.js";
 
 
 function AboutUS(){
@@ -24,9 +26,10 @@ function AboutUS(){
 
     return (
       <div className="AboutusWrapper">
-        {/*<div className="Aboutusmainheading">ABOUT US</div>*/}
-
+      
+        <Heading name="About Us"></Heading>
         <div className="Aboutus-wrapper">
+          
           <div className="Aboutus-vision">
             <div className="Aboutus-body">
               <div className="Aboutus-info">
@@ -39,6 +42,7 @@ function AboutUS(){
             </div>
           </div>
         </div>
+        
       </div>
     );
   }
