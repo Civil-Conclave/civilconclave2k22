@@ -42,7 +42,7 @@ const data = [
     title: "THEME",
     context: (
       <p>
-        Civil Conclave 2025 comes along with the theme of "Fortifying Future".
+        Civil Conclave 2025 comes along with the theme of "Resilience Revolution".
         <br></br>
         <br></br>Sustainability has always been the need of the hour. Keeping
         the growing technology and future needs in mind, adopting sustainable
