@@ -8,15 +8,10 @@ const data = [
     title: "VISION",
     context: (
       <p>
-        Civil Conclave 2025 provides a common platform for civil engineering
-        enthusiasts.Being an inter-IIT event, it aims at bringing together the
-        students from the most elite colleges of India to compete and network.
+        Nirmaan’25 IIT Roorkee Civil Conclave provides a common platform for civil engineering enthusiasts. Being open to all civil engineering colleges across India, it aims to bring together students from diverse institutions to collaborate, innovate, and network.
         <br></br>
-        <br></br>Young minds when put in the right direction can excel in all
-        fields. Civil engineering being the prime need of all times, rigorously
-        needs the budding minds for overall growth.<br></br>
-        <br></br>We understand this idea and are out to promote the same on the
-        inter-IIT level.
+        <br></br>Young minds, when given the right direction, have the potential to excel in all fields. Civil engineering, being a cornerstone of societal development, requires fresh, innovative thinkers for its continuous growth. At Nirmaan’25, we are dedicated to providing a platform that nurtures the talents of budding engineers and encourages their active participation.<br></br>
+        <br></br>By welcoming students from all civil engineering colleges across India, we aim to foster collaboration and innovation. This event offers an opportunity for participants to connect, share ideas, and work together in shaping the future of civil engineering.
       </p>
     ),
     image: about1,
@@ -42,14 +37,9 @@ const data = [
     title: "THEME",
     context: (
       <p>
-        Civil Conclave 2025 comes along with the theme of "Resilience Revolution".
+        Nirmaan'25 IIT Roorkee Civil Conclave comes along with the theme of "Resilience Revolution".
         <br></br>
-        <br></br>Sustainability has always been the need of the hour. Keeping
-        the growing technology and future needs in mind, adopting sustainable
-        techniques in the civil engineering industry is a major step towards a
-        promising future. This theme centres on the idea of developing
-        technologies and proposing environment-friendly solutions to industrial
-        problems.
+        <br></br>With the increasing technological advancements and the rising demands of the future, integrating sustainable practices in civil engineering is a pivotal step toward a more resilient and eco-friendly future. This theme emphasizes the development of innovative technologies and the creation of environmentally responsible solutions to tackle challenges within the industry
       </p>
     ),
     image: about3,
