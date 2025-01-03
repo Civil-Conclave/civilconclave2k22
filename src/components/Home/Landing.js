@@ -36,8 +36,11 @@ function HomePage() {
         </motion.div>
         
         <div className="ThemeInfo">
-          Unravish and explore the deeper insights with this
-          <br /> Inter IIT fest dedicated to civil engineers. Dive right in...
+        Welcome to Nirmaan'25!
+Dive into the world of civil engineering with Nirmaan'25, a national-level fest open to all civil engineering colleges in India.
+
+
+          <br /> Join us on 18th–19th January 2025 for thought-provoking case studies, engaging workshops, and other exciting events that celebrate innovation and excellence in civil engineering!
         </div>
         <button className="btnRegister" onClick={onPress}>
           REGISTER

@@ -4,7 +4,7 @@ const data = [
       title: "VISION",
       context: (
         <p>
-        Nirmaan’25 Civil Conclave  provides a common platform for civil engineering enthusiasts. Being an inter-IIT event, it aims at bringing together the students from the most elite colleges of India to compete and network...
+        Nirmaan’25 IIT Roorkee Civil Conclave provides a common platform for civil engineering enthusiasts. Being open to all civil engineering colleges across India, it aims to bring together students from diverse institutions to collaborate, innovate, and network.
         </p>
       ),
     
@@ -24,7 +24,9 @@ const data = [
       title: "THEME",
       context: (
         <p>
-         Nirmaan’25 Civil Conclave  comes along with the theme of “Stimulating Sustainability”. Sustainability has always been the need of the hour. Keeping the growing technology and future needs in mind, adopting sustainable techniques...
+         Nirmaan’25 IIT Roorkee Civil Conclave focuses on the theme “Resilience Revolution.” This year, we highlight the importance of designing infrastructure that can endure and adapt to challenges, ensuring safety, durability, and efficiency. With resilience at the forefront, we aim to inspire innovative approaches to tackle the uncertainties of the future.
+        <br /><br />
+        Be part of the revolution that shapes tomorrow's civil engineering!
 
         </p>
       ),
