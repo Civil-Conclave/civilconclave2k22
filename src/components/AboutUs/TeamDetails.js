@@ -6,7 +6,7 @@ import anchit from '../../assets/anchit.png'
 
 import aryan from '../../assets/aryan.png'
 import dhruvc from '../../assets/dhruvc.png'
-import priyanshu from '../../assets/priyanshuk.png'
+import priyanshu from '../../assets/priyanshu.png'
 import sumit from '../../assets/sumit.png'
 import sarthak from '../../assets/Sarthak.png'
 
