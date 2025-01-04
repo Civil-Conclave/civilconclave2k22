@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderEvents.css";
-import Ellipse from "../../assets/Ellipse1.png";
+// import Ellipse from "../../assets/Ellipse1.png";
 import evecircle from "../../assets/event-circle.svg"
 import DoubleEllipse from "../../assets/DoubleEllipse.png";
 import rightimg from "../../assets/Ellipse 8.png";

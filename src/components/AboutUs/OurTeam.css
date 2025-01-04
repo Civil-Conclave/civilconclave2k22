@@ -1,5 +1,5 @@
 .teamContainer {
-  background-color: #010101;
+  background-color: #210A1E;
   margin: 4rem 0 4rem 0;
   width: 100%;
 }
@@ -9,7 +9,7 @@
 }
 
 .blueLine {
-  background: linear-gradient(180deg, #2C4C9D 0%, rgba(44, 76, 157, 0) 92.74%);
+  background: linear-gradient(180deg, #EFBF04 0%, rgba(44, 76, 157, 0) 92.74%);
 
   width: 80vw;
   height: 18vh;

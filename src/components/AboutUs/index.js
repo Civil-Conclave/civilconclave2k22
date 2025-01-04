@@ -6,6 +6,7 @@ import OurTeam from "./OurTeam";
 import ContactUs from "../General/ContactUs";
 import Footer from "../General/Footer";
 import Navbarnew from "../General/Navbar";
+import NewFooter from "../General/newFooter.js";
 
 function AboutUs() {
   return (
@@ -14,8 +15,9 @@ function AboutUs() {
       <HeaderAbout></HeaderAbout>
       <AboutUsall></AboutUsall>
       <OurTeam></OurTeam>
-      <ContactUs></ContactUs>
-      <Footer></Footer>
+      {/* <ContactUs></ContactUs> */}
+      {/* <Footer></Footer> */}
+      <NewFooter/>
     </div>
   );
 }
