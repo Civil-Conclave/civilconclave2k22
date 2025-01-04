@@ -6,6 +6,7 @@ import Scroller from "./Scroller.js";
 import HeaderEvents from "./HeaderEvents.js";
 import { useInView } from "react-intersection-observer";
 import Footer from "../General/Footer.js";
+import NewFooter from "../General/newFooter.js";
 const Events = (props) => {
   const options = {
     root: null,
@@ -246,7 +247,7 @@ const Events = (props) => {
             <div className="vertical-line"></div>
             <div className="rightImg">
               <h1 ref={myRef1}>{data[0].imgtitle}</h1>
-              <img src={data[0].url} alt="" style={{ height: '16rem', width: '16rem', objectFit: 'contain', borderRadius: 12 }} />
+              <img src={data[0].url} alt="" style={{ height: '16rem', width: '22rem', objectFit: 'contain', borderRadius: 12 }} />
             </div>
           </div>
           <div className="whole-eventscontainer">
@@ -434,7 +435,8 @@ const Events = (props) => {
         </div>
       </div>
       <div className="contentFooter" ref={footerRef}>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
+        <NewFooter/>
       </div>
     </div>
   );

@@ -4,13 +4,13 @@
   border-bottom-right-radius: 1.25rem;
   border-top-right-radius: 0.625rem;
 
-  background-color: white;
+  background-color: #d9d9d997;
   display: flex;
   flex-direction: column;
 
   width: 80%;
 }
-.CardHeader {
+/* .CardHeader {
   width: 100%;
   background-image: linear-gradient(116.24deg, #076089 28.12%, #222150 93.23%),
     linear-gradient(180deg, #00adaa 0%, rgba(0, 173, 170, 0.55) 100%),
@@ -18,7 +18,7 @@
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
   height: 5.4vh;
-}
+} */
 .cardImages {
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@
   width: 100%;
 }
 .Name {
-  color: black;
+  color: #EFBF04;
   text-align: center;
   width: 100%;
   margin: auto;
@@ -43,7 +43,7 @@
   font-family: "Helvetica";
 }
 .Position {
-  color: black;
+  color: #EFBF04;
   text-align: center;
   width: 100%;
   margin: auto;

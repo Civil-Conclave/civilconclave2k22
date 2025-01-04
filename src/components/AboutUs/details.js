@@ -4,7 +4,7 @@ import "./details.css";
 function Details(props) {
   return (
     <div className="Card">
-      <div className="CardHeader"></div>
+      {/* <div className="CardHeader"></div> */}
       <div className="cardImages">
       <img className="Dp" src={props.img}></img>
       </div>

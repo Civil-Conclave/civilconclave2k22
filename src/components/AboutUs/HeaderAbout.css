@@ -1,9 +1,17 @@
 .header-about-container {
-  background-color: #010101;
+  /* background-color: #210A1E; */
+  background: linear-gradient(180deg, rgba(43,3,47,1) 1%, rgba(255,255,255,0) 51%, rgba(33,10,30,1) 98%);
   height: 50vh;
   /* position: relative; */
   display: flex;
   width: 100%;
+}
+
+.header-line-aboutus{
+  background: linear-gradient(97deg, rgba(239,191,4,0) 0%, rgba(239,191,4,0.5047268907563025) 7%, rgba(255,255,255,1) 49%, rgba(240,196,24,0.5215336134453781) 93%, rgba(239,191,4,0) 100%);
+  width: 676px;
+height: 15px;
+margin: 1rem 0; 
 }
 
 .left-img {
@@ -37,7 +45,7 @@
   font-weight: 700;
   font-size: 4rem;
   display: flex;
-  color: #E5D536;
+  color: #EFBF04;
   /* letter-spacing: 0.04em; */
 }
 

@@ -13,8 +13,9 @@ const About = () => {
       </div>
       <div className="about-info">
         <div className="headerTitle">ABOUT US</div>
-        <img className="lineDesktop" src={rectangleimg} alt="" />
-        <img className="lineMob" src={aboutuslinemob} alt="/" />
+        {/* <img className="lineDesktop" src={rectangleimg} alt="" /> */}
+        {/* <img className="lineMob" src={aboutuslinemob} alt="/" /> */}
+        <div className="header-line-aboutus"></div>
         <div className="headerInformation">
           GET TO KNOW ABOUT OUR VISION AND OUR TEAM
         </div>
