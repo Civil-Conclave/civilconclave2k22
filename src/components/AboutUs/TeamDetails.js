@@ -133,7 +133,7 @@ const contacts = [
   {
     id: 19,
     name: "Aryan Singhal",
-    position: "Manager",
+    position: "Head Web Development",
     image: aryan,
   },
 ];

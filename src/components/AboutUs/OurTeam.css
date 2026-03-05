@@ -29,13 +29,30 @@
 .MiddleDiv {
   width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  row-gap: 15.51vh;
-  column-gap: 5%;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto new lines */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 5%; /* Adjust the gap between items */
+  margin-bottom: 0vh;
 }
+
+.MiddleDiv > .Card {
+  width: 200px; /* Set a fixed width for the cards */
+  margin: 1vh 10px; /* Space between cards */
+}
+
+@media (max-width: 720px) {
+  .MiddleDiv {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .MiddleDiv > .Card {
+    width: 80%; /* Adjust card width for smaller screens */
+  }
+}
+
+
 
 @media (max-width: 720px) {
   .MiddleDiv {
