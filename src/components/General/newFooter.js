@@ -6,7 +6,7 @@ const NewFooter = () => {
   return (
     <div className='footerWrapper'>
         <div className="footerHead">
-            Nirmaan'<span>25</span>
+            Nirmaan'<span>26</span>
         </div>
         <div className="footerContent">
             <div className="infoFooter">
