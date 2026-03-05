@@ -10,7 +10,7 @@ const NewFooter = () => {
         </div>
         <div className="footerContent">
             <div className="infoFooter">
-                <p>Nirmaan’25: IIT Roorkee Civil Conclave unites civil engineering enthusiasts from India’s top institutes. Hosted by IIT Roorkee, it provides a vibrant platform for students to compete, collaborate, and network. With a rich legacy, Nirmaan'25 inspires innovation and excellence in civil engineering, shaping the future of infrastructure!</p>
+                <p>Nirmaan’26: IIT Roorkee Civil Conclave unites civil engineering enthusiasts from India’s top institutes. Hosted by IIT Roorkee, it provides a vibrant platform for students to compete, collaborate, and network. With a rich legacy, Nirmaan'25 inspires innovation and excellence in civil engineering, shaping the future of infrastructure!</p>
             </div>
             <div className="footerLinks">
             <p>Visit</p>
