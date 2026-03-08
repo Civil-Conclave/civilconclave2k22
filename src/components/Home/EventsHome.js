@@ -5,7 +5,8 @@ import Event3 from "../../assets/stgc.png";
 import Event4 from "../../assets/design.png";
 import Event5 from "../../assets/guest lectures.png";
 import Event6 from "../../assets/workshop.png";
-import Event7 from "../../assets/innovista.png";
+// import Event7 from "../../assets/innovista.png";
+import Event8 from "../../assets/appdev.png";
 import "./EventsHome.css";
 import {Link} from "react-router-dom";
 import Heading from "../General/Heading";
@@ -94,19 +95,23 @@ function Events() {
         </div>
         <div className="sec 4">
           <img className="eventImages" src={Event4} alt="/" />
-          <div className="eventName event4"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> City Planning</Link></div>
+          <div className="eventName event4"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> CAD Clash</Link></div>
         </div>
         <div className="sec 5">
           <img className="eventImages" src={Event5} alt="/" />
           <div className="eventName event5"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Guest Lectures</Link></div>
         </div>
-        <div className="sec 6">
+        {/* <div className="sec 6">
           <img className="eventImages" src={Event7} alt="/" />
           <div className="eventName event6"><Link style={{ color: 'white',textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Innovista</Link></div>
-        </div>
+        </div> */}
         <div className="sec 7">
           <img className="eventImages" src={Event6} alt="/" />
           <div className="eventName event7"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> Workshop</Link></div>
+        </div>
+        <div className="sec 8">
+          <img className="eventImages" src={Event8} alt="/" />
+          <div className="eventName event8"><Link style={{color: 'white', textDecoration: 'none' }} to="/events"><span className="bullet">•</span> App development</Link></div>
         </div>
       </div>
     </div>

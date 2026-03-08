@@ -1,5 +1,5 @@
 .teamContainer {
-  background-color: #210A1E;
+  background-color: #210a1e;
   margin: 4rem 0 4rem 0;
   width: 100%;
 }
@@ -9,16 +9,15 @@
 }
 
 .blueLine {
-  background: linear-gradient(180deg, #EFBF04 0%, rgba(44, 76, 157, 0) 92.74%);
+  background: linear-gradient(180deg, #efbf04 0%, rgba(44, 76, 157, 0) 92.74%);
 
   width: 80vw;
   height: 18vh;
   z-index: 5;
 }
 
-
 .HeaderInfo {
-  color: #E5D536;
+  color: #e5d536;
   font-weight: 700;
   font-size: 6rem;
   transform: translateY(-50%);
@@ -29,18 +28,25 @@
 .MiddleDiv {
   width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
   row-gap: 15.51vh;
-  column-gap: 5%;
-  justify-items: center;
+}
+
+.teamRow {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 5%;
 }
 
 @media (max-width: 720px) {
   .MiddleDiv {
-    column-gap: 20px;
     row-gap: 7vh;
-    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .teamRow {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }

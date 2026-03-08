@@ -160,17 +160,27 @@ const Events = (props) => {
   }
   function handleClickCaseS(e) {
     window.open(
-      "https://drive.google.com/file/d/10Pav9-7jL8W-tLVCWAD-egoq7mgr4EPG/view?usp=sharing"
+      "https://drive.google.com/file/d/17bvgegZW2LPEvp8xDmj5s4SIRBs8qe8S/view?usp=drivesdk"
     );
   }
   function handleClickResearch(e) {
     window.open(
-      "https://drive.google.com/file/d/10V00FgfXxbAtlWfVn0fbhkM6JHx5ZmdP/view?usp=sharing"
+      "https://drive.google.com/file/d/1ZFKWwGqbpi4dkSIuAzF1YXUfTfQYGtcr/view?usp=drivesdk",
+    );
+  }
+  function handleClickAppD(e) {
+    window.open(
+      "https://drive.google.com/file/d/1yHGyftapjQBg-ewR9siP7WEcsV8yMGv3/view?usp=drivesdk",
     );
   }
   function handleClickStcg(e) {
     window.open(
       "https://drive.google.com/file/d/10KI4KZLCDN-vmyeAJY7rbMLhFaMDA1zN/view?usp=sharing"
+    );
+  }
+  function handleClickCAD(e) {
+    window.open(
+      "https://drive.google.com/file/d/1ve1XysbR7VMZqEcF86mqAz8QPnVN8vd1/view?usp=drivesdk",
     );
   }
   function handleClickDesign(e) {
@@ -185,6 +195,9 @@ const Events = (props) => {
   }
 
   function handleSubmitDesign(e) {
+    window.open("https://drive.google.com/file/d/1HdOr9lgIozWbaqj5gT5CZjwrXNGrqSgG/view?usp=drive_link");
+  }
+  function handleSubmitSeek(e) {
     window.open("https://drive.google.com/file/d/1HdOr9lgIozWbaqj5gT5CZjwrXNGrqSgG/view?usp=drive_link");
   }
 
@@ -344,18 +357,18 @@ const Events = (props) => {
                 <br />
                 {data[4].body4}
               </p>
-              <div className="caseStudyButtons">
-                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleSubmitDesign}>
+              {/* <div className="caseStudyButtons">
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleSubmitSeek}>
                   Rulebook
                 </button>
 
-                {/* <button style={{cursor:'pointer'}}
+                <button style={{cursor:'pointer'}}
                   className="submitButton"
                   onClick={handleProblemStatements}
                 >
                   View Problem Statements
-                </button> */}
-              </div>
+                </button>
+              </div> */}
             </div>
             <div className="vertical-line"></div>
             <div className="rightImg">
@@ -379,7 +392,7 @@ const Events = (props) => {
                 {data[5].body4}
               </p>
               <div className="caseStudyButtons">
-                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickDesign}>
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickAppD}>
                   Rulebook
                 </button>
                 {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>
@@ -417,7 +430,7 @@ const Events = (props) => {
                 {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={innovistasubmit}>
                   Click Here to Submit
                 </button> */}
-                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={innovistasubmit}>
+                <button style={{ cursor: 'pointer' }} className="submitButton" onClick={handleClickCAD}>
                   Rulebook
                 </button>
                 {/* <button style={{cursor:'pointer'}} className="submitButton" onClick={handleClick}>

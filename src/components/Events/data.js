@@ -43,7 +43,8 @@ const data = [
       " It stands as the apex of innovation, with participants showcasing not only new technologies that could be adopted, but also innovating upon existing technologies.",
     body3:
       "Each research presentation undergoes meticulous evaluation, providing participants with valuable insights and constructive feedback to refine their work.",
-    body4: "As participants articulate the depths of their research, they not only contribute to the ongoing evolution of Civil Engineering but also position themselves for recognition as contributors to the shaping of the future.",
+    body4:
+      "As participants articulate the depths of their research, they not only contribute to the ongoing evolution of Civil Engineering but also position themselves for recognition as contributors to the shaping of the future.",
     imgtitle: "RESARCH RENAISSANCE",
   },
 
@@ -65,41 +66,39 @@ const data = [
     url: img4,
     title:
       "Seek the Civil Geek is a team-based quizzing event, designed to challenge and celebrate the diverse knowledge within Civil Engineering. The event unfolds in three rounds -",
-    body1:
-      "Round 1: Buzzer Battle:   The competition kicks off with a Buzzer Round where the teams must be quick-witted and agile as they vie to be the first to press the buzzer and accurately answer questions spanning the breadth of Civil Engineering domains. ",
-    body2:
-      "Round 2: Scattegory:  In this Round, teams have the opportunity to select a specific domain within Civil Engineering, and have questions accordingly.",
-    body3:
-      "Round 3: Final Showdown:   The journey culminates in the Final Showdown, where the top three teams from the previous rounds engage in a battle of intellect and innovation trying to crack the final question which is a complex puzzle, weaving together various concepts from different realms of Civil Engineering. ",
+    body1: "Rulebook to be updated soon. Stay tuned for more details!",
+    // body1:
+    //   "Round 1: Buzzer Battle:   The competition kicks off with a Buzzer Round where the teams must be quick-witted and agile as they vie to be the first to press the buzzer and accurately answer questions spanning the breadth of Civil Engineering domains. ",
+    // body2:
+    //   "Round 2: Scattegory:  In this Round, teams have the opportunity to select a specific domain within Civil Engineering, and have questions accordingly.",
+    // body3:
+    //   "Round 3: Final Showdown:   The journey culminates in the Final Showdown, where the top three teams from the previous rounds engage in a battle of intellect and innovation trying to crack the final question which is a complex puzzle, weaving together various concepts from different realms of Civil Engineering. ",
     body4:
       "We invite participants from all years to join us in this fun and exciting event. Let the quizzing adventure begin!",
     imgtitle: "SEEK THE CIVIL GEEK",
   },
   {
     url: img5,
-    title: "CONCEIVE, ENGINEER, TRANSFORM",
+    title: "INSIGHT. IMPACT. INNOVATION. ",
     body1:
-      "The City Planning event at the Nirmaan'25 - IIT Roorkee Civil Conclave offers a prestigious platform for participants to envision and craft the infrastructure of tomorrow's cities. This challenge encourages the creation of urban landscapes that integrate cutting-edge technologies, sustainable practices, and forward-thinking designs.",
-      body2:"Whether reimagining transportation systems, green building innovations, or efficient resource management, your vision will shape the future of urbanization.",
+      "GeoApp Forge at Nirmaan’26 – IIT Roorkee Civil Conclave is an app development challenge where participants create geospatial apps or dashboards to solve real-world civil engineering problems.",
+    body2:
+      "Teams work with maps, data, and visual tools to design solutions for issues related to infrastructure, environment, and public safety.The event focuses on clear problem understanding, practical solutions, and real impact.",
     body3:
-      "For the leaders of tomorrow, this is an unparalleled opportunity to present their visionary city concepts to a distinguished audience. Showcase your expertise in urban planning, blending practicality with creativity to design cities that not only meet the demands of today but are poised to thrive in the future.",
-    body4:
-      "The City Planning event calls for a synthesis of architectural brilliance, engineering precision, and sustainable innovation, providing an opportunity to set new benchmarks in urban development.",
-    imgtitle: "CITY PLANNING",
+      "Participants are encouraged to build user- friendly applications that support better planning and decision - making.GeoApp Forge provides a strong platform for budding civil engineers to showcase creativity, technical skills, and problem - solving ability through modern geospatial technology.",
+    imgtitle: "APP DEVELOPMENT",
   },
 
   {
-    url:img7,
+    url: img7,
     title: "BRAINSTORM, INNOVATE, SUSTAIN",
     body1:
-      "InnoVista provides a platform for aspiring leaders to bring startup ideas to life. Pitch your world-changing concept, as innovation thrives in the hands of determined individuals eager to reshape the future",
+      'Nirmaan\'26 – IIT Roorkee Civil Conclave is proud to present the "CAD Clash," a high-stakes competition for participants. This event is dedicated to shaping the future of infrastructure development and requires technical expertise to build seamless, conflict-free structures.',
     body2:
-      "For civil geeks, it is essential to provide startups with a platform to showcase their ideas to the general public and discuss them among like-minded entrepreneurs.",
+      "The competition is divided into two rounds, open to UG/PG students in teams of up to two people. Participants submit an outline by March 18th, 2026, and a detailed presentation by March 19th, 2026.",
     body3:
-      "The Civil conclave’25 proudly presents the “InnoVista” specifically for civil entrepreneurs. Get your thinking hats, flash your ideas, and form Enterprises.",
-    body4:
-      "A mixture of technology, vision, and business acumen bound together to give a new peak to civil.",
-    imgtitle: "INNOVISTA",
+      "Round 1 (25% weightage) focuses on clash detection outlines. Round 2 (75% weightage) challenges participants with advanced clash resolution techniques and optimized redesign solutions, judged by adherence to the rules.",
+    imgtitle: "CAD CLASH",
   },
 ];
 export default data;

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function HomePage() {
   function onPress(e) {
     window.open(
-      "https://docs.google.com/forms/d/e/1FAIpQLSc3Zhcf1PsjXwdrJ8fqZtm_nMogmseHzi8gAqu5DRx1RPr0ww/viewform"
+      "https://docs.google.com/forms/d/e/1FAIpQLSc3Zhcf1PsjXwdrJ8fqZtm_nMogmseHzi8gAqu5DRx1RPr0ww/viewform",
     );
   }
   return (
@@ -18,7 +18,7 @@ function HomePage() {
       <div className="landingInfo">
         <div className="teamInfo">
           <div className="nirman">
-          Nirmaan'<span className="teamYear">25</span>
+            Nirmaan'<span className="teamYear">26</span>
           </div>
           <div className="teamName">
             IIT Roorkee<span className="teamYear"> Civil Conclave</span>
@@ -31,16 +31,16 @@ function HomePage() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <h1 className="ThemeName">RESILIENCE</h1>
-          <h1 className="ThemeName colorblue"> REVOLUTION</h1>
+          <h1 className="ThemeName">ADAPTIVE</h1>
+          <h1 className="ThemeName colorblue">FUTURES</h1>
         </motion.div>
-        
+
         <div className="ThemeInfo">
-        Welcome to Nirmaan'25!
-Dive into the world of civil engineering with Nirmaan'25, a national-level fest open to all civil engineering colleges in India.
-
-
-          <br /> Join us on 18th–19th January 2025 for thought-provoking case studies, engaging workshops, and other exciting events that celebrate innovation and excellence in civil engineering!
+          Step into the dynamic world of civil engineering with Nirmaan’26, a
+          national-level fest open to civil engineering colleges across India.
+          <br/>Join us on 21st–22nd March 2026 for thought-provoking case studies,
+          engaging workshops, and a range of exciting events that showcase
+          innovation, creativity, and excellence in civil engineering.
         </div>
         <button className="btnRegister" onClick={onPress}>
           REGISTER

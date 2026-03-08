@@ -32,13 +32,14 @@ function Navbarnew() {
   };
   return (
     <>
-    {
-      // isOnEventsPage ? setbgColor("") : setbgColor("black")
-    }
-      <div className="navbarWrapper"
-      
-      // style={{backgroundColor:`${bgcolor}`}}
-       >
+      {
+        // isOnEventsPage ? setbgColor("") : setbgColor("black")
+      }
+      <div
+        className="navbarWrapper"
+
+        // style={{backgroundColor:`${bgcolor}`}}
+      >
         <div className="logos">
           <div className="logo1">
             <img src={logo1} id="img1" />
@@ -50,13 +51,13 @@ function Navbarnew() {
         <div className="nav-links">
           <ul className="pageNames">
             <li
-                onClick={(e) => {
-                  setActiveMenu("Home");
-                
-                }}>
+              onClick={(e) => {
+                setActiveMenu("Home");
+              }}
+            >
               <Link
                 to="/"
-               className={activeMenu === "Home" ? "active-links" : "links"} 
+                className={activeMenu === "Home" ? "active-links" : "links"}
               >
                 HOME
               </Link>
@@ -83,7 +84,7 @@ function Navbarnew() {
                 ABOUT US
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 to="/sponsor"
                 className={activeMenu === "sponsor" ? "active-links" : "links"}
@@ -93,10 +94,10 @@ function Navbarnew() {
               >
                 SPONSORS
               </Link>
-            </li> */}
+            </li>
             <li>
               <a
-                href="https://forms.gle/9sStQdhs7qX95swi6"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScf03AXxLkdMzrPH9c_zA0H3HAUSOY-AsinfBmF9UsA-Ge5aw/viewform"
                 target="_blank"
                 className={activeMenu === "register" ? "active-links" : "links"}
                 onClick={() => {
@@ -114,8 +115,7 @@ function Navbarnew() {
               <VscMenu className="mob-icon" onClick={showham} />
             )}
 
-{/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
-
+            {/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
           </div>
         </div>
       </div>
@@ -194,11 +194,9 @@ function Navbarnew() {
             </ul>
           </div>
         </>
-       ) : (
+      ) : (
         " "
-       )
-       
-       }
+      )}
     </>
   );
 }

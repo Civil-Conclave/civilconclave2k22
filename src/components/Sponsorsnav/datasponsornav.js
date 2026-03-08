@@ -1,84 +1,40 @@
-import img from "../../assets/Title (1).png";
-import sponnimg1 from "../../assets/Title (2).png";
-import sponnimg2 from "../../assets/platinum2.png";
-import sponnimg3 from "../../assets/Platinum.png";
 import sponnimg5 from "../../assets/Gold (1).png";
-import sponnimg6 from "../../assets/Gold (2).png";
-import sponnimg7 from "../../assets/Gold (3).png";
 import sponnimg8 from "../../assets/bronze (1).png";
 import sponnimg9 from "../../assets/bronze (2).png";
-import sponnimg10 from "../../assets/bronze (3).png";
-import sponnimg11 from "../../assets/knowledge.png";
 import sponnimg12 from "../../assets/silver.png";
-import sponnimg13 from "../../assets/Techncal.png";
+import gold from "../../assets/gold.png";
+import silver from "../../assets/silver.png";
+import bronze1 from "../../assets/bronze1.png";
+import bronze2 from "../../assets/bronze2.png";
 
 const sponnavdata = [
   {
-    url: img,
-    title: "TITLE SPONSOR",
-    body: "STEEL AUTHORITY OF INDIA",
-  },
-  {
-    url: sponnimg1,
-    title: "TITLE SPONSOR",
-    body: "TATA STEEL",
-  },
-
-  {
-    url: sponnimg3,
-    title: "PLATINUM SPONSOR",
-    body: "NATIONAL MISSION FOR CLEAN GANGA",
-  },
-  {
-    url: sponnimg2,
-    title: "PLATINUM SPONSOR",
-    body: "METHODEX",
-  },
-  {
-    url: sponnimg5,
+    url: gold,
     title: "GOLD SPONSOR",
-    body: "G R INFRAPROJECTS LTD.",
+    body: "JWIL Infra Ltd",
+    description:
+      "JWIL Infra Ltd is a leading infrastructure company specializing in water management and EPC projects. The company has contributed significantly to irrigation, water supply, and hydraulic infrastructure development across India.",
   },
   {
-    url: sponnimg6,
-    title: "GOLD SPONSOR",
-    body: "SIKA",
+    url: silver,
+    title: "SILVER SPONSOR",
+    body: "Aimil Ltd",
+    description:
+      "Aimil Ltd is a leading provider of testing instruments, engineering solutions, and advanced technologies for infrastructure, research, and industrial sectors, supporting quality assurance and innovation in engineering applications.",
   },
   {
-    url: sponnimg7,
-    title: "GOLD SPONSOR",
-    body: "OIL AND NATURAL GAS CORPORATION",
-  },
-  {
-    url: sponnimg12,
-    title: "SILVER PARTNER",
-    body: "EDU FABRICA",
-  },
-  {
-    url: sponnimg8,
-    title: "BRONZE SONSOR ",
-    body: "CONSORT",
-  },
-  {
-    url: sponnimg9,
+    url: bronze1,
     title: "BRONZE SPONSOR",
-    body: "NCC",
+    body: "UltraTech Cement Ltd",
+    description:
+      "UltraTech Cement Ltd, part of the Aditya Birla Group, is India’s largest manufacturer of grey cement, ready-mix concrete, and white cement, playing a key role in modern infrastructure development.",
   },
   {
-    url: sponnimg10,
+    url: bronze2,
     title: "BRONZE SPONSOR",
-    body: "OIL AND NATURAL GAS CORPORATION",
-  },
-  {
-    url: sponnimg11,
-    title: "KNOWLEDGE PARTNER",
-    body: "FOREST SURVEY OF INDIA",
-  },
-
-  {
-    url: sponnimg13,
-    title: "TECHNICAL PARTNER",
-    body: "BENTLEY",
+    body: "Explore Engineering Consultants Pvt. Ltd",
+    description:
+      "Explore Engineering Consultants Pvt. Ltd provides professional consulting services in civil engineering design, infrastructure planning, and project management, delivering innovative and sustainable engineering solutions for complex projects.",
   },
 ];
 export default sponnavdata;
