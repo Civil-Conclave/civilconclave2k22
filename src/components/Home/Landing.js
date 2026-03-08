@@ -10,6 +10,10 @@ function HomePage() {
       "https://docs.google.com/forms/d/e/1FAIpQLSc3Zhcf1PsjXwdrJ8fqZtm_nMogmseHzi8gAqu5DRx1RPr0ww/viewform"
     );
   }
+
+  function onPressClosed(e){
+    alert("Registration for Nirmaan 2026 has been closed!!")
+  }
   return (
     <div className="WrapperLanding">
       <div className="landingBg">
@@ -42,8 +46,8 @@ Dive into the world of civil engineering with Nirmaan'25, a national-level fest 
 
           <br /> Join us on 18th–19th January 2025 for thought-provoking case studies, engaging workshops, and other exciting events that celebrate innovation and excellence in civil engineering!
         </div>
-        <button className="btnRegister" onClick={onPress}>
-          REGISTER
+        <button className="btnRegister" onClick={onPressClosed}>
+          REGISTERATION CLOSED
         </button>
       </div>
     </div>
