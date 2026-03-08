@@ -1,130 +1,205 @@
-.sponsornav-header {
-  text-align: center;
+.sponsornavWrapper {
+  background-color: #210a1e;
+  min-height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  justify-items: center;
+  position: relative;
+  padding: 2rem;
 }
-.sponsornav-header h1 {
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 55px;
-  text-align: center;
-  color: #f5f5f5;
-}
-.spon-line {
+
+.sponsor-page-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: linear-gradient(
-    90deg,
-    rgba(31, 120, 159, 0) 0%,
-    rgba(31, 120, 159, 0.73) 46.68%,
-    rgba(31, 120, 159, 0) 97.41%
+    -53.89deg,
+    rgb(0, 0, 0) 0.83%,
+    rgb(23, 4, 32) 18.63%,
+    rgb(20, 9, 25) 50.46%,
+    rgb(43, 10, 60) 88.12%,
+    rgb(29, 6, 40) 99.17%
   );
-  border-radius: 0px;
-  transform: rotate(-180deg);
+  z-index: 0;
+}
+
+.sponsor-page-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, #eee, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 60px 70px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 50px 50px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 130px 80px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 90px 10px, #fff, rgba(0, 0, 0, 0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.5;
+}
+
+.sponsor-content-wrapper {
+  position: relative;
+  z-index: 10;
   width: 100%;
-  height: 10px;
-  margin-bottom: 0.5rem;
-}
-.sponnav-container {
-  width: 90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-evenly;
-}
-.sponnavbody h1 {
-  font-family: "Helvetica";
-  color: #f5f5f5;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8rem;
-  text-align: center;
-}
-.sponnavbody p {
-  color: rgba(7, 96, 137, 1);
-  text-align: center;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-top: -15px;
-}
-.sponnavbody {
-  width: 70%;
-  margin: auto;
-  margin-top: 10vh;
-}
-.sponnavbody img {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  justify-items: center;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 2rem;
 }
-@media (max-width: 900px) {
-  .sponnav-container {
-    display: flex;
+
+.sponsor-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.sponsor-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sponsor-title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  color: #efbf04;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.sponsor-detail-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  background-image:
+    linear-gradient(116.24deg, #250049 20%, #3a0a6f 92%),
+    linear-gradient(180deg, #4b1287 0%, rgba(75, 18, 135, 0.55) 100%),
+    linear-gradient(360deg, #1d0038 0%, rgba(29, 0, 56, 0.52) 49.87%);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(239, 191, 4, 0.28);
+  width: 100%;
+  max-width: 800px;
+}
+
+.sponsor-image-section {
+  flex: 0 0 auto;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(239, 191, 4, 0.1);
+  border: 2px solid #efbf04;
+  overflow: hidden;
+}
+
+.sponsor-image-section img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.sponsor-info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sponsor-tier {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #efbf04;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.sponsor-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #f5f5f5;
+  margin: 0;
+}
+
+.sponsor-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f3f3f3;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .sponsor-detail-card {
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 1.5rem;
   }
-  .sponnavbody {
-    margin-top: 5vh;
+
+  .sponsor-title h1 {
+    font-size: 50px;
   }
-  .sponnavbody-img {
-    width: 85%;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+
+  .sponsor-tier {
+    font-size: 24px;
   }
-  .sponnavbody img {
-    /* height: 25vh; */
+
+  .sponsor-image-section {
+    width: 130px;
+    height: 130px;
   }
-  .sponnavbody h1 {
-    font-family: "Helvetica";
-    color: #f5f5f5;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
+
+  .sponsor-name {
+    font-size: 16px;
   }
-  .sponnavbody p {
-    color: rgba(7, 96, 137, 1);
-    text-align: center;
-    font-family: "Helvetica";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-top: -15px;
+
+  .sponsor-description {
+    font-size: 14px;
   }
-  .sponsornav-header h1 {
-    font-family: "Helvetica";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 55px;
-    text-align: center;
-    color: #f5f5f5;
+}
+
+@media (max-width: 480px) {
+  .sponsornavWrapper {
+    padding: 1rem;
   }
-  .spon-line {
-    background: linear-gradient(
-      90deg,
-      rgba(31, 120, 159, 0) 0%,
-      rgba(31, 120, 159, 0.73) 46.68%,
-      rgba(31, 120, 159, 0) 97.41%
-    );
-    border-radius: 0px;
-    transform: rotate(-180deg);
-    width: 90%;
-    margin: auto;
-    height: 8px;
-    top: 20%;
-    /* left: -140px; */
-    position: absolute;
+
+  .sponsor-detail-card {
+    padding: 1rem;
+    gap: 1rem;
   }
-  .line2 {
-    top: 22%;
+
+  .sponsor-title h1 {
+    font-size: 35px;
+  }
+
+  .sponsor-tier {
+    font-size: 22px;
+  }
+
+  .sponsor-image-section {
+    width: 120px;
+    height: 120px;
+  }
+
+  .sponsor-name {
+    font-size: 14px;
+  }
+
+  .sponsor-description {
+    font-size: 12px;
   }
 }

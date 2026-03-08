@@ -36,8 +36,11 @@ function HomePage() {
         </motion.div>
 
         <div className="ThemeInfo">
-          Unravel and explore the deeper insights with this fest dedicated to
-          civil engineers. Dive right in...
+          Step into the dynamic world of civil engineering with Nirmaan’26, a
+          national-level fest open to civil engineering colleges across India.
+          <br/>Join us on 21st–22nd March 2026 for thought-provoking case studies,
+          engaging workshops, and a range of exciting events that showcase
+          innovation, creativity, and excellence in civil engineering.
         </div>
         <button className="btnRegister" onClick={onPress}>
           REGISTER
