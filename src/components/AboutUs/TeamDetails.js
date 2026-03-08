@@ -1,6 +1,6 @@
-import Rohit from "../../assets/Rohit.png";
+// import Rohit from "../../assets/Rohit.png";
 import Shreyansh from "../../assets/Shreyansh.png";
-import Prakhar from "../../assets/Prakhar.png";
+// import Prakhar from "../../assets/Prakhar.png";
 import anchit from "../../assets/anchit.png";
 import payal from "../../assets/payal.png";
 import bhupendra from "../../assets/bhupendra.png";
@@ -15,7 +15,7 @@ import aryan from "../../assets/aryan.png";
 import dhruvc from "../../assets/dhruvc.png";
 import priyanshu from "../../assets/priyanshu.png";
 import sumit from "../../assets/sumit.png";
-import sarthak from "../../assets/Sarthak.png";
+// import sarthak from "../../assets/Sarthak.png";
 
 import praveen from "../../assets/praveen.png";
 import rakesh from "../../assets/rakesh.png";
