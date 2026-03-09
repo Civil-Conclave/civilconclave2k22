@@ -10,6 +10,10 @@ function HomePage() {
       "https://docs.google.com/forms/d/e/1FAIpQLScf03AXxLkdMzrPH9c_zA0H3HAUSOY-AsinfBmF9UsA-Ge5aw/viewform",
     );
   }
+
+  function onPressClosed(e){
+    alert("Registration for Nirmaan 2026 has been closed!!")
+  }
   return (
     <div className="WrapperLanding">
       <div className="landingBg">
@@ -42,8 +46,8 @@ function HomePage() {
           engaging workshops, and a range of exciting events that showcase
           innovation, creativity, and excellence in civil engineering.
         </div>
-        <button className="btnRegister" onClick={onPress}>
-          REGISTER
+        <button className="btnRegister" onClick={onPressClosed}>
+          REGISTERATION CLOSED
         </button>
       </div>
     </div>
