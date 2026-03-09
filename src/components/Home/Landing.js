@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function HomePage() {
   function onPress(e) {
     window.open(
-      "https://docs.google.com/forms/d/e/1FAIpQLSc3Zhcf1PsjXwdrJ8fqZtm_nMogmseHzi8gAqu5DRx1RPr0ww/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLScf03AXxLkdMzrPH9c_zA0H3HAUSOY-AsinfBmF9UsA-Ge5aw/viewform",
     );
   }
   return (

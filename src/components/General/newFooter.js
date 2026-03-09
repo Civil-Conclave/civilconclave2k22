@@ -52,6 +52,9 @@ const NewFooter = () => {
             <a href="https://www.instagram.com/civil_conclave/" target="_blank">
               <img src="https://img.icons8.com/color/50/instagram-new.png" />
             </a>
+            <a href="https://www.linktr.ee/CivilConclave" target="_blank">
+              <img src="https://img.icons8.com/pulsar-gradient/48/linktree.png" />
+            </a>
             <a
               href="https://www.facebook.com/civilconclave.iitr/"
               target="_blank"
