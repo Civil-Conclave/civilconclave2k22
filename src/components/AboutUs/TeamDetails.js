@@ -1,7 +1,3 @@
-// import Rohit from "../../assets/Rohit.png";
-import Shreyansh from "../../assets/Shreyansh.png";
-// import Prakhar from "../../assets/Prakhar.png";
-import anchit from "../../assets/anchit.png";
 import payal from "../../assets/payal.png";
 import bhupendra from "../../assets/bhupendra.png";
 import himanshu from "../../assets/himanshu.png";
@@ -11,23 +7,14 @@ import aarush from "../../assets/aarush.png";
 import dhruv from "../../assets/dhruv.png";
 
 import samadhiya from "../../assets/NKS.png";
-import aryan from "../../assets/aryan.png";
 import dhruvc from "../../assets/dhruvc.png";
 import priyanshu from "../../assets/priyanshu.png";
-import sumit from "../../assets/sumit.png";
-// import sarthak from "../../assets/Sarthak.png";
 
-import praveen from "../../assets/praveen.png";
 import rakesh from "../../assets/rakesh.png";
 import rngd from "../../assets/RNGD.png";
 import vinarasi from "../../assets/vinnarasi.png";
 import abhishek from "../../assets/abhishek.png"; 
 import vimal from "../../assets/vimal.png";
-import mahendra from "../../assets/mahendra.png";
-import shalini from "../../assets/shalini.png";
-import anmol from "../../assets/anmol.png";
-import ayush from "../../assets/ayush.png";
-import vardah from "../../assets/vardah.png";
 
 const contacts = [
   {
@@ -38,7 +25,7 @@ const contacts = [
   },
   {
     id: 2,
-    name: "Prof R. N., G. D. Ransinchung",
+    name: "Prof G. D. Ransinchung R.N.",
     position: "Convener CEC",
     image: rngd,
   },
@@ -50,7 +37,7 @@ const contacts = [
   },
   {
     id: 4,
-    name: "Prof Vinnarasi, R",
+    name: "Prof Vinnarasi R.",
     position: "Faculty Advisor",
     image: vinarasi,
   },
@@ -123,4 +110,3 @@ const contacts = [
 ];
 export default contacts;
 
-// export default contacts;
