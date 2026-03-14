@@ -6,8 +6,17 @@ import gold from "../../assets/gold.png";
 import silver from "../../assets/silver.png";
 import bronze1 from "../../assets/bronze1.png";
 import bronze2 from "../../assets/bronze2.png";
+import eventspons from "../../assets/eventspons.png"
+import bronze3 from "../../assets/bronze3.png"
 
 const sponnavdata = [
+  {
+    url: eventspons,
+    title: "EVENT SPONSOR",
+    body: "Bureau of Indian Standards",
+    description:
+      "The Bureau of Indian Standards (BIS) is India’s national standards body. It ensures product quality, safety, and reliability through standardisation, marking (ISI), and hallmarking to protect consumers and facilitate trade.",
+  },
   {
     url: gold,
     title: "GOLD SPONSOR",
@@ -35,6 +44,13 @@ const sponnavdata = [
     body: "Explore Engineering Consultants Pvt. Ltd",
     description:
       "Explore Engineering Consultants Pvt. Ltd provides professional consulting services in civil engineering design, infrastructure planning, and project management, delivering innovative and sustainable engineering solutions for complex projects.",
+  },
+  {
+    url: bronze3,
+    title: "BRONZE SPONSOR",
+    body: "AECOM India Private Limited",
+    description:
+      "AECOM is a global infrastructure firm providing engineering, design, and consultancy services. Based in Dallas, it manages complex projects in transportation, water, and energy across 150 countries.",
   },
 ];
 export default sponnavdata;
