@@ -50,7 +50,7 @@ const sponnavdata = [
     title: "BRONZE SPONSOR",
     body: "AECOM India Private Limited",
     description:
-      "AECOM is a global infrastructure firm providing engineering, design, and consultancy services. Based in Dallas, it manages complex projects in transportation, water, and energy across 150 countries.",
+      "AECOM is a global infrastructure leader providing engineering, design, and consultancy services. It manages complex projects in transportation, water, and energy across 150 countries while managing everything from initial planning and architecture to construction oversight and environmental sustainability.",
   },
 ];
 export default sponnavdata;
