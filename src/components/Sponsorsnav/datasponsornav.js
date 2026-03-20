@@ -3,6 +3,7 @@ import sponnimg8 from "../../assets/bronze (1).png";
 import sponnimg9 from "../../assets/bronze (2).png";
 import sponnimg12 from "../../assets/silver.png";
 import gold from "../../assets/gold.png";
+import gold2 from "../../assets/gold2.png";
 import silver from "../../assets/silver.png";
 import bronze1 from "../../assets/bronze1.png";
 import bronze2 from "../../assets/bronze2.png";
@@ -23,6 +24,13 @@ const sponnavdata = [
     body: "JWIL Infra Ltd",
     description:
       "JWIL Infra Ltd is a leading infrastructure company specializing in water management and EPC projects. The company has contributed significantly to irrigation, water supply, and hydraulic infrastructure development across India.",
+  },
+  {
+    url: gold2,
+    title: "GOLD SPONSOR",
+    body: "CSI Engineering Software Pvt. Ltd. ",
+    description:
+      "CSI Engineering Software Pvt. Ltd. is a leading provider of advanced structural and earthquake engineering software solutions, empowering engineers worldwide with innovative tools for analysis, design, and simulation. Committed to excellence, CSI continues to drive technological advancements for a better and safer built environment.",
   },
   {
     url: silver,
