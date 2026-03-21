@@ -9,6 +9,7 @@ import bronze1 from "../../assets/bronze1.png";
 import bronze2 from "../../assets/bronze2.png";
 import eventspons from "../../assets/eventspons.png"
 import bronze3 from "../../assets/bronze3.png"
+import bronze4 from "../../assets/bronze4.png"
 
 const sponnavdata = [
   {
@@ -59,6 +60,13 @@ const sponnavdata = [
     body: "AECOM India Private Limited",
     description:
       "AECOM is a global infrastructure leader providing engineering, design, and consultancy services. It manages complex projects in transportation, water, and energy across 150 countries while managing everything from initial planning and architecture to construction oversight and environmental sustainability.",
+  },
+  {
+    url: bronze4,
+    title: "BRONZE SPONSOR",
+    body: "Indian Geotechnical Society (IGS), Roorkee Chapter",
+    description:
+      "Indian Geotechnical Society (IGS), Roorkee Chapter is a leading professional body dedicated to the advancement of geotechnical engineering in India. It promotes knowledge sharing, research, and collaboration among academicians, industry experts, and students through technical events, workshops, and seminars.",
   },
 ];
 export default sponnavdata;
